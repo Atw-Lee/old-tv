@@ -1,0 +1,257 @@
+[
+  {
+    "key": "hls-no-gesture-muted",
+    "browser": "156.0.8078.48",
+    "headless": true,
+    "at": "2026-11-02T03:32:06.051Z",
+    "provider": "hls",
+    "gesture": false,
+    "muted": true,
+    "before": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0",
+    "recovery": null,
+    "log": "2026-11-02T03:31:52.726Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:31:52.726Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:31:52.726Z load {\"kind\":\"hls\",\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8\",\"target\":0,\"muted\":true,\"scheduled\":false}\n2026-11-02T03:31:52.730Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T03:31:53.944Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:31:54.064Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:31:54.202Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:31:54.372Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:31:55.409Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:31:57.427Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":true,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}",
+    "errors": [
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      }
+    ]
+  },
+  {
+    "key": "hls-no-gesture-sound",
+    "browser": "156.0.8078.48",
+    "headless": true,
+    "at": "2026-11-02T03:32:18.658Z",
+    "provider": "hls",
+    "gesture": false,
+    "muted": false,
+    "before": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0",
+    "recovery": null,
+    "log": "2026-11-02T03:32:06.547Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:32:06.548Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:32:06.548Z load {\"kind\":\"hls\",\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8\",\"target\":0,\"muted\":false,\"scheduled\":false}\n2026-11-02T03:32:06.552Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T03:32:06.724Z hls-error {\"type\":\"networkError\",\"details\":\"manifestLoadError\",\"fatal\":true,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}",
+    "errors": [
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      }
+    ]
+  },
+  {
+    "key": "hls-gesture-muted",
+    "browser": "156.0.8078.48",
+    "headless": true,
+    "at": "2026-11-02T03:32:31.416Z",
+    "provider": "hls",
+    "gesture": true,
+    "muted": true,
+    "before": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0",
+    "recovery": null,
+    "log": "2026-11-02T03:32:19.071Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:32:19.311Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:32:19.311Z load {\"kind\":\"hls\",\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8\",\"target\":0,\"muted\":true,\"scheduled\":false}\n2026-11-02T03:32:19.315Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T03:32:19.387Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:19.401Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:19.418Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:19.432Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:20.451Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:22.472Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":true,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}",
+    "errors": [
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      }
+    ]
+  },
+  {
+    "key": "hls-gesture-sound",
+    "browser": "156.0.8078.48",
+    "headless": true,
+    "at": "2026-11-02T03:32:44.273Z",
+    "provider": "hls",
+    "gesture": true,
+    "muted": false,
+    "before": "状态：PLAYING · 位置：9.949s · 时长：1800.001s · paused：false · videoWidth：640",
+    "recovery": null,
+    "log": "2026-11-02T03:32:31.863Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:32:31.916Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:32:31.916Z load {\"kind\":\"hls\",\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8\",\"target\":0,\"muted\":false,\"scheduled\":false}\n2026-11-02T03:32:31.919Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T03:32:32.347Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:32.523Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:32.709Z hls-error {\"type\":\"networkError\",\"details\":\"levelLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:32.903Z fragment-request {\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence0.ts\",\"start\":0}\n2026-11-02T03:32:32.903Z manifest {\"live\":false,\"duration\":1800.000590000002}\n2026-11-02T03:32:33.285Z loadedmetadata {\"time\":0,\"duration\":1800.000590000002,\"readyState\":1,\"volume\":0.5,\"muted\":false}\n2026-11-02T03:32:33.285Z seek-request {\"target\":0}\n2026-11-02T03:32:33.288Z seeking {\"time\":0,\"duration\":1800.000590000002,\"readyState\":1,\"volume\":0.5,\"muted\":false}\n2026-11-02T03:32:33.288Z waiting {\"time\":0,\"duration\":1800.000590000002,\"readyState\":1,\"volume\":0.5,\"muted\":false}\n2026-11-02T03:32:33.291Z fragment-request {\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts\",\"start\":10.031023129251693}\n2026-11-02T03:32:33.456Z hls-error {\"type\":\"networkError\",\"details\":\"fragLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:33.550Z hls-error {\"type\":\"mediaError\",\"details\":\"bufferSeekOverHole\",\"fatal\":false,\"category\":\"mediaError\"}\n2026-11-02T03:32:33.550Z seeking {\"time\":0.195778,\"duration\":1800.000590000002,\"readyState\":1,\"volume\":0.5,\"muted\":false}\n2026-11-02T03:32:33.682Z seeked {\"time\":0.195778,\"duration\":1800.000590000002,\"readyState\":4,\"volume\":0.5,\"muted\":false}\n2026-11-02T03:32:33.687Z canplay {\"time\":0.195778,\"duration\":1800.000590000002,\"readyState\":4,\"volume\":0.5,\"muted\":false}\n2026-11-02T03:32:33.687Z playing {\"time\":0.195778,\"duration\":1800.000590000002,\"readyState\":4,\"volume\":0.5,\"muted\":false}\n2026-11-02T03:32:34.475Z fragment-request {\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts\",\"start\":10.031023129251693}\n2026-11-02T03:32:34.501Z hls-error {\"type\":\"networkError\",\"details\":\"fragLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:36.575Z fragment-request {\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts\",\"start\":10.031023129251693}\n2026-11-02T03:32:36.618Z hls-error {\"type\":\"networkError\",\"details\":\"fragLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:40.675Z fragment-request {\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts\",\"start\":10.031023129251693}\n2026-11-02T03:32:40.700Z hls-error {\"type\":\"networkError\",\"details\":\"fragLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:32:43.533Z waiting {\"time\":9.949287,\"duration\":1800.000590000002,\"readyState\":2,\"volume\":0.5,\"muted\":false}\n2026-11-02T03:32:43.550Z hls-error {\"type\":\"mediaError\",\"details\":\"bufferStalledError\",\"fatal\":false,\"category\":\"mediaError\"}",
+    "errors": [
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      },
+      {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+        "error": {
+          "errorText": "net::ERR_FAILED"
+        }
+      }
+    ]
+  },
+  {
+    "key": "youtube-no-gesture-muted",
+    "browser": "156.0.8078.48",
+    "headless": true,
+    "at": "2026-11-02T03:32:57.027Z",
+    "provider": "youtube",
+    "gesture": false,
+    "muted": true,
+    "before": "状态：PLAYING · 位置：8.404s · 时长：1343.661s · paused：false · videoWidth：0",
+    "recovery": null,
+    "log": "2026-11-02T03:32:44.672Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:32:44.677Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:32:44.678Z load {\"kind\":\"youtube\",\"url\":\"M7lc1UVf-VE\",\"target\":0,\"muted\":true,\"scheduled\":false}\n2026-11-02T03:32:46.752Z yt-ready {}\n2026-11-02T03:32:48.262Z yt-state {\"state\":1,\"time\":0.016633041961669922}",
+    "errors": []
+  },
+  {
+    "key": "youtube-no-gesture-sound",
+    "browser": "156.0.8078.48",
+    "headless": true,
+    "at": "2026-11-02T03:33:09.512Z",
+    "provider": "youtube",
+    "gesture": false,
+    "muted": false,
+    "before": "状态：PLAYING · 位置：9.696s · 时长：1343.661s · paused：false · videoWidth：0",
+    "recovery": null,
+    "log": "2026-11-02T03:32:57.402Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:32:57.407Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:32:57.407Z load {\"kind\":\"youtube\",\"url\":\"M7lc1UVf-VE\",\"target\":0,\"muted\":false,\"scheduled\":false}\n2026-11-02T03:32:58.851Z yt-ready {}\n2026-11-02T03:32:59.687Z yt-state {\"state\":1,\"time\":0.021059093460083007}",
+    "errors": [
+      {
+        "url": "https://yt3.ggpht.com/r99eRlOesQkJe7pOzDY4JazAlhidoVp-0syxBnYjfeHdmUXGa5zOxcozaxKF2oPHg3RkglecZQ=s68-c-k-c0x00ffffff-no-rj",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  },
+  {
+    "key": "youtube-gesture-muted",
+    "browser": "156.0.8078.48",
+    "headless": true,
+    "at": "2026-11-02T03:33:22.414Z",
+    "provider": "youtube",
+    "gesture": true,
+    "muted": true,
+    "before": "状态：PLAYING · 位置：9.784s · 时长：1343.661s · paused：false · videoWidth：0",
+    "recovery": null,
+    "log": "2026-11-02T03:33:09.952Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:33:10.277Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:33:10.277Z load {\"kind\":\"youtube\",\"url\":\"M7lc1UVf-VE\",\"target\":0,\"muted\":true,\"scheduled\":false}\n2026-11-02T03:33:11.936Z yt-ready {}\n2026-11-02T03:33:12.511Z yt-state {\"state\":1,\"time\":0.05758002098083496}",
+    "errors": [
+      {
+        "url": "https://yt3.ggpht.com/r99eRlOesQkJe7pOzDY4JazAlhidoVp-0syxBnYjfeHdmUXGa5zOxcozaxKF2oPHg3RkglecZQ=s68-c-k-c0x00ffffff-no-rj",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  },
+  {
+    "key": "youtube-gesture-sound",
+    "browser": "156.0.8078.48",
+    "headless": true,
+    "at": "2026-11-02T03:33:34.879Z",
+    "provider": "youtube",
+    "gesture": true,
+    "muted": false,
+    "before": "状态：PLAYING · 位置：9.742s · 时长：1343.661s · paused：false · videoWidth：0",
+    "recovery": null,
+    "log": "2026-11-02T03:33:22.738Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:33:22.781Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:33:22.781Z load {\"kind\":\"youtube\",\"url\":\"M7lc1UVf-VE\",\"target\":0,\"muted\":false,\"scheduled\":false}\n2026-11-02T03:33:24.220Z yt-ready {}\n2026-11-02T03:33:25.006Z yt-state {\"state\":1,\"time\":0.020507093460083007}",
+    "errors": [
+      {
+        "url": "https://yt3.ggpht.com/r99eRlOesQkJe7pOzDY4JazAlhidoVp-0syxBnYjfeHdmUXGa5zOxcozaxKF2oPHg3RkglecZQ=s68-c-k-c0x00ffffff-no-rj",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      },
+      {
+        "url": "https://www.youtube.com/api/timedtext",
+        "error": {
+          "errorText": "net::ERR_ABORTED"
+        }
+      }
+    ]
+  }
+]

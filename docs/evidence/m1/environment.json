@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-03",
+  "timezone": "Asia/Shanghai",
+  "node": "20.19.5",
+  "npm": "10.8.2",
+  "typescript": "5.9.3",
+  "eslint": "9.39.5",
+  "typescript-eslint": "8.72.1",
+  "testRunner": "node:test",
+  "testType": "compiled TypeScript core; fake Clock/Timer/EventTarget; timezone subprocesses",
+  "browserMediaIntegration": "NOT RUN; outside M1 scope"
+}

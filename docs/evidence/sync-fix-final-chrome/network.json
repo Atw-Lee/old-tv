@@ -1,0 +1,357 @@
+[
+  {
+    "at": 1793593072709,
+    "type": "document",
+    "url": "http://127.0.0.1:5178/"
+  },
+  {
+    "at": 1793593072757,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/@vite/client"
+  },
+  {
+    "at": 1793593072757,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/main.tsx"
+  },
+  {
+    "at": 1793593072883,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs"
+  },
+  {
+    "at": 1793593072884,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js"
+  },
+  {
+    "at": 1793593072884,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js"
+  },
+  {
+    "at": 1793593072884,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js"
+  },
+  {
+    "at": 1793593072884,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js"
+  },
+  {
+    "at": 1793593072884,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/components/ui/button.tsx"
+  },
+  {
+    "at": 1793593072884,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/clock.mjs"
+  },
+  {
+    "at": 1793593072885,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/style.css"
+  },
+  {
+    "at": 1793593072885,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/sync.ts"
+  },
+  {
+    "at": 1793593072907,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js"
+  },
+  {
+    "at": 1793593072907,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js"
+  },
+  {
+    "at": 1793593072907,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js"
+  },
+  {
+    "at": 1793593072907,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js"
+  },
+  {
+    "at": 1793593072907,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js"
+  },
+  {
+    "at": 1793593072907,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js"
+  },
+  {
+    "at": 1793593072911,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js"
+  },
+  {
+    "at": 1793593074182,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+  },
+  {
+    "at": 1793593074448,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8"
+  },
+  {
+    "at": 1793593074564,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts"
+  },
+  {
+    "at": 1793593075449,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_492/193039199_mp4_h264_aac_hd_7.ts"
+  },
+  {
+    "at": 1793593076286,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/193039199_mp4_h264_aac_fhd_7.m3u8"
+  },
+  {
+    "at": 1793593076384,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_621/193039199_mp4_h264_aac_fhd_7.ts"
+  },
+  {
+    "at": 1793593078158,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_622/193039199_mp4_h264_aac_fhd_7.ts"
+  },
+  {
+    "at": 1793593080341,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_623/193039199_mp4_h264_aac_fhd_7.ts"
+  },
+  {
+    "at": 1793593082023,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+  },
+  {
+    "at": 1793593082734,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8"
+  },
+  {
+    "at": 1793593083450,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts"
+  },
+  {
+    "at": 1793593091861,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_4/193039199_mp4_h264_aac_7.m3u8"
+  },
+  {
+    "at": 1793593092582,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_766/193039199_mp4_h264_aac_7.ts"
+  },
+  {
+    "at": 1793593095492,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_767/193039199_mp4_h264_aac_7.ts"
+  },
+  {
+    "at": 1793593098532,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_768/193039199_mp4_h264_aac_7.ts"
+  },
+  {
+    "at": 1793593101775,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_6/193039199_mp4_h264_aac_hq_7.m3u8"
+  },
+  {
+    "at": 1793593102500,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_897/193039199_mp4_h264_aac_hq_7.ts"
+  },
+  {
+    "at": 1793593104124,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_898/193039199_mp4_h264_aac_hq_7.ts"
+  },
+  {
+    "at": 1793593104284,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_888/193039199_mp4_h264_aac_hq_7.ts"
+  },
+  {
+    "at": 1793593110229,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_889/193039199_mp4_h264_aac_hq_7.ts"
+  },
+  {
+    "at": 1793593115868,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_890/193039199_mp4_h264_aac_hq_7.ts"
+  },
+  {
+    "at": 1793593116007,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+  },
+  {
+    "at": 1793593120223,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+  },
+  {
+    "at": 1793593120936,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8"
+  },
+  {
+    "at": 1793593121665,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts"
+  },
+  {
+    "at": 1793593130157,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+  },
+  {
+    "at": 1793593130168,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8"
+  },
+  {
+    "at": 1793593130171,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts"
+  },
+  {
+    "at": 1793593130190,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/193039199_mp4_h264_aac_fhd_7.m3u8"
+  },
+  {
+    "at": 1793593130191,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_608/193039199_mp4_h264_aac_fhd_7.ts"
+  },
+  {
+    "at": 1793593132334,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_609/193039199_mp4_h264_aac_fhd_7.ts"
+  },
+  {
+    "at": 1793593134243,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_610/193039199_mp4_h264_aac_fhd_7.ts"
+  },
+  {
+    "at": 1793593135678,
+    "type": "xhr",
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_611/193039199_mp4_h264_aac_fhd_7.ts"
+  },
+  {
+    "at": 1793593158020,
+    "type": "document",
+    "url": "http://127.0.0.1:5178/"
+  },
+  {
+    "at": 1793593158119,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/@vite/client"
+  },
+  {
+    "at": 1793593158119,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/main.tsx"
+  },
+  {
+    "at": 1793593158134,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs"
+  },
+  {
+    "at": 1793593158137,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js"
+  },
+  {
+    "at": 1793593158137,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js"
+  },
+  {
+    "at": 1793593158137,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js"
+  },
+  {
+    "at": 1793593158137,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js"
+  },
+  {
+    "at": 1793593158137,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/components/ui/button.tsx"
+  },
+  {
+    "at": 1793593158144,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/clock.mjs"
+  },
+  {
+    "at": 1793593158144,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/style.css"
+  },
+  {
+    "at": 1793593158144,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/src/sync.ts"
+  },
+  {
+    "at": 1793593158150,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js"
+  },
+  {
+    "at": 1793593158150,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js"
+  },
+  {
+    "at": 1793593158152,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js"
+  },
+  {
+    "at": 1793593158152,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js"
+  },
+  {
+    "at": 1793593158152,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js"
+  },
+  {
+    "at": 1793593158152,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js"
+  },
+  {
+    "at": 1793593158160,
+    "type": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js"
+  }
+]

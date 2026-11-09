@@ -1,0 +1,17 @@
+
+> corgi-tv@0.1.0 build
+> npm run build:core && tsc -p tsconfig.app.json && vite build
+
+
+> corgi-tv@0.1.0 build:core
+> tsc -p tsconfig.json
+
+vite v6.4.5 building for production...
+transforming...
+✓ 55 modules transformed.
+rendering chunks...
+computing gzip size...
+web-dist/index.html                   0.61 kB │ gzip:   0.43 kB
+web-dist/assets/index-C2tsrc1r.css   28.98 kB │ gzip:   8.38 kB
+web-dist/assets/index-BAHq2ySy.js   401.35 kB │ gzip: 127.90 kB
+✓ built in 942ms

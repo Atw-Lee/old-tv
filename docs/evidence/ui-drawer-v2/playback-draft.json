@@ -1,0 +1,18 @@
+{
+  "before": {
+    "paused": false,
+    "ready": 4,
+    "src": "blob:http://127.0.0.1:5193/6f6c32e8-bc55-4975-ba8d-50b1bfe475fa",
+    "time": 88.505409
+  },
+  "afterDraft": {
+    "paused": false,
+    "ready": 4,
+    "src": "blob:http://127.0.0.1:5193/6f6c32e8-bc55-4975-ba8d-50b1bfe475fa",
+    "time": 96.824778
+  },
+  "afterSave": {
+    "noSignal": "＋暂无信号这一刻，留一点空白。NO SIGNAL · 请尝试切换频道",
+    "videoCount": 0
+  }
+}

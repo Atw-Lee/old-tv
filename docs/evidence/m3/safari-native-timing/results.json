@@ -1,0 +1,7 @@
+[
+  {
+    "name": "native-modal-channel-create",
+    "status": "FAIL",
+    "error": "javascript error: A JavaScript exception occured: null is not an object (evaluating 'document.querySelector(\"dialog\").open')"
+  }
+]

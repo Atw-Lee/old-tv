@@ -1,0 +1,16 @@
+{
+  "name": "production-build-smoke",
+  "date": "2026-11-03",
+  "browser": "156.0.8078.79",
+  "url": "http://127.0.0.1:5191/",
+  "status": "FAIL",
+  "error": "Expected values to be strictly deep-equal:\n+ actual - expected\n\n+ [\n+   'Failed to load resource: the server responded with a status of 404 (Not Found)'\n+ ]\n- []",
+  "errors": [
+    "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  ],
+  "requests": [
+    "http://127.0.0.1:5191/",
+    "http://127.0.0.1:5191/assets/index-C_-Wur2A.js",
+    "http://127.0.0.1:5191/assets/index-CXhqJX5F.css"
+  ]
+}

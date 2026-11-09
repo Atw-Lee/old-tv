@@ -1,0 +1,147 @@
+[
+  {
+    "name": "hls-real-play-latest-time-volume-and-direct-network",
+    "status": "PASS",
+    "data": [
+      {
+        "actual": 17.88532,
+        "expected": 17.943,
+        "frames": 81,
+        "paused": false
+      },
+      {
+        "actual": 18.892989,
+        "expected": 18.951,
+        "frames": 111,
+        "paused": false
+      },
+      {
+        "actual": 19.90694,
+        "expected": 19.966,
+        "frames": 139,
+        "paused": false
+      }
+    ]
+  },
+  {
+    "name": "slot-boundary-replaces-old-player",
+    "status": "PASS",
+    "data": [
+      {
+        "actual": 6.332292,
+        "expected": 6.411,
+        "frames": 68,
+        "paused": false
+      },
+      {
+        "actual": 7.336286,
+        "expected": 7.416,
+        "frames": 98,
+        "paused": false
+      },
+      {
+        "actual": 8.343038,
+        "expected": 8.422,
+        "frames": 128,
+        "paused": false
+      }
+    ]
+  },
+  {
+    "name": "channel-switch-uses-current-clock",
+    "status": "PASS",
+    "data": [
+      {
+        "actual": 72.200897,
+        "expected": 72.264,
+        "frames": 89,
+        "paused": false
+      },
+      {
+        "actual": 73.204978,
+        "expected": 73.268,
+        "frames": 119,
+        "paused": false
+      },
+      {
+        "actual": 74.20929,
+        "expected": 74.272,
+        "frames": 149,
+        "paused": false
+      }
+    ]
+  },
+  {
+    "name": "off-stops-requests-31seconds-and-reopen-seeks-now",
+    "status": "PASS",
+    "data": {
+      "observationMs": 31859,
+      "samples": [
+        {
+          "actual": 108.072201,
+          "expected": 108.162,
+          "frames": 121,
+          "paused": false
+        },
+        {
+          "actual": 109.080576,
+          "expected": 109.17,
+          "frames": 151,
+          "paused": false
+        },
+        {
+          "actual": 110.088687,
+          "expected": 110.178,
+          "frames": 183,
+          "paused": false
+        }
+      ]
+    }
+  },
+  {
+    "name": "buffering-network-recovery-resynchronizes",
+    "status": "PASS",
+    "data": [
+      {
+        "actual": 113.012417,
+        "expected": 113.292,
+        "frames": 94,
+        "paused": false
+      },
+      {
+        "actual": 113.997933,
+        "expected": 114.299,
+        "frames": 125,
+        "paused": false
+      },
+      {
+        "actual": 115.001678,
+        "expected": 115.303,
+        "frames": 155,
+        "paused": false
+      }
+    ]
+  },
+  {
+    "name": "short-source-exhausted-shows-no-signal",
+    "status": "PASS",
+    "data": {
+      "duration": 634.634
+    }
+  },
+  {
+    "name": "gap-and-midnight-daily-cycle",
+    "status": "PASS"
+  },
+  {
+    "name": "injected-autoplay-block-recovery",
+    "status": "PASS",
+    "data": {
+      "condition": "Injected NotAllowedError; not proof of default browser policy rejecting autoplay"
+    }
+  },
+  {
+    "name": "loading-power-off-and-no-stale-events",
+    "status": "PASS"
+  }
+]

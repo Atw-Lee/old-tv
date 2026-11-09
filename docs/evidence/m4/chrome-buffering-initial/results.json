@@ -1,0 +1,55 @@
+[
+  {
+    "name": "hls-real-play-latest-time-volume-and-direct-network",
+    "status": "PASS",
+    "data": [
+      {
+        "actual": 17.473814,
+        "expected": 17.539,
+        "frames": 394,
+        "paused": false
+      },
+      {
+        "actual": 18.484656,
+        "expected": 18.551,
+        "frames": 424,
+        "paused": false
+      },
+      {
+        "actual": 19.49578,
+        "expected": 19.562,
+        "frames": 454,
+        "paused": false
+      }
+    ]
+  },
+  {
+    "name": "slot-boundary-replaces-old-player",
+    "status": "PASS",
+    "data": [
+      {
+        "actual": 8.331251,
+        "expected": 8.465,
+        "frames": 365,
+        "paused": false
+      },
+      {
+        "actual": 9.341854,
+        "expected": 9.476,
+        "frames": 425,
+        "paused": false
+      },
+      {
+        "actual": 10.355254,
+        "expected": 10.489,
+        "frames": 486,
+        "paused": false
+      }
+    ]
+  },
+  {
+    "name": "channel-switch-uses-current-clock",
+    "status": "FAIL",
+    "error": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.media-screen')\nExpected: \"PLAYING\"\nReceived: \"BUFFERING\"\nTimeout:  30000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.media-screen') with timeout 30000ms\n  - waiting for locator('.media-screen')\n    - locator resolved to <div class=\"media-screen\" data-playback=\"LOADING\">…</div>\n    - unexpected value \"LOADING\"\n    62 × locator resolved to <div class=\"media-screen\" data-playback=\"BUFFERING\">…</div>\n       - unexpected value \"BUFFERING\"\n"
+  }
+]

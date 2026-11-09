@@ -1,0 +1,18 @@
+[
+  {
+    "name": "youtube-integration",
+    "status": "BLOCKED",
+    "error": "expect(locator).toHaveAttribute(expected) failed\n\nLocator:  locator('.media-screen')\nExpected: \"PLAYING\"\nReceived: \"ERROR\"\nTimeout:  45000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" locator('.media-screen') with timeout 45000ms\n  - waiting for locator('.media-screen')\n    34 × locator resolved to <div class=\"media-screen\" data-playback=\"LOADING\">…</div>\n       - unexpected value \"LOADING\"\n    59 × locator resolved to <div class=\"media-screen\" data-playback=\"ERROR\">…</div>\n       - unexpected value \"ERROR\"\n",
+    "screen": "YouTube API连接超时，请检查网络重新连接"
+  },
+  {
+    "name": "bilibili-limited-volume-ui",
+    "status": "PASS"
+  },
+  {
+    "name": "bilibili-integration",
+    "status": "BLOCKED",
+    "error": "expect(received).toBeGreaterThan(expected)\n\nExpected: > 0\nReceived:   0\n\nCall Log:\n- Timeout 45000ms exceeded while waiting on the predicate",
+    "screen": "B站受限来源：音量请使用视频内控件或系统音量；无法获取播放状态及提前结束通知。"
+  }
+]

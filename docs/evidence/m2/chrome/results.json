@@ -1,0 +1,68 @@
+[
+  {
+    "name": "initial-off",
+    "status": "PASS"
+  },
+  {
+    "name": "power-on-and-4by3-screen",
+    "status": "PASS",
+    "data": {
+      "x": 253,
+      "y": 298.59375,
+      "width": 748,
+      "height": 561
+    }
+  },
+  {
+    "name": "channels-prev-next-wrap-and-no-signal",
+    "status": "PASS"
+  },
+  {
+    "name": "channel-knob-keyboard-click-drag-wheel",
+    "status": "PASS"
+  },
+  {
+    "name": "volume-keyboard-bounds-drag-wheel",
+    "status": "PASS"
+  },
+  {
+    "name": "keyboard-focus-and-power-space",
+    "status": "PASS"
+  },
+  {
+    "name": "rapid-power-and-channel-final-state",
+    "status": "PASS"
+  },
+  {
+    "name": "reduced-motion",
+    "status": "PASS",
+    "data": {
+      "animation": "none",
+      "knobTransition": "0s"
+    }
+  },
+  {
+    "name": "mobile-390-layout",
+    "status": "PASS",
+    "data": {
+      "width": 390,
+      "scroll": 390
+    }
+  },
+  {
+    "name": "narrow-320-no-overflow",
+    "status": "PASS",
+    "data": {
+      "width": 320,
+      "scroll": 320
+    }
+  },
+  {
+    "name": "no-errors-no-external-media",
+    "status": "PASS",
+    "data": {
+      "externalRequests": [],
+      "consoleErrors": []
+    }
+  }
+]

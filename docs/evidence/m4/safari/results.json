@@ -1,0 +1,15 @@
+[
+  {
+    "name": "native-hls-start-and-sync",
+    "status": "FAIL",
+    "error": "The expression evaluated to a falsy value:\n\n  assert.ok(samples[2].frames>samples[0].frames)\n",
+    "state": {
+      "video": {
+        "ready": 4,
+        "time": 18.858410265982236,
+        "paused": false
+      },
+      "text": ""
+    }
+  }
+]

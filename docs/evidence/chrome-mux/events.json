@@ -1,0 +1,831 @@
+{
+  "environment": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "source": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+  "logs": [
+    {
+      "at": "2026-11-02T03:38:22.364Z",
+      "elapsed": 227.5999999642372,
+      "event": "environment",
+      "data": {
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "timeZone": "Asia/Shanghai",
+        "date": "2026-11-02"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:23.163Z",
+      "elapsed": 1026.199999988079,
+      "event": "clock-set",
+      "data": {
+        "beijing": "2026-11-02T09:05"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:23.211Z",
+      "elapsed": 1074.199999988079,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:23.211Z",
+      "elapsed": 1074.3999999761581,
+      "event": "load",
+      "data": {
+        "kind": "hls",
+        "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+        "target": 300.04819995117214,
+        "muted": true,
+        "scheduled": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:23.219Z",
+      "elapsed": 1081.699999988079,
+      "event": "engine",
+      "data": {
+        "engine": "hls.js",
+        "version": "1.7.4"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:23.859Z",
+      "elapsed": 1721.7999999523163,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+        "start": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:23.859Z",
+      "elapsed": 1721.7999999523163,
+      "event": "manifest",
+      "data": {
+        "live": false,
+        "duration": 634.584
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:25.093Z",
+      "elapsed": 2956.399999976158,
+      "event": "loadedmetadata",
+      "data": {
+        "time": 0,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:25.094Z",
+      "elapsed": 2956.699999988079,
+      "event": "seek-request",
+      "data": {
+        "target": 301.9304999999986
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:25.095Z",
+      "elapsed": 2958.199999988079,
+      "event": "seeking",
+      "data": {
+        "time": 301.930499,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:25.096Z",
+      "elapsed": 2958.7999999523163,
+      "event": "waiting",
+      "data": {
+        "time": 301.930499,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:25.099Z",
+      "elapsed": 2962.2999999523163,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_492/193039199_mp4_h264_aac_hd_7.ts",
+        "start": 299.95780045351466
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:26.457Z",
+      "elapsed": 4319.699999988079,
+      "event": "seeked",
+      "data": {
+        "time": 301.930824,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:26.459Z",
+      "elapsed": 4321.799999952316,
+      "event": "canplay",
+      "data": {
+        "time": 301.932957,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:26.459Z",
+      "elapsed": 4322,
+      "event": "playing",
+      "data": {
+        "time": 301.933071,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:26.529Z",
+      "elapsed": 4392.299999952316,
+      "event": "clock-set",
+      "data": {
+        "beijing": "2026-11-02T09:59:59"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:26.556Z",
+      "elapsed": 4419.099999964237,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_621/193039199_mp4_h264_aac_fhd_7.ts",
+        "start": 310
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:26.556Z",
+      "elapsed": 4419.099999964237,
+      "event": "manifest",
+      "data": {
+        "live": false,
+        "duration": 634.567
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.576Z",
+      "elapsed": 5439.299999952316,
+      "event": "boundary",
+      "data": {
+        "clock": "2026-11-02T02:00:00.047Z",
+        "latenessMs": 47.30004882731009
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.582Z",
+      "elapsed": 5445,
+      "event": "destroy",
+      "data": {
+        "state": "NO_SIGNAL"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.644Z",
+      "elapsed": 5507,
+      "event": "clock-set",
+      "data": {
+        "beijing": "2026-11-02T09:08"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.677Z",
+      "elapsed": 5540,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.677Z",
+      "elapsed": 5540.199999988079,
+      "event": "load",
+      "data": {
+        "kind": "hls",
+        "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+        "target": 480.0331999511691,
+        "muted": true,
+        "scheduled": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.678Z",
+      "elapsed": 5541.399999976158,
+      "event": "engine",
+      "data": {
+        "engine": "hls.js",
+        "version": "1.7.4"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.694Z",
+      "elapsed": 5557.399999976158,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+        "start": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.694Z",
+      "elapsed": 5557.399999976158,
+      "event": "manifest",
+      "data": {
+        "live": false,
+        "duration": 634.584
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.709Z",
+      "elapsed": 5572,
+      "event": "loadedmetadata",
+      "data": {
+        "time": 0,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.709Z",
+      "elapsed": 5572.299999952316,
+      "event": "seek-request",
+      "data": {
+        "target": 480.065300048831
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.710Z",
+      "elapsed": 5573.299999952316,
+      "event": "seeking",
+      "data": {
+        "time": 480.0653,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.710Z",
+      "elapsed": 5573.5,
+      "event": "waiting",
+      "data": {
+        "time": 480.0653,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.716Z",
+      "elapsed": 5578.699999988079,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_638/193039199_mp4_h264_aac_fhd_7.ts",
+        "start": 480
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:27.716Z",
+      "elapsed": 5578.799999952316,
+      "event": "manifest",
+      "data": {
+        "live": false,
+        "duration": 634.567
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.864Z",
+      "elapsed": 7727.099999964237,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_639/193039199_mp4_h264_aac_fhd_7.ts",
+        "start": 490.0208004535169
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.888Z",
+      "elapsed": 7750.799999952316,
+      "event": "seeked",
+      "data": {
+        "time": 480.066839,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.891Z",
+      "elapsed": 7753.599999964237,
+      "event": "canplay",
+      "data": {
+        "time": 480.069557,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.891Z",
+      "elapsed": 7753.799999952316,
+      "event": "playing",
+      "data": {
+        "time": 480.069797,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.927Z",
+      "elapsed": 7789.799999952316,
+      "event": "seek-request",
+      "data": {
+        "target": 632.584
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.941Z",
+      "elapsed": 7804.099999964237,
+      "event": "seeking",
+      "data": {
+        "time": 632.584,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.942Z",
+      "elapsed": 7804.899999976158,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "aborted",
+        "fatal": false,
+        "category": "CORS_OR_NETWORK"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.942Z",
+      "elapsed": 7805,
+      "event": "waiting",
+      "data": {
+        "time": 632.584,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:29.943Z",
+      "elapsed": 7806.5,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_653/193039199_mp4_h264_aac_fhd_7.ts",
+        "start": 630.0208004535169
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:31.239Z",
+      "elapsed": 9101.599999964237,
+      "event": "seeked",
+      "data": {
+        "time": 632.584235,
+        "duration": 634.599999,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:31.240Z",
+      "elapsed": 9102.699999988079,
+      "event": "canplay",
+      "data": {
+        "time": 632.585435,
+        "duration": 634.599999,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:31.240Z",
+      "elapsed": 9102.699999988079,
+      "event": "playing",
+      "data": {
+        "time": 632.58548,
+        "duration": 634.599999,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:33.311Z",
+      "elapsed": 11174.5,
+      "event": "ended",
+      "data": {
+        "time": 634.599999,
+        "duration": 634.599999,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:33.312Z",
+      "elapsed": 11175.399999976158,
+      "event": "destroy",
+      "data": {
+        "state": "NO_SIGNAL"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.378Z",
+      "elapsed": 13241.099999964237,
+      "event": "clock-set",
+      "data": {
+        "beijing": "2026-11-02T09:05"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.411Z",
+      "elapsed": 13273.5,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.411Z",
+      "elapsed": 13273.699999988079,
+      "event": "load",
+      "data": {
+        "kind": "hls",
+        "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+        "target": 300.03250000000116,
+        "muted": true,
+        "scheduled": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.412Z",
+      "elapsed": 13274.799999952316,
+      "event": "engine",
+      "data": {
+        "engine": "hls.js",
+        "version": "1.7.4"
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.428Z",
+      "elapsed": 13290.799999952316,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+        "start": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.428Z",
+      "elapsed": 13290.799999952316,
+      "event": "manifest",
+      "data": {
+        "live": false,
+        "duration": 634.584
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.442Z",
+      "elapsed": 13304.799999952316,
+      "event": "loadedmetadata",
+      "data": {
+        "time": 0,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.442Z",
+      "elapsed": 13305,
+      "event": "seek-request",
+      "data": {
+        "target": 300.06380004882885
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.444Z",
+      "elapsed": 13306.799999952316,
+      "event": "seeking",
+      "data": {
+        "time": 300.0638,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.444Z",
+      "elapsed": 13307,
+      "event": "waiting",
+      "data": {
+        "time": 300.0638,
+        "duration": 634.584,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.448Z",
+      "elapsed": 13311.399999976158,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_620/193039199_mp4_h264_aac_fhd_7.ts",
+        "start": 299.933
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:35.449Z",
+      "elapsed": 13311.399999976158,
+      "event": "manifest",
+      "data": {
+        "live": false,
+        "duration": 634.567
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:38.075Z",
+      "elapsed": 15937.799999952316,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_621/193039199_mp4_h264_aac_fhd_7.ts",
+        "start": 310.0197158730181
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:38.101Z",
+      "elapsed": 15964.099999964237,
+      "event": "seeked",
+      "data": {
+        "time": 300.064446,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:38.104Z",
+      "elapsed": 15966.699999988079,
+      "event": "canplay",
+      "data": {
+        "time": 300.06702,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:38.104Z",
+      "elapsed": 15966.799999952316,
+      "event": "playing",
+      "data": {
+        "time": 300.067097,
+        "duration": 634.584,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:38:38.151Z",
+      "elapsed": 16013.899999976158,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "http://127.0.0.1:5178/@vite/client",
+      "startTime": 40.39999997615814,
+      "duration": 11.399999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/main.tsx?t=1793590486785",
+      "startTime": 40.69999998807907,
+      "duration": 11.399999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=32f5f108",
+      "startTime": 53.89999997615814,
+      "duration": 3.899999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js?v=32f5f108",
+      "startTime": 53.89999997615814,
+      "duration": 5.300000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js?v=32f5f108",
+      "startTime": 53.89999997615814,
+      "duration": 35.89999997615814
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/components/ui/button.tsx",
+      "startTime": 54,
+      "duration": 33.299999952316284
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/clock.mjs",
+      "startTime": 54,
+      "duration": 34.5
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js?v=32f5f108",
+      "startTime": 54,
+      "duration": 36.59999996423721
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/style.css?t=1793590486785",
+      "startTime": 54.09999996423721,
+      "duration": 34.60000002384186
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs",
+      "startTime": 54.299999952316284,
+      "duration": 34.40000003576279
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js?v=32f5f108",
+      "startTime": 58.299999952316284,
+      "duration": 32.90000003576279
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js?v=32f5f108",
+      "startTime": 58.299999952316284,
+      "duration": 35.30000001192093
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js?v=32f5f108",
+      "startTime": 87.89999997615814,
+      "duration": 8.300000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js?v=32f5f108",
+      "startTime": 87.89999997615814,
+      "duration": 10
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js?v=32f5f108",
+      "startTime": 87.89999997615814,
+      "duration": 9.300000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js?v=32f5f108",
+      "startTime": 87.89999997615814,
+      "duration": 11.100000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js?v=32f5f108",
+      "startTime": 109.39999997615814,
+      "duration": 2.600000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5178/favicon.ico",
+      "startTime": 241,
+      "duration": 1.399999976158142
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "startTime": 1083.3999999761581,
+      "duration": 519.8000000119209
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8",
+      "startTime": 1609.7999999523163,
+      "duration": 105.80000001192093
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+      "startTime": 1721.5999999642372,
+      "duration": 1210.300000011921
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_0/url_492/193039199_mp4_h264_aac_hd_7.ts",
+      "startTime": 2962.199999988079,
+      "duration": 1328
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/193039199_mp4_h264_aac_fhd_7.m3u8",
+      "startTime": 4307,
+      "duration": 110.79999995231628
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/url_621/193039199_mp4_h264_aac_fhd_7.ts",
+      "startTime": 4419.099999964237,
+      "duration": 1026.699999988079
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "startTime": 5541.699999988079,
+      "duration": 1
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8",
+      "startTime": 5556,
+      "duration": 0.5
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+      "startTime": 5557.399999976158,
+      "duration": 5.699999988079071
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/193039199_mp4_h264_aac_fhd_7.m3u8",
+      "startTime": 5575.299999952316,
+      "duration": 1.2000000476837158
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/url_638/193039199_mp4_h264_aac_fhd_7.ts",
+      "startTime": 5578.699999988079,
+      "duration": 2130.300000011921
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/url_639/193039199_mp4_h264_aac_fhd_7.ts",
+      "startTime": 7727.099999964237,
+      "duration": 79
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/url_653/193039199_mp4_h264_aac_fhd_7.ts",
+      "startTime": 7806.399999976158,
+      "duration": 1226.699999988079
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "startTime": 13275.599999964237,
+      "duration": 2.900000035762787
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8",
+      "startTime": 13289.599999964237,
+      "duration": 0.30000001192092896
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+      "startTime": 13290.799999952316,
+      "duration": 1
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/193039199_mp4_h264_aac_fhd_7.m3u8",
+      "startTime": 13309.699999988079,
+      "duration": 0.800000011920929
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/url_620/193039199_mp4_h264_aac_fhd_7.ts",
+      "startTime": 13311.399999976158,
+      "duration": 2571.600000023842
+    },
+    {
+      "name": "https://test-streams.mux.dev/x36xhzz/url_8/url_621/193039199_mp4_h264_aac_fhd_7.ts",
+      "startTime": 15937.699999988079,
+      "duration": 84.19999998807907
+    }
+  ]
+}

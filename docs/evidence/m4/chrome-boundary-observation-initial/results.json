@@ -1,0 +1,31 @@
+[
+  {
+    "name": "hls-real-play-latest-time-volume-and-direct-network",
+    "status": "PASS",
+    "data": [
+      {
+        "actual": 29.510351,
+        "expected": 29.568,
+        "frames": 399,
+        "paused": false
+      },
+      {
+        "actual": 30.516543,
+        "expected": 30.575,
+        "frames": 429,
+        "paused": false
+      },
+      {
+        "actual": 31.52238,
+        "expected": 31.58,
+        "frames": 459,
+        "paused": false
+      }
+    ]
+  },
+  {
+    "name": "slot-boundary-replaces-old-player",
+    "status": "FAIL",
+    "error": "[{\"actual\":2.203,\"expected\":2.366,\"frames\":0,\"paused\":false},{\"actual\":2.203,\"expected\":3.37,\"frames\":0,\"paused\":false},{\"actual\":2.203,\"expected\":4.373,\"frames\":0,\"paused\":false}]"
+  }
+]

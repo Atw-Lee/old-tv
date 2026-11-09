@@ -1,0 +1,13 @@
+[
+  {
+    "at": "2026-11-02T04:19:18.165Z",
+    "elapsed": 210.4000000357628,
+    "event": "environment",
+    "data": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "platform": "MacIntel",
+      "timeZone": "Asia/Shanghai",
+      "date": "2026-11-02"
+    }
+  }
+]

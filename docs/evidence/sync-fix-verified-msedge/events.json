@@ -1,0 +1,1443 @@
+[
+  {
+    "at": "2026-11-02T04:20:11.970Z",
+    "elapsed": 468.19999998807907,
+    "event": "environment",
+    "data": {
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+      "platform": "MacIntel",
+      "timeZone": "Asia/Shanghai",
+      "date": "2026-11-02"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:13.093Z",
+    "elapsed": 1589.800000011921,
+    "event": "clock-set",
+    "data": {
+      "beijing": "2026-11-02T09:05"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:13.118Z",
+    "elapsed": 1614.800000011921,
+    "event": "destroy",
+    "data": {
+      "state": "OFF"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:13.119Z",
+    "elapsed": 1615,
+    "event": "load",
+    "data": {
+      "kind": "hls",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "target": 300.0251999511711,
+      "muted": true,
+      "scheduled": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:13.125Z",
+    "elapsed": 1621.8999999761581,
+    "event": "engine",
+    "data": {
+      "engine": "hls.js",
+      "version": "1.7.4"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:13.547Z",
+    "elapsed": 2043.5999999642372,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+      "start": 0
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:13.547Z",
+    "elapsed": 2043.699999988079,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.584
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:15.420Z",
+    "elapsed": 3916.399999976158,
+    "event": "loadedmetadata",
+    "data": {
+      "time": 0,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:15.420Z",
+    "elapsed": 3916.599999964237,
+    "event": "seek-request",
+    "data": {
+      "target": 302.32679980468674
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:15.422Z",
+    "elapsed": 3918.599999964237,
+    "event": "seeking",
+    "data": {
+      "time": 302.326799,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:15.423Z",
+    "elapsed": 3919.599999964237,
+    "event": "waiting",
+    "data": {
+      "time": 302.326799,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:15.428Z",
+    "elapsed": 3924.800000011921,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_492/193039199_mp4_h264_aac_hd_7.ts",
+      "start": 299.95780045351466
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.366Z",
+    "elapsed": 5862.099999964237,
+    "event": "seeked",
+    "data": {
+      "time": 302.327187,
+      "duration": 634.584,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.367Z",
+    "elapsed": 5863.5,
+    "event": "sync-sample",
+    "data": {
+      "expected": 304.2736999511726,
+      "actual": 302.328519,
+      "drift": 1.945180951172631,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.367Z",
+    "elapsed": 5863.5,
+    "event": "sync-correction",
+    "data": {
+      "expected": 304.2736999511726,
+      "actual": 302.328519,
+      "drift": 1.945180951172631,
+      "attempt": 1
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.369Z",
+    "elapsed": 5865.199999988079,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_493/193039199_mp4_h264_aac_hd_7.ts",
+      "start": 310.01971814059175
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.370Z",
+    "elapsed": 5866.199999988079,
+    "event": "canplay",
+    "data": {
+      "time": 304.273699,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.370Z",
+    "elapsed": 5866.300000011921,
+    "event": "playing",
+    "data": {
+      "time": 304.273699,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.375Z",
+    "elapsed": 5870.899999976158,
+    "event": "seeking",
+    "data": {
+      "time": 304.273699,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.375Z",
+    "elapsed": 5871.099999964237,
+    "event": "waiting",
+    "data": {
+      "time": 304.273699,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.445Z",
+    "elapsed": 5941.699999988079,
+    "event": "seeked",
+    "data": {
+      "time": 304.274083,
+      "duration": 634.584,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.447Z",
+    "elapsed": 5943.099999964237,
+    "event": "sync-settled",
+    "data": {
+      "expected": 304.35339990234206,
+      "actual": 304.275468,
+      "drift": 0.07793190234207259
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.448Z",
+    "elapsed": 5944.699999988079,
+    "event": "canplay",
+    "data": {
+      "time": 304.277067,
+      "duration": 634.584,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.448Z",
+    "elapsed": 5944.899999976158,
+    "event": "playing",
+    "data": {
+      "time": 304.277269,
+      "duration": 634.584,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.451Z",
+    "elapsed": 5947.099999964237,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_493/193039199_mp4_h264_aac_hd_7.ts",
+      "start": 310.01971814059175
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.451Z",
+    "elapsed": 5947.099999964237,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.567
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:17.451Z",
+    "elapsed": 5947.599999964237,
+    "event": "hls-error",
+    "data": {
+      "type": "networkError",
+      "details": "aborted",
+      "fatal": false,
+      "category": "CORS_OR_NETWORK"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:18.372Z",
+    "elapsed": 6868.800000011921,
+    "event": "sync-sample",
+    "data": {
+      "expected": 305.27899999999863,
+      "actual": 305.157006,
+      "drift": 0.12199399999860816,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:19.214Z",
+    "elapsed": 7710.800000011921,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_622/193039199_mp4_h264_aac_fhd_7.ts",
+      "start": 320
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:19.622Z",
+    "elapsed": 8118.800000011921,
+    "event": "sync-sample",
+    "data": {
+      "expected": 306.52899999999863,
+      "actual": 306.407423,
+      "drift": 0.1215769999986378,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:20.623Z",
+    "elapsed": 9119.599999964237,
+    "event": "sync-sample",
+    "data": {
+      "expected": 307.52989990234346,
+      "actual": 307.409308,
+      "drift": 0.12059190234344896,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:20.797Z",
+    "elapsed": 9293.599999964237,
+    "event": "destroy",
+    "data": {
+      "state": "OFF"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:20.845Z",
+    "elapsed": 9341.599999964237,
+    "event": "clock-set",
+    "data": {
+      "beijing": "2026-11-02T09:08"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:20.869Z",
+    "elapsed": 9365,
+    "event": "destroy",
+    "data": {
+      "state": "OFF"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:20.869Z",
+    "elapsed": 9365.199999988079,
+    "event": "load",
+    "data": {
+      "kind": "hls",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "target": 480.02350000000297,
+      "muted": true,
+      "scheduled": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:20.869Z",
+    "elapsed": 9365.899999976158,
+    "event": "engine",
+    "data": {
+      "engine": "hls.js",
+      "version": "1.7.4"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:22.302Z",
+    "elapsed": 10798.5,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+      "start": 0
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:22.302Z",
+    "elapsed": 10798.599999964237,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.584
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:30.682Z",
+    "elapsed": 19178.19999998808,
+    "event": "loadedmetadata",
+    "data": {
+      "time": 0,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:30.682Z",
+    "elapsed": 19178.399999976158,
+    "event": "seek-request",
+    "data": {
+      "target": 489.8366999511709
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:30.684Z",
+    "elapsed": 19179.80000001192,
+    "event": "seeking",
+    "data": {
+      "time": 489.836699,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:30.684Z",
+    "elapsed": 19180,
+    "event": "waiting",
+    "data": {
+      "time": 489.836699,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:31.408Z",
+    "elapsed": 19904.599999964237,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_766/193039199_mp4_h264_aac_7.ts",
+      "start": 480
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:31.408Z",
+    "elapsed": 19904.599999964237,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.634
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:34.310Z",
+    "elapsed": 22805.80000001192,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_767/193039199_mp4_h264_aac_7.ts",
+      "start": 490.0000111111111
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.352Z",
+    "elapsed": 25847.80000001192,
+    "event": "seeked",
+    "data": {
+      "time": 489.837401,
+      "duration": 634.634,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.353Z",
+    "elapsed": 25849.19999998808,
+    "event": "sync-sample",
+    "data": {
+      "expected": 496.5074999999997,
+      "actual": 489.838754,
+      "drift": 6.6687459999997145,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.353Z",
+    "elapsed": 25849.19999998808,
+    "event": "sync-correction",
+    "data": {
+      "expected": 496.5074999999997,
+      "actual": 489.838754,
+      "drift": 6.6687459999997145,
+      "attempt": 1
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.354Z",
+    "elapsed": 25850.5,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_768/193039199_mp4_h264_aac_7.ts",
+      "start": 500.0000111111111
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.355Z",
+    "elapsed": 25851.599999964237,
+    "event": "canplay",
+    "data": {
+      "time": 496.507499,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.356Z",
+    "elapsed": 25851.69999998808,
+    "event": "playing",
+    "data": {
+      "time": 496.507499,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.357Z",
+    "elapsed": 25852.80000001192,
+    "event": "seeking",
+    "data": {
+      "time": 496.507499,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.357Z",
+    "elapsed": 25852.899999976158,
+    "event": "waiting",
+    "data": {
+      "time": 496.507499,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.379Z",
+    "elapsed": 25875.19999998808,
+    "event": "seeked",
+    "data": {
+      "time": 496.507893,
+      "duration": 634.634,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.381Z",
+    "elapsed": 25876.899999976158,
+    "event": "sync-settled",
+    "data": {
+      "expected": 496.5351999511695,
+      "actual": 496.509606,
+      "drift": 0.025593951169469165
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.382Z",
+    "elapsed": 25878,
+    "event": "canplay",
+    "data": {
+      "time": 496.510649,
+      "duration": 634.634,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:37.382Z",
+    "elapsed": 25878.099999964237,
+    "event": "playing",
+    "data": {
+      "time": 496.510768,
+      "duration": 634.634,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:38.074Z",
+    "elapsed": 26569.69999998808,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.6
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:38.074Z",
+    "elapsed": 26569.899999976158,
+    "event": "hls-error",
+    "data": {
+      "type": "networkError",
+      "details": "aborted",
+      "fatal": false,
+      "category": "CORS_OR_NETWORK"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:38.181Z",
+    "elapsed": 26676.899999976158,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_896/193039199_mp4_h264_aac_hq_7.ts",
+      "start": 500
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:38.371Z",
+    "elapsed": 26866.69999998808,
+    "event": "sync-sample",
+    "data": {
+      "expected": 497.52500000000146,
+      "actual": 497.448365,
+      "drift": 0.07663500000143131,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:38.793Z",
+    "elapsed": 27289.399999976158,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_2/url_576/193039199_mp4_h264_aac_ld_7.ts",
+      "start": 500
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:38.793Z",
+    "elapsed": 27289.399999976158,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.634
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:38.793Z",
+    "elapsed": 27289.399999976158,
+    "event": "hls-error",
+    "data": {
+      "type": "networkError",
+      "details": "aborted",
+      "fatal": false,
+      "category": "CORS_OR_NETWORK"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:39.621Z",
+    "elapsed": 28116.69999998808,
+    "event": "sync-sample",
+    "data": {
+      "expected": 498.7746999511728,
+      "actual": 498.706348,
+      "drift": 0.068351951172815,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:40.445Z",
+    "elapsed": 28941.30000001192,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_897/193039199_mp4_h264_aac_hq_7.ts",
+      "start": 510
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:40.621Z",
+    "elapsed": 29116.80000001192,
+    "event": "sync-sample",
+    "data": {
+      "expected": 499.7751999511747,
+      "actual": 499.705027,
+      "drift": 0.07017295117475442,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:40.709Z",
+    "elapsed": 29205.5,
+    "event": "clock-set",
+    "data": {
+      "beijing": "2026-11-02T09:07"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:40.871Z",
+    "elapsed": 29366.899999976158,
+    "event": "sync-correction",
+    "data": {
+      "expected": 420.1613000488287,
+      "actual": 499.95127,
+      "drift": -79.78996995117132,
+      "attempt": 2
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:40.871Z",
+    "elapsed": 29367.19999998808,
+    "event": "seeking",
+    "data": {
+      "time": 420.1613,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:40.871Z",
+    "elapsed": 29367.5,
+    "event": "hls-error",
+    "data": {
+      "type": "networkError",
+      "details": "aborted",
+      "fatal": false,
+      "category": "CORS_OR_NETWORK"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:40.871Z",
+    "elapsed": 29367.599999964237,
+    "event": "waiting",
+    "data": {
+      "time": 420.1613,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:40.875Z",
+    "elapsed": 29370.69999998808,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_760/193039199_mp4_h264_aac_7.ts",
+      "start": 420
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:42.718Z",
+    "elapsed": 31213.80000001192,
+    "event": "recalibrate",
+    "data": {
+      "visibility": "visible",
+      "target": 422.0083999023409
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:42.718Z",
+    "elapsed": 31214,
+    "event": "seek-request",
+    "data": {
+      "target": 422.00869995116955
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:42.718Z",
+    "elapsed": 31214.19999998808,
+    "event": "seeking",
+    "data": {
+      "time": 422.008699,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.426Z",
+    "elapsed": 32922.5,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_889/193039199_mp4_h264_aac_hq_7.ts",
+      "start": 430
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.447Z",
+    "elapsed": 32942.80000001192,
+    "event": "seeked",
+    "data": {
+      "time": 422.008921,
+      "duration": 634.634,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.448Z",
+    "elapsed": 32944.19999998808,
+    "event": "sync-sample",
+    "data": {
+      "expected": 423.73869995117275,
+      "actual": 422.010435,
+      "drift": 1.7282649511727755,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.448Z",
+    "elapsed": 32944.30000001192,
+    "event": "sync-correction",
+    "data": {
+      "expected": 423.73869995117275,
+      "actual": 422.010435,
+      "drift": 1.7282649511727755,
+      "attempt": 3
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.450Z",
+    "elapsed": 32945.69999998808,
+    "event": "canplay",
+    "data": {
+      "time": 423.738699,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.450Z",
+    "elapsed": 32945.89999997616,
+    "event": "playing",
+    "data": {
+      "time": 423.738699,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.452Z",
+    "elapsed": 32948.5,
+    "event": "seeking",
+    "data": {
+      "time": 423.738699,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.452Z",
+    "elapsed": 32948.59999996424,
+    "event": "waiting",
+    "data": {
+      "time": 423.738699,
+      "duration": 634.634,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.474Z",
+    "elapsed": 32970,
+    "event": "seeked",
+    "data": {
+      "time": 423.738968,
+      "duration": 634.634,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.475Z",
+    "elapsed": 32971.19999998808,
+    "event": "sync-settled",
+    "data": {
+      "expected": 423.76580004883,
+      "actual": 423.740221,
+      "drift": 0.025579048829968087
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.476Z",
+    "elapsed": 32972,
+    "event": "canplay",
+    "data": {
+      "time": 423.741056,
+      "duration": 634.634,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:44.476Z",
+    "elapsed": 32972.09999996424,
+    "event": "playing",
+    "data": {
+      "time": 423.741142,
+      "duration": 634.634,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:45.620Z",
+    "elapsed": 34116.30000001192,
+    "event": "sync-sample",
+    "data": {
+      "expected": 424.9108000488268,
+      "actual": 424.839667,
+      "drift": 0.0711330488267663,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:46.621Z",
+    "elapsed": 35117,
+    "event": "sync-sample",
+    "data": {
+      "expected": 425.911500000002,
+      "actual": 425.839624,
+      "drift": 0.07187600000196426,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:47.870Z",
+    "elapsed": 36366.39999997616,
+    "event": "sync-sample",
+    "data": {
+      "expected": 427.1608999023447,
+      "actual": 427.091109,
+      "drift": 0.06979090234466412,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:47.934Z",
+    "elapsed": 36430.09999996424,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_6/url_890/193039199_mp4_h264_aac_hq_7.ts",
+      "start": 439.99491428571866
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:47.950Z",
+    "elapsed": 36446.30000001192,
+    "event": "clock-set",
+    "data": {
+      "beijing": "2026-11-02T09:59:59"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:48.122Z",
+    "elapsed": 36618.09999996424,
+    "event": "destroy",
+    "data": {
+      "state": "NO_SIGNAL"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:48.158Z",
+    "elapsed": 36654.30000001192,
+    "event": "clock-set",
+    "data": {
+      "beijing": "2026-11-02T09:04"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:48.183Z",
+    "elapsed": 36679.09999996424,
+    "event": "destroy",
+    "data": {
+      "state": "OFF"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:48.183Z",
+    "elapsed": 36679.19999998808,
+    "event": "load",
+    "data": {
+      "kind": "hls",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "target": 240.02500000000146,
+      "muted": true,
+      "scheduled": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:48.184Z",
+    "elapsed": 36679.89999997616,
+    "event": "engine",
+    "data": {
+      "engine": "hls.js",
+      "version": "1.7.4"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:48.308Z",
+    "elapsed": 36804.30000001192,
+    "event": "destroy",
+    "data": {
+      "state": "OFF"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:52.341Z",
+    "elapsed": 40837.19999998808,
+    "event": "clock-set",
+    "data": {
+      "beijing": "2026-11-02T09:10:33"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:52.357Z",
+    "elapsed": 40853.30000001192,
+    "event": "destroy",
+    "data": {
+      "state": "OFF"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:52.358Z",
+    "elapsed": 40853.59999996424,
+    "event": "load",
+    "data": {
+      "kind": "hls",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "target": 633.0161999511693,
+      "muted": true,
+      "scheduled": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:52.358Z",
+    "elapsed": 40854.19999998808,
+    "event": "engine",
+    "data": {
+      "engine": "hls.js",
+      "version": "1.7.4"
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:53.786Z",
+    "elapsed": 42282,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+      "start": 0
+    }
+  },
+  {
+    "at": "2026-11-02T04:20:53.786Z",
+    "elapsed": 42282,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.584
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.177Z",
+    "elapsed": 50672.80000001192,
+    "event": "loadedmetadata",
+    "data": {
+      "time": 0,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.178Z",
+    "elapsed": 50673.59999996424,
+    "event": "destroy",
+    "data": {
+      "state": "NO_SIGNAL"
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.217Z",
+    "elapsed": 50712.69999998808,
+    "event": "clock-set",
+    "data": {
+      "beijing": "2026-11-02T09:03"
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.241Z",
+    "elapsed": 50737,
+    "event": "destroy",
+    "data": {
+      "state": "OFF"
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.241Z",
+    "elapsed": 50737.19999998808,
+    "event": "load",
+    "data": {
+      "kind": "hls",
+      "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+      "target": 180.02439990234416,
+      "muted": true,
+      "scheduled": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.242Z",
+    "elapsed": 50738.09999996424,
+    "event": "engine",
+    "data": {
+      "engine": "hls.js",
+      "version": "1.7.4"
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.250Z",
+    "elapsed": 50746.30000001192,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts",
+      "start": 0
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.251Z",
+    "elapsed": 50746.30000001192,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.584
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.265Z",
+    "elapsed": 50761.30000001192,
+    "event": "loadedmetadata",
+    "data": {
+      "time": 0,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.266Z",
+    "elapsed": 50761.59999996424,
+    "event": "seek-request",
+    "data": {
+      "target": 180.04869995117042
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.267Z",
+    "elapsed": 50762.89999997616,
+    "event": "seeking",
+    "data": {
+      "time": 180.048699,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.267Z",
+    "elapsed": 50763.09999996424,
+    "event": "waiting",
+    "data": {
+      "time": 180.048699,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.272Z",
+    "elapsed": 50767.39999997616,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_608/193039199_mp4_h264_aac_fhd_7.ts",
+      "start": 180
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:02.272Z",
+    "elapsed": 50767.39999997616,
+    "event": "manifest",
+    "data": {
+      "live": false,
+      "duration": 634.567
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.144Z",
+    "elapsed": 55639.69999998808,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_609/193039199_mp4_h264_aac_fhd_7.ts",
+      "start": 190.01900045351692
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.173Z",
+    "elapsed": 55668.59999996424,
+    "event": "seeked",
+    "data": {
+      "time": 180.049566,
+      "duration": 634.584,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.174Z",
+    "elapsed": 55669.89999997616,
+    "event": "sync-sample",
+    "data": {
+      "expected": 184.9571999511718,
+      "actual": 180.050981,
+      "drift": 4.90621895117178,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.174Z",
+    "elapsed": 55670,
+    "event": "sync-correction",
+    "data": {
+      "expected": 184.9571999511718,
+      "actual": 180.050981,
+      "drift": 4.90621895117178,
+      "attempt": 1
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.175Z",
+    "elapsed": 55671.19999998808,
+    "event": "canplay",
+    "data": {
+      "time": 184.957199,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.176Z",
+    "elapsed": 55671.30000001192,
+    "event": "playing",
+    "data": {
+      "time": 184.957199,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.176Z",
+    "elapsed": 55672.09999996424,
+    "event": "seeking",
+    "data": {
+      "time": 184.957199,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.176Z",
+    "elapsed": 55672.19999998808,
+    "event": "waiting",
+    "data": {
+      "time": 184.957199,
+      "duration": 634.584,
+      "readyState": 1,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.185Z",
+    "elapsed": 55681,
+    "event": "seeked",
+    "data": {
+      "time": 184.957501,
+      "duration": 634.584,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.186Z",
+    "elapsed": 55682.09999996424,
+    "event": "sync-settled",
+    "data": {
+      "expected": 184.9692998046885,
+      "actual": 184.958587,
+      "drift": 0.010712804688495225
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.187Z",
+    "elapsed": 55682.89999997616,
+    "event": "canplay",
+    "data": {
+      "time": 184.959417,
+      "duration": 634.584,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:07.187Z",
+    "elapsed": 55683,
+    "event": "playing",
+    "data": {
+      "time": 184.959531,
+      "duration": 634.584,
+      "readyState": 4,
+      "volume": 0.5,
+      "muted": true
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:08.243Z",
+    "elapsed": 56738.5,
+    "event": "sync-sample",
+    "data": {
+      "expected": 186.025699951173,
+      "actual": 185.9712,
+      "drift": 0.05449995117299977,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:09.120Z",
+    "elapsed": 57615.80000001192,
+    "event": "fragment-request",
+    "data": {
+      "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_610/193039199_mp4_h264_aac_fhd_7.ts",
+      "start": 200.0035809523853
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:09.243Z",
+    "elapsed": 57738.59999996424,
+    "event": "sync-sample",
+    "data": {
+      "expected": 187.02589990234264,
+      "actual": 186.971512,
+      "drift": 0.054387902342654115,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:10.243Z",
+    "elapsed": 58738.69999998808,
+    "event": "sync-sample",
+    "data": {
+      "expected": 188.02579980468727,
+      "actual": 187.970192,
+      "drift": 0.05560780468726989,
+      "paused": false,
+      "readyState": 4,
+      "seeking": false
+    }
+  },
+  {
+    "at": "2026-11-02T04:21:10.320Z",
+    "elapsed": 58815.80000001192,
+    "event": "destroy",
+    "data": {
+      "state": "OFF"
+    }
+  }
+]

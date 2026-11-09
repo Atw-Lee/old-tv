@@ -1,0 +1,14 @@
+[
+  {
+    "name": "docker-ui-create-two-channels-resource-and-schedules",
+    "status": "PASS"
+  },
+  {
+    "name": "docker-real-hls-and-channel-switch",
+    "status": "PASS"
+  },
+  {
+    "name": "docker-refresh-and-backup-browser-direct-media",
+    "status": "PASS"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-03T13:13:57.228Z",
+  "safari:platformVersion": "26.6.2",
+  "safari:automaticInspection": false,
+  "webkit:WebRTC": {
+    "DisableICECandidateFiltering": false,
+    "DisableInsecureMediaCapture": false
+  },
+  "webkit:alwaysAllowAutoplay": false,
+  "browserVersion": "26.6.2",
+  "strictFileInteractability": false,
+  "browserName": "Safari",
+  "safari:useSimulator": false,
+  "safari:automaticProfiling": false,
+  "setWindowRect": true,
+  "acceptInsecureCerts": false,
+  "safari:platformBuildVersion": "25G83",
+  "safari:experimentalWebSocketUrl": false,
+  "platformName": "macOS",
+  "safari:diagnose": false,
+  "interaction": "Official Safari WebDriver element click/clear/send keys. No DOM event substitution for UI operations."
+}

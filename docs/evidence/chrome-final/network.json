@@ -1,0 +1,634 @@
+[
+  {
+    "at": 1793590232821,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/",
+    "resource": "document"
+  },
+  {
+    "at": 1793590232858,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/@vite/client",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232858,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/src/main.tsx",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232890,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232894,
+    "type": "response",
+    "url": "http://127.0.0.1:5178/src/main.tsx",
+    "status": 200
+  },
+  {
+    "at": 1793590232894,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232896,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232896,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232896,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232896,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/src/components/ui/button.tsx",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232896,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/src/clock.mjs",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232896,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/src/style.css",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232997,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232997,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232999,
+    "type": "response",
+    "url": "http://127.0.0.1:5178/src/components/ui/button.tsx",
+    "status": 200
+  },
+  {
+    "at": 1793590232999,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232999,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232999,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590232999,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590233030,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590233295,
+    "type": "console",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "at": 1793590234922,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590235098,
+    "type": "response",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+    "status": 200
+  },
+  {
+    "at": 1793590235099,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590235217,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590235220,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590235220,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590235221,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590235343,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590235344,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590235344,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590235344,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590235431,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590235432,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590235432,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590235432,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590235596,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590235597,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590235597,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590236598,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590236616,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590236617,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590236617,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590238690,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590238691,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590238691,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590238691,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590260266,
+    "type": "request",
+    "url": "http://127.0.0.1:5179/404.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590260280,
+    "type": "response",
+    "url": "http://127.0.0.1:5179/404.m3u8",
+    "status": 404
+  },
+  {
+    "at": 1793590260281,
+    "type": "console",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "at": 1793590260364,
+    "type": "request",
+    "url": "http://127.0.0.1:5179/cors.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590260375,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'http://127.0.0.1:5179/cors.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590260376,
+    "type": "failed",
+    "url": "http://127.0.0.1:5179/cors.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590260376,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590260464,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/invalid.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590260476,
+    "type": "response",
+    "url": "http://127.0.0.1:5178/invalid.m3u8",
+    "status": 200
+  },
+  {
+    "at": 1793590260716,
+    "type": "request",
+    "url": "https://player.bilibili.com/player.html",
+    "resource": "document"
+  },
+  {
+    "at": 1793590265759,
+    "type": "failed",
+    "url": "https://player.bilibili.com/player.html",
+    "error": {
+      "errorText": "net::ERR_CONNECTION_CLOSED"
+    }
+  },
+  {
+    "at": 1793590310081,
+    "type": "request",
+    "url": "https://www.youtube.com/iframe_api",
+    "resource": "script"
+  },
+  {
+    "at": 1793590310600,
+    "type": "request",
+    "url": "https://www.youtube.com/s/player/11a45ffb/www-widgetapi.vflset/www-widgetapi.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590310764,
+    "type": "request",
+    "url": "https://www.youtube.com/embed/M7lc1UVf-VE",
+    "resource": "document"
+  },
+  {
+    "at": 1793590311394,
+    "type": "request",
+    "url": "https://www.youtube.com/s/player/11a45ffb/www-player.css",
+    "resource": "stylesheet"
+  },
+  {
+    "at": 1793590311394,
+    "type": "request",
+    "url": "https://www.youtube.com/s/_/ytembeds/_/ss/k=ytembeds.base.1rocrYPuO4g.L.W.O/am=AAAAgA/d=1/br=1/rs=AGKMywEmfsL6qZKd3rOE6wavDMR3y2fTNw/m=root,base",
+    "resource": "stylesheet"
+  },
+  {
+    "at": 1793590311400,
+    "type": "request",
+    "url": "https://fonts.gstatic.com/s/roboto/v48/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBHMdazQ.woff2",
+    "resource": "font"
+  },
+  {
+    "at": 1793590311485,
+    "type": "request",
+    "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.PwbgmjGBokM.es5.O/am=AAAAgA/d=1/excm=base,root/br=1/rs=AGKMywGnnB43hYMRVejQV7FFWdhJxVd5KQ/m=root,base",
+    "resource": "script"
+  },
+  {
+    "at": 1793590311485,
+    "type": "request",
+    "url": "https://www.youtube.com/s/player/11a45ffb/player_embed.vflset/en_US/base.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590312077,
+    "type": "request",
+    "url": "https://googleads.g.doubleclick.net/pagead/id",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590312077,
+    "type": "request",
+    "url": "https://static.doubleclick.net/instream/ad_status.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590312077,
+    "type": "request",
+    "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.PwbgmjGBokM.es5.O/ck=ytembeds.base.1rocrYPuO4g.L.W.O/am=AAAAgA/d=1/exm=base,root/excm=base,root/ed=1/br=1/rs=AGKMywFzFrSBxA1Ly2tbxvhbx5hMaWCB6w/m=r78Drb",
+    "resource": "script"
+  },
+  {
+    "at": 1793590312160,
+    "type": "request",
+    "url": "https://www.youtube.com/youtubei/v1/player",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590312165,
+    "type": "request",
+    "url": "https://www.google.com/js/th/4EvjCv-Ec3CUEfuZ02Sl0XavNabsvZ4oxHb-mEz-ZgU.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590312361,
+    "type": "request",
+    "url": "https://rr5---sn-oguesndl.googlevideo.com/videoplayback",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590312361,
+    "type": "request",
+    "url": "https://www.youtube.com/s/player/11a45ffb/player_embed.vflset/en_US/captions.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590312361,
+    "type": "request",
+    "url": "https://www.youtube.com/s/player/11a45ffb/player_embed.vflset/en_US/heartbeat.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590312365,
+    "type": "request",
+    "url": "https://www.youtube.com/youtubei/v1/next",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590312432,
+    "type": "request",
+    "url": "https://www.youtube.com/api/timedtext",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590312483,
+    "type": "request",
+    "url": "https://googleads.g.doubleclick.net/pagead/id",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590312634,
+    "type": "response",
+    "url": "https://rr5---sn-oguesndl.googlevideo.com/videoplayback",
+    "status": 200
+  },
+  {
+    "at": 1793590312639,
+    "type": "request",
+    "url": "https://www.youtube.com/generate_204",
+    "resource": "image"
+  },
+  {
+    "at": 1793590312694,
+    "type": "request",
+    "url": "https://www.youtube.com/api/stats/qoe",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590312716,
+    "type": "request",
+    "url": "https://jnn-pa.googleapis.com/$rpc/google.internal.waa.v1.Waa/GenerateIT",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590312832,
+    "type": "request",
+    "url": "https://www.youtube.com/api/timedtext",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590313569,
+    "type": "request",
+    "url": "https://www.youtube.com/s/_/ytembeds/_/js/k=ytembeds.base.en_US.PwbgmjGBokM.es5.O/ck=ytembeds.base.1rocrYPuO4g.L.W.O/am=AAAAgA/d=1/exm=base,r78Drb,root/excm=base,root/ed=1/br=1/rs=AGKMywFzFrSBxA1Ly2tbxvhbx5hMaWCB6w/m=Nuilue",
+    "resource": "script"
+  },
+  {
+    "at": 1793590313570,
+    "type": "request",
+    "url": "https://i.ytimg.com/vi/M7lc1UVf-VE/sddefault.jpg",
+    "resource": "image"
+  },
+  {
+    "at": 1793590313578,
+    "type": "request",
+    "url": "https://www.youtube.com/api/stats/playback",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590313578,
+    "type": "request",
+    "url": "https://www.youtube.com/ptracking",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590313578,
+    "type": "request",
+    "url": "https://i.ytimg.com/vi/D5WkP8JZgdw/hqdefault.jpg",
+    "resource": "image"
+  },
+  {
+    "at": 1793590313578,
+    "type": "request",
+    "url": "https://yt3.ggpht.com/r99eRlOesQkJe7pOzDY4JazAlhidoVp-0syxBnYjfeHdmUXGa5zOxcozaxKF2oPHg3RkglecZQ=s250-c-k-c0x00ffffff-no-rj",
+    "resource": "image"
+  },
+  {
+    "at": 1793590313578,
+    "type": "request",
+    "url": "https://yt3.ggpht.com/r99eRlOesQkJe7pOzDY4JazAlhidoVp-0syxBnYjfeHdmUXGa5zOxcozaxKF2oPHg3RkglecZQ=s88-c-k-c0x00ffffff-no-rj",
+    "resource": "image"
+  },
+  {
+    "at": 1793590313578,
+    "type": "request",
+    "url": "https://i.ytimg.com/vi_webp/7S_tz1z_5bA/default.webp",
+    "resource": "image"
+  },
+  {
+    "at": 1793590313581,
+    "type": "request",
+    "url": "https://www.youtube.com/youtubei/v1/log_event",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590313582,
+    "type": "request",
+    "url": "https://www.gstatic.com/youtube/img/icons/mweb/youtube_fill/logo/v2/67px.svg",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590313597,
+    "type": "request",
+    "url": "https://fonts.gstatic.com/s/i/youtube_outline_experimental/player_full_enter_alt/v1/24px.svg",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590313679,
+    "type": "failed",
+    "url": "https://yt3.ggpht.com/r99eRlOesQkJe7pOzDY4JazAlhidoVp-0syxBnYjfeHdmUXGa5zOxcozaxKF2oPHg3RkglecZQ=s88-c-k-c0x00ffffff-no-rj",
+    "error": {
+      "errorText": "net::ERR_ABORTED"
+    }
+  },
+  {
+    "at": 1793590314194,
+    "type": "request",
+    "url": "https://yt3.ggpht.com/r99eRlOesQkJe7pOzDY4JazAlhidoVp-0syxBnYjfeHdmUXGa5zOxcozaxKF2oPHg3RkglecZQ=s88-c-k-c0x00ffffff-no-rj",
+    "resource": "image"
+  },
+  {
+    "at": 1793590316519,
+    "type": "request",
+    "url": "https://www.youtube.com/api/stats/atr",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590319105,
+    "type": "request",
+    "url": "https://rr5---sn-oguesndl.googlevideo.com/videoplayback",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590319235,
+    "type": "response",
+    "url": "https://rr5---sn-oguesndl.googlevideo.com/videoplayback",
+    "status": 200
+  },
+  {
+    "at": 1793590319398,
+    "type": "request",
+    "url": "https://rr5---sn-oguesndl.googlevideo.com/videoplayback",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590319494,
+    "type": "response",
+    "url": "https://rr5---sn-oguesndl.googlevideo.com/videoplayback",
+    "status": 200
+  },
+  {
+    "at": 1793590320113,
+    "type": "request",
+    "url": "https://www.youtube.com/api/stats/watchtime",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590322120,
+    "type": "request",
+    "url": "https://www.youtube.com/api/stats/qoe",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590324765,
+    "type": "request",
+    "url": "https://rr5---sn-oguesndl.googlevideo.com/videoplayback",
+    "resource": "fetch"
+  },
+  {
+    "at": 1793590324877,
+    "type": "response",
+    "url": "https://rr5---sn-oguesndl.googlevideo.com/videoplayback",
+    "status": 200
+  },
+  {
+    "at": 1793590326527,
+    "type": "request",
+    "url": "https://www.youtube.com/youtubei/v1/log_event",
+    "resource": "xhr"
+  }
+]

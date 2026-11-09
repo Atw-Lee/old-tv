@@ -1,0 +1,51 @@
+[
+  {
+    "name": "single-tv-empty-state-and-modal-keyboard",
+    "status": "PASS"
+  },
+  {
+    "name": "channel-create-edit-reorder-disable-and-duplicate",
+    "status": "PASS"
+  },
+  {
+    "name": "program-create-platform-policy-edit",
+    "status": "PASS"
+  },
+  {
+    "name": "schedule-minute-input-overlap-midnight-and-shared-program",
+    "status": "PASS"
+  },
+  {
+    "name": "timeline-native-drag-move-resize-and-conflict-rollback",
+    "status": "PASS"
+  },
+  {
+    "name": "live-update-and-refresh-persistence-preferences",
+    "status": "PASS"
+  },
+  {
+    "name": "export-backup-and-invalid-import-no-mutation",
+    "status": "PASS"
+  },
+  {
+    "name": "delete-channel-program-cascades-and-import-roundtrip",
+    "status": "PASS"
+  },
+  {
+    "name": "indexeddb-write-failure-retains-saved-data-and-retry",
+    "status": "PASS"
+  },
+  {
+    "name": "cross-tab-conflict-prevents-lost-update",
+    "status": "PASS"
+  },
+  {
+    "name": "mobile-dialog-layout-and-media-network-boundary",
+    "status": "PASS"
+  },
+  {
+    "name": "knob-native-drag-wheel-power-and-reduced-motion",
+    "status": "FAIL",
+    "error": "Error: expect(locator).toHaveAttribute(expected) failed\n\nLocator:  getByRole('slider', { name: '音量旋钮' })\nExpected: \"55\"\nReceived: \"50\"\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toHaveAttribute\" getByRole('slider', { name: '音量旋钮' }) with timeout 5000ms\n  - waiting for getByRole('slider', { name: '音量旋钮' })\n    14 × locator resolved to <div class=\"knob\" tabindex=\"0\" role=\"slider\" aria-label=\"音量旋钮\" aria-valuemin=\"0\" aria-valuenow=\"50\" aria-valuemax=\"100\" aria-valuetext=\"50%\" aria-describedby=\"knob-instructions\">…</div>\n       - unexpected value \"50\"\n\n    at captureRawStack (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toHaveAttribute (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at /Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:83:434\n    at async test (/Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:13:44)\n    at async file:///Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:82:2"
+  }
+]

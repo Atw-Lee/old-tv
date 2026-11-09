@@ -1,0 +1,163 @@
+{
+  "environment": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "source": "BV1B7411m7LV",
+  "logs": [
+    {
+      "at": "2026-11-02T05:59:29.616Z",
+      "elapsed": 216.0999999642372,
+      "event": "environment",
+      "data": {
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "timeZone": "Asia/Shanghai",
+        "date": "2026-11-02"
+      }
+    },
+    {
+      "at": "2026-11-02T05:59:29.681Z",
+      "elapsed": 280.39999997615814,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T05:59:29.738Z",
+      "elapsed": 337.30000001192093,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T05:59:29.738Z",
+      "elapsed": 337.39999997615814,
+      "event": "load",
+      "data": {
+        "kind": "bilibili",
+        "url": "BV1B7411m7LV",
+        "target": 30,
+        "muted": true,
+        "scheduled": false
+      }
+    },
+    {
+      "at": "2026-11-02T05:59:31.150Z",
+      "elapsed": 1749.5,
+      "event": "iframe-load",
+      "data": {
+        "note": "Load event does not prove playable"
+      }
+    },
+    {
+      "at": "2026-11-02T05:59:35.131Z",
+      "elapsed": 5730.699999988079,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "http://127.0.0.1:5178/@vite/client",
+      "startTime": 49.30000001192093,
+      "duration": 22.5
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/main.tsx?t=1793593194371",
+      "startTime": 49.69999998807907,
+      "duration": 23
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs",
+      "startTime": 74.5,
+      "duration": 1.899999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js?v=32f5f108",
+      "startTime": 74.5,
+      "duration": 2.599999964237213
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=32f5f108",
+      "startTime": 74.5,
+      "duration": 2.300000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/components/ui/button.tsx",
+      "startTime": 74.59999996423721,
+      "duration": 29.900000035762787
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js?v=32f5f108",
+      "startTime": 74.59999996423721,
+      "duration": 29.200000047683716
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js?v=32f5f108",
+      "startTime": 74.59999996423721,
+      "duration": 34.60000002384186
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/clock.mjs",
+      "startTime": 74.80000001192093,
+      "duration": 29.799999952316284
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/style.css?t=1793593194371",
+      "startTime": 75,
+      "duration": 29.80000001192093
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/sync.ts?t=1793593194371",
+      "startTime": 75.09999996423721,
+      "duration": 29.80000001192093
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js?v=32f5f108",
+      "startTime": 111.19999998807907,
+      "duration": 3.600000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js?v=32f5f108",
+      "startTime": 111.19999998807907,
+      "duration": 4
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js?v=32f5f108",
+      "startTime": 111.39999997615814,
+      "duration": 4.199999988079071
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js?v=32f5f108",
+      "startTime": 111.39999997615814,
+      "duration": 4.5
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js?v=32f5f108",
+      "startTime": 111.39999997615814,
+      "duration": 6.400000035762787
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js?v=32f5f108",
+      "startTime": 111.39999997615814,
+      "duration": 7.100000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js?v=32f5f108",
+      "startTime": 126.59999996423721,
+      "duration": 1.7000000476837158
+    },
+    {
+      "name": "http://127.0.0.1:5178/favicon.ico",
+      "startTime": 259,
+      "duration": 2.599999964237213
+    },
+    {
+      "name": "https://player.bilibili.com/player.html?bvid=BV1B7411m7LV&t=30&autoplay=1&muted=1&danmaku=0",
+      "startTime": 339.89999997615814,
+      "duration": 229.69999998807907
+    }
+  ]
+}

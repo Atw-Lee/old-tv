@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-04T01:12:24.624Z",
+  "browser": "chrome",
+  "version": "156.0.8078.79",
+  "sources": [
+    "YouTube official API example M7lc1UVf-VE",
+    "Bilibili official embed example BV1B7411m7LV"
+  ],
+  "observation": "Cross-origin video DOM read only by browser test tooling; product uses official API / iframe parameters only"
+}

@@ -1,0 +1,707 @@
+{
+  "environment": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "source": "BV1B7411m7LV",
+  "logs": [
+    {
+      "at": "2026-11-02T03:25:57.267Z",
+      "elapsed": 273.30000001192093,
+      "event": "environment",
+      "data": {
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "timeZone": "Asia/Shanghai",
+        "date": "2026-11-02"
+      }
+    },
+    {
+      "at": "2026-11-02T03:25:58.835Z",
+      "elapsed": 1841.199999988079,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:25:58.835Z",
+      "elapsed": 1841.199999988079,
+      "event": "load",
+      "data": {
+        "kind": "hls",
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+        "target": 0,
+        "muted": true,
+        "scheduled": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:25:58.842Z",
+      "elapsed": 1848.199999988079,
+      "event": "engine",
+      "data": {
+        "engine": "hls.js",
+        "version": "1.7.4"
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:00.804Z",
+      "elapsed": 3810,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "levelLoadError",
+        "fatal": false,
+        "code": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:01.717Z",
+      "elapsed": 4723.100000023842,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "levelLoadError",
+        "fatal": false,
+        "code": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:02.592Z",
+      "elapsed": 5598.300000011921,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "levelLoadError",
+        "fatal": false,
+        "code": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:03.509Z",
+      "elapsed": 6514.400000035763,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence0.ts",
+        "start": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:03.509Z",
+      "elapsed": 6514.400000035763,
+      "event": "manifest",
+      "data": {
+        "live": false,
+        "duration": 1800.000590000002
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:04.690Z",
+      "elapsed": 7695.300000011921,
+      "event": "loadedmetadata",
+      "data": {
+        "time": 0,
+        "duration": 1800.000590000002,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:04.690Z",
+      "elapsed": 7695.400000035763,
+      "event": "seek-request",
+      "data": {
+        "target": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:04.692Z",
+      "elapsed": 7697.699999988079,
+      "event": "seeking",
+      "data": {
+        "time": 0,
+        "duration": 1800.000590000002,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:04.692Z",
+      "elapsed": 7698.100000023842,
+      "event": "waiting",
+      "data": {
+        "time": 0,
+        "duration": 1800.000590000002,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:04.695Z",
+      "elapsed": 7701,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+        "start": 10.031023129251693
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:04.980Z",
+      "elapsed": 7986.199999988079,
+      "event": "hls-error",
+      "data": {
+        "type": "mediaError",
+        "details": "bufferSeekOverHole",
+        "fatal": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:04.981Z",
+      "elapsed": 7986.300000011921,
+      "event": "seeking",
+      "data": {
+        "time": 0.195778,
+        "duration": 1800.000590000002,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:05.299Z",
+      "elapsed": 8304.800000011921,
+      "event": "seeked",
+      "data": {
+        "time": 0.196119,
+        "duration": 1800.000590000002,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:05.300Z",
+      "elapsed": 8306.100000023842,
+      "event": "canplay",
+      "data": {
+        "time": 0.197368,
+        "duration": 1800.000590000002,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:05.300Z",
+      "elapsed": 8306.100000023842,
+      "event": "playing",
+      "data": {
+        "time": 0.19739,
+        "duration": 1800.000590000002,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:05.608Z",
+      "elapsed": 8613.699999988079,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "fragLoadError",
+        "fatal": false,
+        "code": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.575Z",
+      "elapsed": 9581.100000023842,
+      "event": "seek-request",
+      "data": {
+        "target": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.584Z",
+      "elapsed": 9589.900000035763,
+      "event": "seeking",
+      "data": {
+        "time": 0,
+        "duration": 1800.000590000002,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.584Z",
+      "elapsed": 9590.199999988079,
+      "event": "waiting",
+      "data": {
+        "time": 0,
+        "duration": 1800.000590000002,
+        "readyState": 1,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.586Z",
+      "elapsed": 9591.600000023842,
+      "event": "seeked",
+      "data": {
+        "time": 0.005438,
+        "duration": 1800.000590000002,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.587Z",
+      "elapsed": 9592.900000035763,
+      "event": "canplay",
+      "data": {
+        "time": 0.006777,
+        "duration": 1800.000590000002,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.587Z",
+      "elapsed": 9593,
+      "event": "playing",
+      "data": {
+        "time": 0.006811,
+        "duration": 1800.000590000002,
+        "readyState": 4,
+        "volume": 0.5,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.616Z",
+      "elapsed": 9622.100000023842,
+      "event": "volumechange",
+      "data": {
+        "time": 0.019788,
+        "duration": 1800.000590000002,
+        "readyState": 4,
+        "volume": 0.2,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.630Z",
+      "elapsed": 9635.800000011921,
+      "event": "fragment-request",
+      "data": {
+        "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+        "start": 10.031023129251693
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.647Z",
+      "elapsed": 9653.100000023842,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "fragLoadError",
+        "fatal": false,
+        "code": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:06.667Z",
+      "elapsed": 9672.800000011921,
+      "event": "volumechange",
+      "data": {
+        "time": 0.042248,
+        "duration": 1800.000590000002,
+        "readyState": 4,
+        "volume": 0.2,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:07.223Z",
+      "elapsed": 10229.300000011921,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:26:38.470Z",
+      "elapsed": 41475.80000001192,
+      "event": "clock-set",
+      "data": {
+        "beijing": "2026-11-02T09:59:59"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:06.284Z",
+      "elapsed": 69289.19999998808,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:06.334Z",
+      "elapsed": 69339.60000002384,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:06.334Z",
+      "elapsed": 69339.60000002384,
+      "event": "load",
+      "data": {
+        "kind": "hls",
+        "url": "http://127.0.0.1:5179/404.m3u8",
+        "target": 0,
+        "muted": true,
+        "scheduled": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:06.340Z",
+      "elapsed": 69345.19999998808,
+      "event": "engine",
+      "data": {
+        "engine": "hls.js",
+        "version": "1.7.4"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:07.360Z",
+      "elapsed": 70365.40000003576,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "manifestLoadError",
+        "fatal": true,
+        "code": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:07.403Z",
+      "elapsed": 70408.40000003576,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:07.451Z",
+      "elapsed": 70456.10000002384,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:07.451Z",
+      "elapsed": 70456.10000002384,
+      "event": "load",
+      "data": {
+        "kind": "hls",
+        "url": "http://127.0.0.1:5179/cors.m3u8",
+        "target": 0,
+        "muted": true,
+        "scheduled": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:07.451Z",
+      "elapsed": 70456.90000003576,
+      "event": "engine",
+      "data": {
+        "engine": "hls.js",
+        "version": "1.7.4"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:08.473Z",
+      "elapsed": 71478.19999998808,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "manifestLoadError",
+        "fatal": true,
+        "code": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:08.518Z",
+      "elapsed": 71523.10000002384,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:08.551Z",
+      "elapsed": 71556.19999998808,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:08.551Z",
+      "elapsed": 71556.19999998808,
+      "event": "load",
+      "data": {
+        "kind": "hls",
+        "url": "http://127.0.0.1:5178/invalid.m3u8",
+        "target": 0,
+        "muted": true,
+        "scheduled": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:08.551Z",
+      "elapsed": 71556.80000001192,
+      "event": "engine",
+      "data": {
+        "engine": "hls.js",
+        "version": "1.7.4"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:09.575Z",
+      "elapsed": 72580.69999998808,
+      "event": "hls-error",
+      "data": {
+        "type": "networkError",
+        "details": "manifestLoadError",
+        "fatal": true,
+        "code": 0
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:09.619Z",
+      "elapsed": 72624.10000002384,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:09.743Z",
+      "elapsed": 72748.80000001192,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:09.785Z",
+      "elapsed": 72790.19999998808,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:09.785Z",
+      "elapsed": 72790.30000001192,
+      "event": "load",
+      "data": {
+        "kind": "bilibili",
+        "url": "BV1B7411m7LV",
+        "target": 30,
+        "muted": true,
+        "scheduled": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:27:09.871Z",
+      "elapsed": 72876.80000001192,
+      "event": "iframe-load",
+      "data": {
+        "note": "Load event does not prove playable"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "http://127.0.0.1:5178/@vite/client",
+      "startTime": 26.19999998807907,
+      "duration": 23.5
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/main.tsx?t=1793589908506",
+      "startTime": 26.30000001192093,
+      "duration": 24.69999998807907
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs",
+      "startTime": 52,
+      "duration": 2.300000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js?v=32f5f108",
+      "startTime": 52.10000002384186,
+      "duration": 4.800000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=32f5f108",
+      "startTime": 52.10000002384186,
+      "duration": 2.699999988079071
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js?v=32f5f108",
+      "startTime": 52.10000002384186,
+      "duration": 34.19999998807907
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js?v=32f5f108",
+      "startTime": 52.10000002384186,
+      "duration": 37.89999997615814
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/components/ui/button.tsx",
+      "startTime": 52.19999998807907,
+      "duration": 35.200000047683716
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/clock.mjs",
+      "startTime": 52.19999998807907,
+      "duration": 35.40000003576279
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/style.css?t=1793589908506",
+      "startTime": 52.19999998807907,
+      "duration": 35.60000002384186
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js?v=32f5f108",
+      "startTime": 72.80000001192093,
+      "duration": 19.399999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js?v=32f5f108",
+      "startTime": 72.90000003576279,
+      "duration": 19.599999964237213
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js?v=32f5f108",
+      "startTime": 88.19999998807907,
+      "duration": 7.600000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js?v=32f5f108",
+      "startTime": 88.30000001192093,
+      "duration": 7.600000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js?v=32f5f108",
+      "startTime": 88.30000001192093,
+      "duration": 7.399999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js?v=32f5f108",
+      "startTime": 88.30000001192093,
+      "duration": 8.300000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js?v=32f5f108",
+      "startTime": 108.69999998807907,
+      "duration": 3.800000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/favicon.ico",
+      "startTime": 283,
+      "duration": 1.699999988079071
+    },
+    {
+      "name": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+      "startTime": 1850.5,
+      "duration": 1079.5
+    },
+    {
+      "name": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+      "startTime": 2937,
+      "duration": 868.4000000357628
+    },
+    {
+      "name": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8",
+      "startTime": 3809.900000035763,
+      "duration": 910.8999999761581
+    },
+    {
+      "name": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8",
+      "startTime": 4723.100000023842,
+      "duration": 874.1999999880791
+    },
+    {
+      "name": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+      "startTime": 5598.199999988079,
+      "duration": 911.1000000238419
+    },
+    {
+      "name": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence0.ts",
+      "startTime": 6514.199999988079,
+      "duration": 1154.5
+    },
+    {
+      "name": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+      "startTime": 7701,
+      "duration": 911.8000000119209
+    },
+    {
+      "name": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+      "startTime": 9635.600000023842,
+      "duration": 17.099999964237213
+    },
+    {
+      "name": "http://127.0.0.1:5178/favicon.ico",
+      "startTime": 9678.5,
+      "duration": 16.100000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5179/404.m3u8",
+      "startTime": 69347,
+      "duration": 10
+    },
+    {
+      "name": "http://127.0.0.1:5179/404.m3u8",
+      "startTime": 70361.10000002384,
+      "duration": 3.899999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5179/cors.m3u8",
+      "startTime": 70457.30000001192,
+      "duration": 3.899999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5179/cors.m3u8",
+      "startTime": 71471.69999998808,
+      "duration": 6.200000047683716
+    },
+    {
+      "name": "http://127.0.0.1:5178/invalid.m3u8",
+      "startTime": 71557.10000002384,
+      "duration": 1.0999999642372131
+    },
+    {
+      "name": "http://127.0.0.1:5178/invalid.m3u8",
+      "startTime": 72571.80000001192,
+      "duration": 8.300000011920929
+    },
+    {
+      "name": "https://player.bilibili.com/player.html?bvid=BV1B7411m7LV&t=30&autoplay=1&muted=1&danmaku=0",
+      "startTime": 72792.30000001192,
+      "duration": 84.39999997615814
+    }
+  ]
+}

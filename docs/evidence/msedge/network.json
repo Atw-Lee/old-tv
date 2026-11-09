@@ -1,0 +1,435 @@
+[
+  {
+    "at": 1793590067135,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/",
+    "resource": "document"
+  },
+  {
+    "at": 1793590067167,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/@vite/client",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067167,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/src/main.tsx",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067229,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067229,
+    "type": "response",
+    "url": "http://127.0.0.1:5178/src/main.tsx",
+    "status": 200
+  },
+  {
+    "at": 1793590067229,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067229,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067230,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067230,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067230,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/src/components/ui/button.tsx",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067230,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/src/clock.mjs",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067230,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/src/style.css",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067238,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067238,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067258,
+    "type": "response",
+    "url": "http://127.0.0.1:5178/src/components/ui/button.tsx",
+    "status": 200
+  },
+  {
+    "at": 1793590067260,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067260,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067263,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067263,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067265,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js",
+    "resource": "script"
+  },
+  {
+    "at": 1793590067424,
+    "type": "console",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "at": 1793590068966,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590069044,
+    "type": "response",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/bipbop_4x3_variant.m3u8",
+    "status": 200
+  },
+  {
+    "at": 1793590069051,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590069057,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590069060,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590069060,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590069060,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590069069,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590069069,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590069070,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear4/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590069070,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590069085,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590069085,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590069085,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear3/prog_index.m3u8",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590069085,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590069097,
+    "type": "response",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/prog_index.m3u8",
+    "status": 200
+  },
+  {
+    "at": 1793590069098,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence0.ts",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590069118,
+    "type": "response",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence0.ts",
+    "status": 200
+  },
+  {
+    "at": 1793590069489,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590069532,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590069533,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590069534,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590070536,
+    "type": "request",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590070550,
+    "type": "console",
+    "text": "Access to XMLHttpRequest at 'https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts' from origin 'http://127.0.0.1:5178' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+  },
+  {
+    "at": 1793590070550,
+    "type": "failed",
+    "url": "https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear2/fileSequence1.ts",
+    "error": {
+      "errorText": "net::ERR_FAILED"
+    }
+  },
+  {
+    "at": 1793590070550,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_FAILED"
+  },
+  {
+    "at": 1793590071281,
+    "type": "console",
+    "text": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+  },
+  {
+    "at": 1793590128504,
+    "type": "request",
+    "url": "http://127.0.0.1:5181/404.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590128511,
+    "type": "failed",
+    "url": "http://127.0.0.1:5181/404.m3u8",
+    "error": {
+      "errorText": "net::ERR_INTERNET_DISCONNECTED"
+    }
+  },
+  {
+    "at": 1793590128511,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  },
+  {
+    "at": 1793590129513,
+    "type": "request",
+    "url": "http://127.0.0.1:5181/404.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590129519,
+    "type": "failed",
+    "url": "http://127.0.0.1:5181/404.m3u8",
+    "error": {
+      "errorText": "net::ERR_INTERNET_DISCONNECTED"
+    }
+  },
+  {
+    "at": 1793590129519,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  },
+  {
+    "at": 1793590129577,
+    "type": "request",
+    "url": "http://127.0.0.1:5181/cors.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590129583,
+    "type": "failed",
+    "url": "http://127.0.0.1:5181/cors.m3u8",
+    "error": {
+      "errorText": "net::ERR_INTERNET_DISCONNECTED"
+    }
+  },
+  {
+    "at": 1793590129583,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  },
+  {
+    "at": 1793590130584,
+    "type": "request",
+    "url": "http://127.0.0.1:5181/cors.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590130592,
+    "type": "failed",
+    "url": "http://127.0.0.1:5181/cors.m3u8",
+    "error": {
+      "errorText": "net::ERR_INTERNET_DISCONNECTED"
+    }
+  },
+  {
+    "at": 1793590130592,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  },
+  {
+    "at": 1793590130651,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/invalid.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590130657,
+    "type": "failed",
+    "url": "http://127.0.0.1:5178/invalid.m3u8",
+    "error": {
+      "errorText": "net::ERR_INTERNET_DISCONNECTED"
+    }
+  },
+  {
+    "at": 1793590130657,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  },
+  {
+    "at": 1793590131658,
+    "type": "request",
+    "url": "http://127.0.0.1:5178/invalid.m3u8",
+    "resource": "xhr"
+  },
+  {
+    "at": 1793590131667,
+    "type": "failed",
+    "url": "http://127.0.0.1:5178/invalid.m3u8",
+    "error": {
+      "errorText": "net::ERR_INTERNET_DISCONNECTED"
+    }
+  },
+  {
+    "at": 1793590131667,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  },
+  {
+    "at": 1793590131914,
+    "type": "request",
+    "url": "https://player.bilibili.com/player.html",
+    "resource": "document"
+  },
+  {
+    "at": 1793590136937,
+    "type": "failed",
+    "url": "https://player.bilibili.com/player.html",
+    "error": {
+      "errorText": "net::ERR_CONNECTION_CLOSED"
+    }
+  },
+  {
+    "at": 1793590181343,
+    "type": "request",
+    "url": "https://www.youtube.com/iframe_api",
+    "resource": "script"
+  },
+  {
+    "at": 1793590181344,
+    "type": "failed",
+    "url": "https://www.youtube.com/iframe_api",
+    "error": {
+      "errorText": "net::ERR_INTERNET_DISCONNECTED"
+    }
+  },
+  {
+    "at": 1793590181344,
+    "type": "console",
+    "text": "Failed to load resource: net::ERR_INTERNET_DISCONNECTED"
+  }
+]

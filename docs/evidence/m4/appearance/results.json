@@ -1,0 +1,122 @@
+[
+  {
+    "name": "fixed-screen-no-scroll-1440x1000",
+    "status": "PASS",
+    "data": {
+      "screenWidth": "640px",
+      "screenHeight": "480px",
+      "layout": "side",
+      "scale": "1",
+      "width": 1440,
+      "height": 1000,
+      "rect": {
+        "x": 245,
+        "y": 173,
+        "width": 950,
+        "height": 654,
+        "top": 173,
+        "right": 1195,
+        "bottom": 827,
+        "left": 245
+      }
+    }
+  },
+  {
+    "name": "fixed-screen-no-scroll-1280x900",
+    "status": "PASS",
+    "data": {
+      "screenWidth": "640px",
+      "screenHeight": "480px",
+      "layout": "side",
+      "scale": "1",
+      "width": 1280,
+      "height": 900,
+      "rect": {
+        "x": 165,
+        "y": 123,
+        "width": 950,
+        "height": 654,
+        "top": 123,
+        "right": 1115,
+        "bottom": 777,
+        "left": 165
+      }
+    }
+  },
+  {
+    "name": "fixed-screen-no-scroll-980x1100",
+    "status": "PASS",
+    "data": {
+      "screenWidth": "640px",
+      "screenHeight": "480px",
+      "layout": "stacked",
+      "scale": "1",
+      "width": 980,
+      "height": 1100,
+      "rect": {
+        "x": 107,
+        "y": 144.5,
+        "width": 766,
+        "height": 811,
+        "top": 144.5,
+        "right": 873,
+        "bottom": 955.5,
+        "left": 107
+      }
+    }
+  },
+  {
+    "name": "fixed-screen-no-scroll-390x844",
+    "status": "PASS",
+    "data": {
+      "screenWidth": "640px",
+      "screenHeight": "480px",
+      "layout": "stacked",
+      "scale": "0.406905055487053",
+      "width": 390,
+      "height": 844,
+      "rect": {
+        "x": 39.155364990234375,
+        "y": 258.62762451171875,
+        "width": 311.68927001953125,
+        "height": 326.7447509765625,
+        "top": 258.62762451171875,
+        "right": 350.8446350097656,
+        "bottom": 585.3723754882812,
+        "left": 39.155364990234375
+      }
+    }
+  },
+  {
+    "name": "fixed-screen-no-scroll-800x500",
+    "status": "PASS",
+    "data": {
+      "screenWidth": "640px",
+      "screenHeight": "480px",
+      "layout": "stacked",
+      "scale": "0.514018691588785",
+      "width": 800,
+      "height": 500,
+      "rect": {
+        "x": 203.13082885742188,
+        "y": 41.56541442871094,
+        "width": 393.7383117675781,
+        "height": 416.869140625,
+        "top": 41.56541442871094,
+        "right": 596.869140625,
+        "bottom": 458.43455505371094,
+        "left": 203.13082885742188
+      }
+    }
+  },
+  {
+    "name": "fixed-dialog-radix-focus",
+    "status": "PASS",
+    "data": {
+      "x": 110,
+      "y": 60,
+      "width": 1060,
+      "height": 780
+    }
+  }
+]

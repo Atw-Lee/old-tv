@@ -1,0 +1,58 @@
+[
+  {
+    "label": "t30",
+    "at": 1793599169753,
+    "frame": false
+  },
+  {
+    "label": "t30",
+    "at": 1793599170754,
+    "frame": true,
+    "text": "",
+    "video": {
+      "time": 0,
+      "duration": null,
+      "paused": true,
+      "ended": false,
+      "readyState": 0,
+      "width": 0,
+      "volume": 1,
+      "muted": true,
+      "frames": 0
+    }
+  },
+  {
+    "label": "t30",
+    "at": 1793599172154,
+    "frame": true,
+    "text": "",
+    "video": {
+      "time": 30.156708,
+      "duration": 590,
+      "paused": false,
+      "ended": false,
+      "readyState": 4,
+      "width": 640,
+      "volume": 1,
+      "muted": true,
+      "frames": 158
+    }
+  },
+  {
+    "label": "progress",
+    "at": 1793599174093,
+    "frame": true,
+    "text": "四月番毒奶安利！四月看这八部动画就够了！！\n瓶子君152\n关注\n00:32 / 09:50\n自动\n倍速\n进入哔哩哔哩，观看更高清",
+    "video": {
+      "time": 32.092761,
+      "duration": 590,
+      "paused": false,
+      "ended": false,
+      "readyState": 4,
+      "width": 640,
+      "volume": 1,
+      "muted": true,
+      "frames": 216
+    }
+  }
+]

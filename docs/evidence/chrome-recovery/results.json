@@ -1,0 +1,46 @@
+[
+  {
+    "name": "scheduled-load-300",
+    "execution": "BLOCKED",
+    "error": "page.waitForFunction: Timeout 25000ms exceeded."
+  },
+  {
+    "name": "real-background-recovery",
+    "execution": "COMPLETED",
+    "data": {
+      "hidden": "visible",
+      "before": {
+        "time": 0,
+        "duration": null,
+        "paused": true,
+        "readyState": 0,
+        "width": 0,
+        "frames": 0
+      },
+      "after": {
+        "time": 0,
+        "duration": null,
+        "paused": true,
+        "readyState": 0,
+        "width": 0,
+        "frames": 0
+      },
+      "log": "2026-11-02T03:36:03.103Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:36:03.282Z clock-set {\"beijing\":\"2026-11-02T09:05\"}\n2026-11-02T03:36:03.309Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:36:03.309Z load {\"kind\":\"hls\",\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8\",\"target\":300.0271999511715,\"muted\":true,\"scheduled\":true}\n2026-11-02T03:36:03.313Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T03:36:04.414Z hls-error {\"type\":\"networkError\",\"details\":\"manifestLoadError\",\"fatal\":true,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}"
+    }
+  },
+  {
+    "name": "boundary",
+    "execution": "COMPLETED",
+    "data": "2026-11-02T03:36:03.103Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:36:03.282Z clock-set {\"beijing\":\"2026-11-02T09:05\"}\n2026-11-02T03:36:03.309Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:36:03.309Z load {\"kind\":\"hls\",\"url\":\"https://devstreaming-cdn.apple.com/videos/streaming/examples/bipbop_4x3/gear1/prog_index.m3u8\",\"target\":300.0271999511715,\"muted\":true,\"scheduled\":true}\n2026-11-02T03:36:03.313Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T03:36:04.414Z hls-error {\"type\":\"networkError\",\"details\":\"manifestLoadError\",\"fatal\":true,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T03:36:35.303Z clock-set {\"beijing\":\"2026-11-02T09:59:59\"}\n2026-11-02T03:36:36.325Z boundary {\"clock\":\"2026-11-02T02:00:00.022Z\",\"latenessMs\":22.599853517021984}\n2026-11-02T03:36:36.329Z destroy {\"state\":\"NO_SIGNAL\"}"
+  },
+  {
+    "name": "reopen-1200",
+    "execution": "BLOCKED",
+    "error": "page.waitForFunction: Timeout 25000ms exceeded."
+  },
+  {
+    "name": "early-ended",
+    "execution": "BLOCKED",
+    "error": "page.waitForFunction: Timeout 25000ms exceeded."
+  }
+]

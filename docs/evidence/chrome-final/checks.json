@@ -1,0 +1,78 @@
+[
+  {
+    "name": "hls-load",
+    "execution": "BLOCKED",
+    "at": 1793590259978,
+    "error": "page.waitForFunction: Timeout 25000ms exceeded."
+  },
+  {
+    "name": "error-404",
+    "execution": "COMPLETED",
+    "at": 1793590260217,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0"
+    }
+  },
+  {
+    "name": "error-cors",
+    "execution": "COMPLETED",
+    "at": 1793590260331,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0"
+    }
+  },
+  {
+    "name": "error-invalid",
+    "execution": "COMPLETED",
+    "at": 1793590260431,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0"
+    }
+  },
+  {
+    "name": "bilibili-load",
+    "execution": "COMPLETED",
+    "at": 1793590260662,
+    "data": {
+      "status": "状态：IFRAME_LOADED_UNVERIFIED · 位置：0.000s · 时长：?s · paused：true · videoWidth：0",
+      "frames": [
+        "http://127.0.0.1:5178/",
+        "null/"
+      ],
+      "note": "Execution only; final PASS requires actual media observations"
+    }
+  },
+  {
+    "name": "bilibili-removed",
+    "execution": "COMPLETED",
+    "data": {
+      "cutoff": 1793590279001,
+      "end": 1793590310004,
+      "iframes": 0,
+      "requests": []
+    }
+  },
+  {
+    "name": "youtube-load",
+    "execution": "COMPLETED",
+    "at": 1793590310042,
+    "data": {
+      "status": "状态：PLAYING · 位置：44.550s · 时长：1344.000s · paused：false · videoWidth：0",
+      "frames": [
+        "http://127.0.0.1:5178/",
+        "https://www.youtube.com/embed/M7lc1UVf-VE"
+      ],
+      "note": "Execution only; final PASS requires actual media observations"
+    }
+  },
+  {
+    "name": "youtube-removed",
+    "execution": "COMPLETED",
+    "data": {
+      "cutoff": 1793590328595,
+      "end": 1793590359599,
+      "iframes": 0,
+      "requests": []
+    }
+  }
+]

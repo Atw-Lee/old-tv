@@ -1,0 +1,7 @@
+[
+  {
+    "name": "single-tv-empty-state-and-modal-keyboard",
+    "status": "FAIL",
+    "error": "Error: expect(locator).toBeFocused() failed\n\nLocator:  getByRole('button', { name: '打开频道设置' })\nExpected: focused\nReceived: inactive\nTimeout:  5000ms\n\nCall log:\n  - Expect \"toBeFocused\" getByRole('button', { name: '打开频道设置' }) with timeout 5000ms\n  - waiting for getByRole('button', { name: '打开频道设置' })\n    14 × locator resolved to <button aria-label=\"打开频道设置\" class=\"cabinet-settings\">调校 · SET</button>\n       - unexpected value \"inactive\"\n\n    at captureRawStack (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toBeFocused (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at /Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:24:496\n    at async test (/Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:12:44)\n    at async file:///Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:23:2"
+  }
+]

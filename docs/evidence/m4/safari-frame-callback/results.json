@@ -1,0 +1,11 @@
+[
+  {
+    "name": "native-hls-start-and-sync",
+    "status": "FAIL",
+    "error": "Timed out waiting for media",
+    "state": {
+      "video": null,
+      "text": null
+    }
+  }
+]

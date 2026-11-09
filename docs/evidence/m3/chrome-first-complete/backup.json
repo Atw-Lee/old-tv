@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "channels": [
+    {
+      "id": "4494cac8-9aa7-451a-b48b-6d7d5af1c1f2",
+      "name": "纪录片",
+      "number": 2,
+      "sortOrder": 0,
+      "enabled": true
+    },
+    {
+      "id": "a62578cc-b928-460c-b93d-5d1a39572c9d",
+      "name": "经典动画",
+      "number": 1,
+      "sortOrder": 1,
+      "enabled": true
+    }
+  ],
+  "programs": [
+    {
+      "id": "802e457e-84ca-414b-b711-2172a6d8e818",
+      "title": "每日电影",
+      "sourceType": "hls-vod",
+      "sourceUrl": "https://example.com/authorized-vod.m3u8"
+    },
+    {
+      "id": "9917e027-d526-4837-9ecb-b2c90b37043a",
+      "title": "B站受限",
+      "sourceType": "bilibili",
+      "sourceUrl": "https://www.bilibili.com/video/BV1B7411m7LV",
+      "sourceId": "BV1B7411m7LV"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "5b68b675-f219-4823-b16a-5b149f89e8e7",
+      "channelId": "a62578cc-b928-460c-b93d-5d1a39572c9d",
+      "programId": "802e457e-84ca-414b-b711-2172a6d8e818",
+      "startMinute": 570,
+      "endMinute": 660
+    },
+    {
+      "id": "3b5cdaf6-6cd5-4d0f-9c54-64cdad9c023c",
+      "channelId": "a62578cc-b928-460c-b93d-5d1a39572c9d",
+      "programId": "802e457e-84ca-414b-b711-2172a6d8e818",
+      "startMinute": 1381,
+      "endMinute": 1440
+    },
+    {
+      "id": "5b70f634-0a1c-4051-901f-27eef0b91a03",
+      "channelId": "4494cac8-9aa7-451a-b48b-6d7d5af1c1f2",
+      "programId": "802e457e-84ca-414b-b711-2172a6d8e818",
+      "startMinute": 0,
+      "endMinute": 1440
+    }
+  ],
+  "settings": {
+    "schemaVersion": 1,
+    "skinId": "china-crt-80s",
+    "volume": 1,
+    "lastChannelId": "4494cac8-9aa7-451a-b48b-6d7d5af1c1f2"
+  }
+}

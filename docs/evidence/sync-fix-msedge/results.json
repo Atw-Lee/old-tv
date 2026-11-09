@@ -1,0 +1,208 @@
+[
+  {
+    "name": "normal-start",
+    "status": "PASS",
+    "start": 1793592982330,
+    "end": 1793592989354,
+    "data": {
+      "samples": [
+        {
+          "at": "2026-11-02T04:16:26.895Z",
+          "elapsed": 6313.099999964237,
+          "event": "sync-sample",
+          "data": {
+            "expected": 304.53099999999904,
+            "actual": 304.448668,
+            "drift": 0.08233199999904173,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        },
+        {
+          "at": "2026-11-02T04:16:27.895Z",
+          "elapsed": 7313.099999964237,
+          "event": "sync-sample",
+          "data": {
+            "expected": 305.53110009765805,
+            "actual": 305.44889,
+            "drift": 0.08221009765804865,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        },
+        {
+          "at": "2026-11-02T04:16:28.895Z",
+          "elapsed": 8313.199999988079,
+          "event": "sync-sample",
+          "data": {
+            "expected": 306.53110009765805,
+            "actual": 306.45029,
+            "drift": 0.08081009765805902,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        }
+      ],
+      "media": {
+        "time": 306.901723,
+        "paused": false,
+        "frames": 354
+      }
+    }
+  },
+  {
+    "name": "slow-network-reopen",
+    "status": "PASS",
+    "start": 1793592989357,
+    "end": 1793593007737,
+    "data": {
+      "samples": [
+        {
+          "at": "2026-11-02T04:16:45.265Z",
+          "elapsed": 24683.299999952316,
+          "event": "sync-sample",
+          "data": {
+            "expected": 495.76889990234486,
+            "actual": 495.665293,
+            "drift": 0.10360690234483627,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        },
+        {
+          "at": "2026-11-02T04:16:46.514Z",
+          "elapsed": 25932,
+          "event": "sync-sample",
+          "data": {
+            "expected": 497.01739990234637,
+            "actual": 496.915913,
+            "drift": 0.10148690234638025,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        },
+        {
+          "at": "2026-11-02T04:16:47.514Z",
+          "elapsed": 26932.599999964237,
+          "event": "sync-sample",
+          "data": {
+            "expected": 498.0180998535143,
+            "actual": 497.917033,
+            "drift": 0.10106685351428268,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        }
+      ],
+      "media": {
+        "time": 498.129894,
+        "paused": false,
+        "frames": 278
+      },
+      "network": {
+        "latencyMs": 700,
+        "downloadBytesPerSecond": 250000,
+        "cacheDisabled": true
+      }
+    }
+  },
+  {
+    "name": "online-recovery",
+    "status": "PASS",
+    "start": 1793593007744,
+    "end": 1793593013756,
+    "data": {
+      "samples": [
+        {
+          "at": "2026-11-02T04:16:51.263Z",
+          "elapsed": 30681.69999998808,
+          "event": "sync-sample",
+          "data": {
+            "expected": 423.49289990234684,
+            "actual": 423.055144,
+            "drift": 0.4377559023468507,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        },
+        {
+          "at": "2026-11-02T04:16:52.265Z",
+          "elapsed": 31682.799999952316,
+          "event": "sync-sample",
+          "data": {
+            "expected": 424.4939999999988,
+            "actual": 424.052297,
+            "drift": 0.4417029999987676,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        },
+        {
+          "at": "2026-11-02T04:16:53.265Z",
+          "elapsed": 32683.299999952316,
+          "event": "sync-sample",
+          "data": {
+            "expected": 425.4945998535186,
+            "actual": 425.051677,
+            "drift": 0.4429228535186098,
+            "paused": false,
+            "readyState": 4,
+            "seeking": false
+          }
+        }
+      ],
+      "media": {
+        "time": 425.546654,
+        "paused": false,
+        "frames": 404
+      }
+    }
+  },
+  {
+    "name": "boundary",
+    "status": "PASS",
+    "start": 1793593013757,
+    "end": 1793593014023,
+    "data": {
+      "log": "2026-11-02T04:16:23.105Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts\",\"start\":0}\n2026-11-02T04:16:23.105Z manifest {\"live\":false,\"duration\":634.584}\n2026-11-02T04:16:24.308Z loadedmetadata {\"time\":0,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:24.308Z seek-request {\"target\":301.94480004882644}\n2026-11-02T04:16:24.311Z seeking {\"time\":301.9448,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:24.311Z waiting {\"time\":301.9448,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:24.316Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_492/193039199_mp4_h264_aac_hd_7.ts\",\"start\":299.95780045351466}\n2026-11-02T04:16:25.652Z seeked {\"time\":301.945877,\"duration\":634.584,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.654Z sync-sample {\"expected\":303.29049999999916,\"actual\":301.947459,\"drift\":1.3430409999991753,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:25.654Z sync-correction {\"expected\":303.29049999999916,\"actual\":301.947459,\"drift\":1.3430409999991753,\"attempt\":1}\n2026-11-02T04:16:25.655Z canplay {\"time\":303.290499,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.655Z playing {\"time\":303.290499,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.659Z seeking {\"time\":303.290499,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.659Z waiting {\"time\":303.290499,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.693Z seeked {\"time\":303.291019,\"duration\":634.584,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.694Z sync-settled {\"expected\":303.3307001953108,\"actual\":303.292672,\"drift\":0.03802819531080104}\n2026-11-02T04:16:25.696Z canplay {\"time\":303.294199,\"duration\":634.584,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.696Z playing {\"time\":303.294389,\"duration\":634.584,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.743Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_8/url_621/193039199_mp4_h264_aac_fhd_7.ts\",\"start\":310}\n2026-11-02T04:16:25.743Z manifest {\"live\":false,\"duration\":634.567}\n2026-11-02T04:16:26.895Z sync-sample {\"expected\":304.53099999999904,\"actual\":304.448668,\"drift\":0.08233199999904173,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:27.895Z sync-sample {\"expected\":305.53110009765805,\"actual\":305.44889,\"drift\":0.08221009765804865,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:28.895Z sync-sample {\"expected\":306.53110009765805,\"actual\":306.45029,\"drift\":0.08081009765805902,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:29.434Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_8/url_622/193039199_mp4_h264_aac_fhd_7.ts\",\"start\":320.00429863946016}\n2026-11-02T04:16:29.461Z destroy {\"state\":\"OFF\"}\n2026-11-02T04:16:29.496Z clock-set {\"beijing\":\"2026-11-02T09:08\"}\n2026-11-02T04:16:29.512Z destroy {\"state\":\"OFF\"}\n2026-11-02T04:16:29.513Z load {\"kind\":\"hls\",\"url\":\"https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8\",\"target\":480.0166999511712,\"muted\":true,\"scheduled\":true}\n2026-11-02T04:16:29.513Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T04:16:31.932Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts\",\"start\":0}\n2026-11-02T04:16:31.932Z manifest {\"live\":false,\"duration\":634.584}\n2026-11-02T04:16:40.331Z loadedmetadata {\"time\":0,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:40.332Z seek-request {\"target\":490.83550000000105}\n2026-11-02T04:16:40.333Z seeking {\"time\":490.8355,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:40.334Z waiting {\"time\":490.8355,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:41.057Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_767/193039199_mp4_h264_aac_7.ts\",\"start\":490}\n2026-11-02T04:16:41.057Z manifest {\"live\":false,\"duration\":634.634}\n2026-11-02T04:16:44.117Z seeked {\"time\":490.835868,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.119Z sync-sample {\"expected\":494.62269995117094,\"actual\":490.837461,\"drift\":3.785238951170925,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:44.119Z sync-correction {\"expected\":494.62269995117094,\"actual\":490.837461,\"drift\":3.785238951170925,\"attempt\":1}\n2026-11-02T04:16:44.120Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_768/193039199_mp4_h264_aac_7.ts\",\"start\":500.0000111111111}\n2026-11-02T04:16:44.122Z canplay {\"time\":494.622699,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.122Z playing {\"time\":494.622699,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.124Z seeking {\"time\":494.622699,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.124Z waiting {\"time\":494.622699,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.177Z seeked {\"time\":494.622877,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.178Z sync-settled {\"expected\":494.68219995117397,\"actual\":494.624454,\"drift\":0.0577459511739562}\n2026-11-02T04:16:44.180Z canplay {\"time\":494.625735,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.180Z playing {\"time\":494.625876,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.813Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_768/193039199_mp4_h264_aac_7.ts\",\"start\":500.0000111111111}\n2026-11-02T04:16:44.813Z manifest {\"live\":false,\"duration\":634.6}\n2026-11-02T04:16:44.814Z hls-error {\"type\":\"networkError\",\"details\":\"aborted\",\"fatal\":false,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T04:16:45.265Z sync-sample {\"expected\":495.76889990234486,\"actual\":495.665293,\"drift\":0.10360690234483627,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:46.514Z sync-sample {\"expected\":497.01739990234637,\"actual\":496.915913,\"drift\":0.10148690234638025,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:47.514Z sync-sample {\"expected\":498.0180998535143,\"actual\":497.917033,\"drift\":0.10106685351428268,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:47.741Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_6/url_897/193039199_mp4_h264_aac_hq_7.ts\",\"start\":510}\n2026-11-02T04:16:47.770Z clock-set {\"beijing\":\"2026-11-02T09:07\"}\n2026-11-02T04:16:48.014Z sync-correction {\"expected\":420.2431999511755,\"actual\":498.415405,\"drift\":-78.17220504882454,\"attempt\":2}\n2026-11-02T04:16:48.014Z seeking {\"time\":420.243199,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:48.014Z hls-error {\"type\":\"networkError\",\"details\":\"aborted\",\"fatal\":false,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T04:16:48.014Z waiting {\"time\":420.243199,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:48.017Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_760/193039199_mp4_h264_aac_7.ts\",\"start\":420}\n2026-11-02T04:16:48.019Z hls-error {\"type\":\"networkError\",\"details\":\"fragLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T04:16:49.779Z recalibrate {\"visibility\":\"visible\",\"target\":422.0082998046855}\n2026-11-02T04:16:49.779Z seek-request {\"target\":422.00850000000355}\n2026-11-02T04:16:49.779Z seeking {\"time\":422.0085,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:49.815Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_760/193039199_mp4_h264_aac_7.ts\",\"start\":420}\n2026-11-02T04:16:50.169Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_6/url_889/193039199_mp4_h264_aac_hq_7.ts\",\"start\":430}\n2026-11-02T04:16:50.174Z seeked {\"time\":422.00878,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:50.175Z sync-sample {\"expected\":422.4044999999969,\"actual\":422.00994,\"drift\":0.39455999999694313,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:50.175Z sync-settled {\"expected\":422.4044999999969,\"actual\":422.00994,\"drift\":0.39455999999694313}\n2026-11-02T04:16:50.176Z canplay {\"time\":422.010758,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:50.176Z playing {\"time\":422.010831,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:51.263Z sync-sample {\"expected\":423.49289990234684,\"actual\":423.055144,\"drift\":0.4377559023468507,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:51.816Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_506/193039199_mp4_h264_aac_hd_7.ts\",\"start\":439.95780045351466}\n2026-11-02T04:16:52.265Z sync-sample {\"expected\":424.4939999999988,\"actual\":424.052297,\"drift\":0.4417029999987676,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:53.202Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_507/193039199_mp4_h264_aac_hd_7.ts\",\"start\":450.0128292517029}\n2026-11-02T04:16:53.265Z sync-sample {\"expected\":425.4945998535186,\"actual\":425.051677,\"drift\":0.4429228535186098,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:53.780Z clock-set {\"beijing\":\"2026-11-02T09:59:59\"}\n2026-11-02T04:16:54.015Z destroy {\"state\":\"NO_SIGNAL\"}"
+    }
+  },
+  {
+    "name": "off-during-loading-no-resurrection",
+    "status": "PASS",
+    "start": 1793593014024,
+    "end": 1793593018190,
+    "data": {
+      "cutoff": 1793593014183,
+      "newRequests": []
+    }
+  },
+  {
+    "name": "expired-during-buffering",
+    "status": "PASS",
+    "start": 1793593018191,
+    "end": 1793593028058,
+    "data": {
+      "log": "2026-11-02T04:16:25.659Z waiting {\"time\":303.290499,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.693Z seeked {\"time\":303.291019,\"duration\":634.584,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.694Z sync-settled {\"expected\":303.3307001953108,\"actual\":303.292672,\"drift\":0.03802819531080104}\n2026-11-02T04:16:25.696Z canplay {\"time\":303.294199,\"duration\":634.584,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.696Z playing {\"time\":303.294389,\"duration\":634.584,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:25.743Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_8/url_621/193039199_mp4_h264_aac_fhd_7.ts\",\"start\":310}\n2026-11-02T04:16:25.743Z manifest {\"live\":false,\"duration\":634.567}\n2026-11-02T04:16:26.895Z sync-sample {\"expected\":304.53099999999904,\"actual\":304.448668,\"drift\":0.08233199999904173,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:27.895Z sync-sample {\"expected\":305.53110009765805,\"actual\":305.44889,\"drift\":0.08221009765804865,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:28.895Z sync-sample {\"expected\":306.53110009765805,\"actual\":306.45029,\"drift\":0.08081009765805902,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:29.434Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_8/url_622/193039199_mp4_h264_aac_fhd_7.ts\",\"start\":320.00429863946016}\n2026-11-02T04:16:29.461Z destroy {\"state\":\"OFF\"}\n2026-11-02T04:16:29.496Z clock-set {\"beijing\":\"2026-11-02T09:08\"}\n2026-11-02T04:16:29.512Z destroy {\"state\":\"OFF\"}\n2026-11-02T04:16:29.513Z load {\"kind\":\"hls\",\"url\":\"https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8\",\"target\":480.0166999511712,\"muted\":true,\"scheduled\":true}\n2026-11-02T04:16:29.513Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T04:16:31.932Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts\",\"start\":0}\n2026-11-02T04:16:31.932Z manifest {\"live\":false,\"duration\":634.584}\n2026-11-02T04:16:40.331Z loadedmetadata {\"time\":0,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:40.332Z seek-request {\"target\":490.83550000000105}\n2026-11-02T04:16:40.333Z seeking {\"time\":490.8355,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:40.334Z waiting {\"time\":490.8355,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:41.057Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_767/193039199_mp4_h264_aac_7.ts\",\"start\":490}\n2026-11-02T04:16:41.057Z manifest {\"live\":false,\"duration\":634.634}\n2026-11-02T04:16:44.117Z seeked {\"time\":490.835868,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.119Z sync-sample {\"expected\":494.62269995117094,\"actual\":490.837461,\"drift\":3.785238951170925,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:44.119Z sync-correction {\"expected\":494.62269995117094,\"actual\":490.837461,\"drift\":3.785238951170925,\"attempt\":1}\n2026-11-02T04:16:44.120Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_768/193039199_mp4_h264_aac_7.ts\",\"start\":500.0000111111111}\n2026-11-02T04:16:44.122Z canplay {\"time\":494.622699,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.122Z playing {\"time\":494.622699,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.124Z seeking {\"time\":494.622699,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.124Z waiting {\"time\":494.622699,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.177Z seeked {\"time\":494.622877,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.178Z sync-settled {\"expected\":494.68219995117397,\"actual\":494.624454,\"drift\":0.0577459511739562}\n2026-11-02T04:16:44.180Z canplay {\"time\":494.625735,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.180Z playing {\"time\":494.625876,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:44.813Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_768/193039199_mp4_h264_aac_7.ts\",\"start\":500.0000111111111}\n2026-11-02T04:16:44.813Z manifest {\"live\":false,\"duration\":634.6}\n2026-11-02T04:16:44.814Z hls-error {\"type\":\"networkError\",\"details\":\"aborted\",\"fatal\":false,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T04:16:45.265Z sync-sample {\"expected\":495.76889990234486,\"actual\":495.665293,\"drift\":0.10360690234483627,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:46.514Z sync-sample {\"expected\":497.01739990234637,\"actual\":496.915913,\"drift\":0.10148690234638025,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:47.514Z sync-sample {\"expected\":498.0180998535143,\"actual\":497.917033,\"drift\":0.10106685351428268,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:47.741Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_6/url_897/193039199_mp4_h264_aac_hq_7.ts\",\"start\":510}\n2026-11-02T04:16:47.770Z clock-set {\"beijing\":\"2026-11-02T09:07\"}\n2026-11-02T04:16:48.014Z sync-correction {\"expected\":420.2431999511755,\"actual\":498.415405,\"drift\":-78.17220504882454,\"attempt\":2}\n2026-11-02T04:16:48.014Z seeking {\"time\":420.243199,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:48.014Z hls-error {\"type\":\"networkError\",\"details\":\"aborted\",\"fatal\":false,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T04:16:48.014Z waiting {\"time\":420.243199,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:48.017Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_760/193039199_mp4_h264_aac_7.ts\",\"start\":420}\n2026-11-02T04:16:48.019Z hls-error {\"type\":\"networkError\",\"details\":\"fragLoadError\",\"fatal\":false,\"code\":0,\"category\":\"CORS_OR_NETWORK\"}\n2026-11-02T04:16:49.779Z recalibrate {\"visibility\":\"visible\",\"target\":422.0082998046855}\n2026-11-02T04:16:49.779Z seek-request {\"target\":422.00850000000355}\n2026-11-02T04:16:49.779Z seeking {\"time\":422.0085,\"duration\":634.634,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:49.815Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_4/url_760/193039199_mp4_h264_aac_7.ts\",\"start\":420}\n2026-11-02T04:16:50.169Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_6/url_889/193039199_mp4_h264_aac_hq_7.ts\",\"start\":430}\n2026-11-02T04:16:50.174Z seeked {\"time\":422.00878,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:50.175Z sync-sample {\"expected\":422.4044999999969,\"actual\":422.00994,\"drift\":0.39455999999694313,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:50.175Z sync-settled {\"expected\":422.4044999999969,\"actual\":422.00994,\"drift\":0.39455999999694313}\n2026-11-02T04:16:50.176Z canplay {\"time\":422.010758,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:50.176Z playing {\"time\":422.010831,\"duration\":634.634,\"readyState\":4,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:16:51.263Z sync-sample {\"expected\":423.49289990234684,\"actual\":423.055144,\"drift\":0.4377559023468507,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:51.816Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_506/193039199_mp4_h264_aac_hd_7.ts\",\"start\":439.95780045351466}\n2026-11-02T04:16:52.265Z sync-sample {\"expected\":424.4939999999988,\"actual\":424.052297,\"drift\":0.4417029999987676,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:53.202Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_507/193039199_mp4_h264_aac_hd_7.ts\",\"start\":450.0128292517029}\n2026-11-02T04:16:53.265Z sync-sample {\"expected\":425.4945998535186,\"actual\":425.051677,\"drift\":0.4429228535186098,\"paused\":false,\"readyState\":4,\"seeking\":false}\n2026-11-02T04:16:53.780Z clock-set {\"beijing\":\"2026-11-02T09:59:59\"}\n2026-11-02T04:16:54.015Z destroy {\"state\":\"NO_SIGNAL\"}\n2026-11-02T04:16:54.045Z clock-set {\"beijing\":\"2026-11-02T09:04\"}\n2026-11-02T04:16:54.062Z destroy {\"state\":\"OFF\"}\n2026-11-02T04:16:54.062Z load {\"kind\":\"hls\",\"url\":\"https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8\",\"target\":240.01660009765692,\"muted\":true,\"scheduled\":true}\n2026-11-02T04:16:54.063Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T04:16:54.180Z destroy {\"state\":\"OFF\"}\n2026-11-02T04:16:58.212Z clock-set {\"beijing\":\"2026-11-02T09:10:33\"}\n2026-11-02T04:16:58.228Z destroy {\"state\":\"OFF\"}\n2026-11-02T04:16:58.229Z load {\"kind\":\"hls\",\"url\":\"https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8\",\"target\":633.0161999511693,\"muted\":true,\"scheduled\":true}\n2026-11-02T04:16:58.229Z engine {\"engine\":\"hls.js\",\"version\":\"1.7.4\"}\n2026-11-02T04:16:59.658Z fragment-request {\"url\":\"https://test-streams.mux.dev/x36xhzz/url_0/url_462/193039199_mp4_h264_aac_hd_7.ts\",\"start\":0}\n2026-11-02T04:16:59.658Z manifest {\"live\":false,\"duration\":634.584}\n2026-11-02T04:17:08.034Z loadedmetadata {\"time\":0,\"duration\":634.584,\"readyState\":1,\"volume\":0.5,\"muted\":true}\n2026-11-02T04:17:08.035Z destroy {\"state\":\"NO_SIGNAL\"}"
+    }
+  },
+  {
+    "name": "destroy-31s",
+    "status": "PASS",
+    "start": 1793593028062,
+    "end": 1793593065917,
+    "data": {
+      "cutoff": 1793593034902,
+      "end": 1793593065917,
+      "newMediaRequests": []
+    }
+  }
+]

@@ -1,0 +1,17 @@
+@import "tailwindcss";
+:root{font-family:"PingFang SC","Microsoft YaHei",sans-serif;color:#343b32;background:#292820;font-synthesis:none;font-size:14px;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}body{margin:0;min-width:320px}button,input,select{font:inherit}button{cursor:pointer}button:disabled{cursor:not-allowed;opacity:.45}button:focus-visible,a:focus-visible,[role=slider]:focus-visible{outline:3px solid #d6a66e;outline-offset:4px}
+.television-room{min-height:100svh;display:grid;place-items:center;padding:70px 65px 100px;position:relative;isolation:isolate;background:radial-gradient(ellipse at 45% 38%,#777260 0,#4b493c 36%,#2a2b24 74%);overflow:hidden}
+.room-light{position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,#dfc69915,transparent 45%),repeating-linear-gradient(0deg,#00000003 0 1px,transparent 1px 4px)}
+.television-object{width:min(1050px,100%);perspective:1800px;position:relative;padding-right:20px}
+.television-object .television{transform:rotateY(-3deg);transform-style:flat;box-shadow:4px 6px 0 #3c2719,10px 10px 0 #402b1b,20px 15px 0 #352719,27px 20px 0 #2a2119,34px 31px 35px #080c0a80,inset 0 2px 3px #ffe1a3a0;border-right:5px solid #5b3f26}
+.television-object .tv-face{box-shadow:inset 0 4px 6px #100e0b,0 1px 1px #dcb77860}
+.television-object .bezel{box-shadow:inset 0 3px 2px #ffffd050,inset 0 -5px 5px #22281c80,0 5px 8px #0f110d90}
+.television-object .control-panel{box-shadow:inset 1px 2px 2px #ffffd070,3px 4px 7px #0009}
+.television-object .tv-feet{transform:translateY(1px);filter:drop-shadow(12px 10px 3px #15140f90)}
+.television-object .tv-shadow{opacity:.8;filter:blur(12px);transform:translate(20px,20px) scaleX(1.05)}
+.cabinet-settings{align-self:center;border:1px solid #4e513c;border-radius:3px;background:linear-gradient(#a9ac8c,#74785f);color:#353b2b;font:9px ui-monospace,monospace;letter-spacing:2px;padding:6px 12px;box-shadow:inset 0 1px #e3e3bf,1px 2px 1px #262b20;margin:4px 0 10px}.cabinet-settings:active{transform:translateY(1px);box-shadow:inset 0 1px 3px #222}
+.storage-message{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:#f3ead8;color:#593922;padding:12px 18px;border-radius:4px;max-width:90vw;z-index:5}.storage-message button{margin-left:14px;text-decoration:underline}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+@media(max-width:700px){.television-room{padding:35px 25px 55px}.television-object{padding-right:10px}.television-object .television{transform:none;box-shadow:4px 6px 0 #3c2719,10px 10px 0 #352719,18px 21px 20px #080c0a80}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+.media-screen,.media-host{position:absolute;inset:0;background:#080c09}.media-host video,.media-host iframe{display:block;width:100%;height:100%;border:0;object-fit:contain}.playback-overlay{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;background:#0a140bd9;color:#e2e4cc;padding:20px;text-align:center;font-size:13px}.playback-buffering{inset:auto 0 0;background:#0a140b99;padding:9px;font-size:11px;pointer-events:none}.playback-limited{inset:auto 0 0;background:#171e14d9;padding:7px 10px;font-size:10px;pointer-events:none}.playback-overlay button{pointer-events:auto}.playback-overlay p{margin:0;line-height:1.7}

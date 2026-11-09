@@ -1,0 +1,205 @@
+[
+  {
+    "name": "hls-load",
+    "execution": "COMPLETED",
+    "at": 1793590265790,
+    "data": {
+      "a": {
+        "time": 0.011149,
+        "duration": 1800.000590000002,
+        "paused": false,
+        "readyState": 4,
+        "width": 400,
+        "volume": 0.5,
+        "muted": true,
+        "decoded": 5,
+        "audioDecodedBytes": 411
+      },
+      "b": {
+        "time": 1.195069,
+        "duration": 1800.000590000002,
+        "paused": false,
+        "readyState": 4,
+        "width": 400,
+        "volume": 0.5,
+        "muted": true,
+        "decoded": 38,
+        "audioDecodedBytes": 1125
+      }
+    }
+  },
+  {
+    "name": "hls-seek-0",
+    "execution": "COMPLETED",
+    "at": 1793590270657,
+    "data": {
+      "time": 0.012347,
+      "duration": 1800.000590000002,
+      "paused": false,
+      "readyState": 4,
+      "width": 400,
+      "volume": 0.5,
+      "muted": true,
+      "decoded": 43,
+      "audioDecodedBytes": 1523
+    }
+  },
+  {
+    "name": "hls-seek-1800",
+    "execution": "BLOCKED",
+    "at": 1793590270714,
+    "error": "Source shorter than 31 minutes"
+  },
+  {
+    "name": "hls-volume-mute",
+    "execution": "COMPLETED",
+    "at": 1793590270715,
+    "data": {
+      "time": 0.065407,
+      "duration": 1800.000590000002,
+      "paused": false,
+      "readyState": 4,
+      "width": 400,
+      "volume": 0.2,
+      "muted": false,
+      "decoded": 44,
+      "audioDecodedBytes": 1549
+    }
+  },
+  {
+    "name": "hls-destroy-30s",
+    "execution": "COMPLETED",
+    "at": 1793590271082,
+    "data": {
+      "cutoff": 1793590271110,
+      "end": 1793590302112,
+      "newSegments": []
+    }
+  },
+  {
+    "name": "schedule-0930",
+    "execution": "BLOCKED",
+    "at": 1793590307246,
+    "error": "NO_SIGNAL: source shorter than required offset"
+  },
+  {
+    "name": "schedule-boundary",
+    "execution": "COMPLETED",
+    "at": 1793590307246,
+    "data": {
+      "elapsed": 1035,
+      "status": "状态：NO_SIGNAL · 位置：601.070s · 时长：1800.001s · paused：false · videoWidth：640"
+    }
+  },
+  {
+    "name": "power-reopen",
+    "execution": "COMPLETED",
+    "at": 1793590318309,
+    "data": {
+      "time": 1200.051764,
+      "duration": 1800.000590000002,
+      "paused": false,
+      "readyState": 4,
+      "width": 960,
+      "volume": 0.2,
+      "muted": true,
+      "decoded": 56,
+      "audioDecodedBytes": 927
+    }
+  },
+  {
+    "name": "network-recalibration",
+    "execution": "COMPLETED",
+    "at": 1793590320324,
+    "data": {
+      "time": 1500.013341,
+      "duration": 1800.000590000002,
+      "paused": false,
+      "readyState": 4,
+      "width": 960,
+      "volume": 0.2,
+      "muted": true,
+      "decoded": 103,
+      "audioDecodedBytes": 1043
+    }
+  },
+  {
+    "name": "ended-no-signal",
+    "execution": "COMPLETED",
+    "at": 1793590324061,
+    "data": {
+      "videos": 0,
+      "status": "状态：NO_SIGNAL · 位置：1800.013s · 时长：1800.096s · paused：false · videoWidth：960"
+    }
+  },
+  {
+    "name": "error-404",
+    "execution": "COMPLETED",
+    "at": 1793590331896,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：1800.013s · 时长：1800.096s · paused：false · videoWidth：960"
+    }
+  },
+  {
+    "name": "error-cors",
+    "execution": "COMPLETED",
+    "at": 1793590331973,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：1800.013s · 时长：1800.096s · paused：false · videoWidth：960"
+    }
+  },
+  {
+    "name": "error-invalid",
+    "execution": "COMPLETED",
+    "at": 1793590332039,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：1800.013s · 时长：1800.096s · paused：false · videoWidth：960"
+    }
+  },
+  {
+    "name": "bilibili-load",
+    "execution": "COMPLETED",
+    "at": 1793590332220,
+    "data": {
+      "status": "状态：IFRAME_LOADED_UNVERIFIED · 位置：1800.013s · 时长：1800.096s · paused：false · videoWidth：960",
+      "frames": [
+        "http://127.0.0.1:5178/",
+        "null/"
+      ],
+      "note": "Execution only; final PASS requires actual media observations"
+    }
+  },
+  {
+    "name": "bilibili-removed",
+    "execution": "COMPLETED",
+    "data": {
+      "cutoff": 1793590350509,
+      "end": 1793590381515,
+      "iframes": 0,
+      "requests": []
+    }
+  },
+  {
+    "name": "youtube-load",
+    "execution": "COMPLETED",
+    "at": 1793590381560,
+    "data": {
+      "status": "状态：PLAYING · 位置：45.057s · 时长：1343.661s · paused：false · videoWidth：0",
+      "frames": [
+        "http://127.0.0.1:5178/",
+        "https://www.youtube.com/embed/M7lc1UVf-VE"
+      ],
+      "note": "Execution only; final PASS requires actual media observations"
+    }
+  },
+  {
+    "name": "youtube-removed",
+    "execution": "COMPLETED",
+    "data": {
+      "cutoff": 1793590399800,
+      "end": 1793590430803,
+      "iframes": 0,
+      "requests": []
+    }
+  }
+]

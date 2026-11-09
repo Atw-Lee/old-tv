@@ -1,0 +1,338 @@
+
+> corgi-tv@0.1.0 test
+> npm run build:core && node --test tests/*.test.mjs
+
+
+> corgi-tv@0.1.0 build:core
+> tsc -p tsconfig.json
+
+TAP version 13
+# Subtest: channel deletion cascades only its slots, removes selected preference, keeps programs and input
+ok 1 - channel deletion cascades only its slots, removes selected preference, keeps programs and input
+  ---
+  duration_ms: 1.26825
+  ...
+# Subtest: program deletion removes all references across channels, retains other slots
+ok 2 - program deletion removes all references across channels, retains other slots
+  ---
+  duration_ms: 0.201167
+  ...
+# Subtest: minute precision accepts midnight end but rejects invalid formats
+ok 3 - minute precision accepts midnight end but rejects invalid formats
+  ---
+  duration_ms: 0.23225
+  ...
+# Subtest: timeline move snaps to five minutes and retains duration inside day
+ok 4 - timeline move snaps to five minutes and retains duration inside day
+  ---
+  duration_ms: 0.093583
+  ...
+# Subtest: timeline handles cannot invert interval or exceed day
+ok 5 - timeline handles cannot invert interval or exceed day
+  ---
+  duration_ms: 0.123542
+  ...
+# Subtest: backup roundtrip retains settings/entities and rejects future schema and overlap
+ok 6 - backup roundtrip retains settings/entities and rejects future schema and overlap
+  ---
+  duration_ms: 0.519
+  ...
+# Subtest: invalid imported references and credentials are rejected
+ok 7 - invalid imported references and credentials are rejected
+  ---
+  duration_ms: 0.848084
+  ...
+# Subtest: live configuration replacement switches disabled channel without powering off and rejects invalid input atomically
+ok 8 - live configuration replacement switches disabled channel without powering off and rejects invalid input atomically
+  ---
+  duration_ms: 1.158834
+  ...
+# Subtest: title edits retain verified source metadata; changing the source invalidates it
+ok 9 - title edits retain verified source metadata; changing the source invalidates it
+  ---
+  duration_ms: 0.231875
+  ...
+# Subtest: valid configuration is copied and keeps shared program references as IDs
+ok 10 - valid configuration is copied and keeps shared program references as IDs
+  ---
+  duration_ms: 1.0255
+  ...
+# Subtest: reject duplicate ID
+ok 11 - reject duplicate ID
+  ---
+  duration_ms: 0.756125
+  ...
+# Subtest: reject duplicate number
+ok 12 - reject duplicate number
+  ---
+  duration_ms: 0.17025
+  ...
+# Subtest: reject missing channel
+ok 13 - reject missing channel
+  ---
+  duration_ms: 0.097834
+  ...
+# Subtest: reject missing program
+ok 14 - reject missing program
+  ---
+  duration_ms: 0.086
+  ...
+# Subtest: reject same-channel overlap
+ok 15 - reject same-channel overlap
+  ---
+  duration_ms: 0.173584
+  ...
+# Subtest: reject nested overlap
+ok 16 - reject nested overlap
+  ---
+  duration_ms: 0.193375
+  ...
+# Subtest: reject midnight crossing
+ok 17 - reject midnight crossing
+  ---
+  duration_ms: 0.097334
+  ...
+# Subtest: reject zero length
+ok 18 - reject zero length
+  ---
+  duration_ms: 0.21175
+  ...
+# Subtest: reject fractional minute
+ok 19 - reject fractional minute
+  ---
+  duration_ms: 0.22575
+  ...
+# Subtest: reject 24:00 cannot start
+ok 20 - reject 24:00 cannot start
+  ---
+  duration_ms: 0.089625
+  ...
+# Subtest: reject negative duration
+ok 21 - reject negative duration
+  ---
+  duration_ms: 0.07725
+  ...
+# Subtest: reject NaN duration
+ok 22 - reject NaN duration
+  ---
+  duration_ms: 0.124208
+  ...
+# Subtest: reject infinite duration
+ok 23 - reject infinite duration
+  ---
+  duration_ms: 0.115292
+  ...
+# Subtest: reject zero duration
+ok 24 - reject zero duration
+  ---
+  duration_ms: 0.068375
+  ...
+# Subtest: reject unsafe URL
+ok 25 - reject unsafe URL
+  ---
+  duration_ms: 0.179625
+  ...
+# Subtest: reject URL credentials
+ok 26 - reject URL credentials
+  ---
+  duration_ms: 0.084125
+  ...
+# Subtest: reject unknown source
+ok 27 - reject unknown source
+  ---
+  duration_ms: 0.174458
+  ...
+# Subtest: reject bad settings schema
+ok 28 - reject bad settings schema
+  ---
+  duration_ms: 0.076792
+  ...
+# Subtest: reject volume range
+ok 29 - reject volume range
+  ---
+  duration_ms: 0.129458
+  ...
+# Subtest: reject invalid remembered channel
+ok 30 - reject invalid remembered channel
+  ---
+  duration_ms: 0.075958
+  ...
+# Subtest: reject wrong enabled type
+ok 31 - reject wrong enabled type
+  ---
+  duration_ms: 0.060625
+  ...
+# Subtest: reject non-object and malformed arrays with useful paths
+ok 32 - reject non-object and malformed arrays with useful paths
+  ---
+  duration_ms: 0.135792
+  ...
+# Subtest: adjacent slots, cross-channel overlap, 24:00 ending and unknown duration allowed
+ok 33 - adjacent slots, cross-channel overlap, 24:00 ending and unknown duration allowed
+  ---
+  duration_ms: 0.373167
+  ...
+# Subtest: channel navigation follows sort order, skips disabled, wraps and preserves IDs
+ok 34 - channel navigation follows sort order, skips disabled, wraps and preserves IDs
+  ---
+  duration_ms: 0.431875
+  ...
+# Subtest: M0 Bilibili restrictions remain explicit, unlike runtime-controllable HLS/YouTube
+ok 35 - M0 Bilibili restrictions remain explicit, unlike runtime-controllable HLS/YouTube
+  ---
+  duration_ms: 0.166208
+  ...
+# Subtest: Beijing date, milliseconds, start inclusive/end exclusive and gaps
+ok 36 - Beijing date, milliseconds, start inclusive/end exclusive and gaps
+  ---
+  duration_ms: 1.312291
+  ...
+# Subtest: actual duration <= offset means no signal, never loop or prematurely switch slots
+ok 37 - actual duration <= offset means no signal, never loop or prematurely switch slots
+  ---
+  duration_ms: 0.196042
+  ...
+# Subtest: 24:00 ends once, next day starts new occurrence including year rollover
+ok 38 - 24:00 ends once, next day starts new occurrence including year rollover
+  ---
+  duration_ms: 0.119542
+  ...
+# Subtest: leap day and daily repetition are date-specific
+ok 39 - leap day and daily repetition are date-specific
+  ---
+  duration_ms: 0.160459
+  ...
+# Subtest: missing/disabled channel and channels without slots give explicit no signal
+ok 40 - missing/disabled channel and channels without slots give explicit no signal
+  ---
+  duration_ms: 0.381667
+  ...
+# Subtest: all day minutes obey independent slot oracle
+ok 41 - all day minutes obey independent slot oracle
+  ---
+  duration_ms: 9.684333
+  ...
+# Subtest: host timezone does not affect Beijing schedule or DST dates
+ok 42 - host timezone does not affect Beijing schedule or DST dates
+  ---
+  duration_ms: 182.729625
+  ...
+# Subtest: invalid clock is rejected rather than converted to a misleading slot
+ok 43 - invalid clock is rejected rather than converted to a misleading slot
+  ---
+  duration_ms: 0.317375
+  ...
+# Subtest: off does not schedule timers; off/on follows current wall time
+ok 44 - off does not schedule timers; off/on follows current wall time
+  ---
+  duration_ms: 2.1885
+  ...
+# Subtest: slot boundary destroys old before starting next, even for reused program
+ok 45 - slot boundary destroys old before starting next, even for reused program
+  ---
+  duration_ms: 1.2155
+  ...
+# Subtest: midnight switches occurrence and does not keep yesterday token
+ok 46 - midnight switches occurrence and does not keep yesterday token
+  ---
+  duration_ms: 0.429667
+  ...
+# Subtest: ended remains no signal across off/on and retune, but starts next day
+ok 47 - ended remains no signal across off/on and retune, but starts next day
+  ---
+  duration_ms: 0.807791
+  ...
+# Subtest: metadata duration handles buffering expiry immediately and honors actual longer duration
+ok 48 - metadata duration handles buffering expiry immediately and honors actual longer duration
+  ---
+  duration_ms: 0.62775
+  ...
+# Subtest: ready after slow load computes latest offset; ready after boundary starts next
+ok 49 - ready after slow load computes latest offset; ready after boundary starts next
+  ---
+  duration_ms: 0.328625
+  ...
+# Subtest: stale ended/duration/ready after retune or shutdown cannot resurrect player
+ok 50 - stale ended/duration/ready after retune or shutdown cannot resurrect player
+  ---
+  duration_ms: 0.451125
+  ...
+# Subtest: suspended timer catches skipped slots using current time rather than accumulated ticks
+ok 51 - suspended timer catches skipped slots using current time rather than accumulated ticks
+  ---
+  duration_ms: 0.50025
+  ...
+# Subtest: same-slot timer suspension and backwards clock jump request recalibration
+ok 52 - same-slot timer suspension and backwards clock jump request recalibration
+  ---
+  duration_ms: 0.770875
+  ...
+# Subtest: same-slot ticks update target without requesting a seek every tick
+ok 53 - same-slot ticks update target without requesting a seek every tick
+  ---
+  duration_ms: 0.536042
+  ...
+# Subtest: channel disabled/deleted falls back; empty configuration stops active playback
+ok 54 - channel disabled/deleted falls back; empty configuration stops active playback
+  ---
+  duration_ms: 0.447625
+  ...
+# Subtest: invalid configuration replacement is atomic; removing active slot stops
+ok 55 - invalid configuration replacement is atomic; removing active slot stops
+  ---
+  duration_ms: 0.353708
+  ...
+# Subtest: unrelated config edit cannot restart an ended occurrence; changing program can
+ok 56 - unrelated config edit cannot restart an ended occurrence; changing program can
+  ---
+  duration_ms: 0.266083
+  ...
+# Subtest: output and input mutation cannot change owned configuration or active state
+ok 57 - output and input mutation cannot change owned configuration or active state
+  ---
+  duration_ms: 0.22575
+  ...
+# Subtest: timer callback already queued before off is ignored; dispose stops once
+ok 58 - timer callback already queued before off is ignored; dispose stops once
+  ---
+  duration_ms: 0.334125
+  ...
+# Subtest: visibility/online/pageshow restore latest time; cleanup removes all hooks
+ok 59 - visibility/online/pageshow restore latest time; cleanup removes all hooks
+  ---
+  duration_ms: 0.483792
+  ...
+# Subtest: lifecycle while off cannot start playback and unsubscribe stops notifications
+ok 60 - lifecycle while off cannot start playback and unsubscribe stops notifications
+  ---
+  duration_ms: 0.911125
+  ...
+# Subtest: TV skin observes one controller for power, channel and volume
+ok 61 - TV skin observes one controller for power, channel and volume
+  ---
+  duration_ms: 1.993125
+  ...
+# Subtest: controller clamps/rounds volume; non-finite values cannot poison state
+ok 62 - controller clamps/rounds volume; non-finite values cannot poison state
+  ---
+  duration_ms: 0.291666
+  ...
+# Subtest: snapshot has stable identity until changed and is deeply readonly
+ok 63 - snapshot has stable identity until changed and is deeply readonly
+  ---
+  duration_ms: 0.316542
+  ...
+# Subtest: retune while off selects next channel but cannot power on; next power uses current time
+ok 64 - retune while off selects next channel but cannot power on; next power uses current time
+  ---
+  duration_ms: 0.602791
+  ...
+1..64
+# tests 64
+# suites 0
+# pass 64
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 271.107

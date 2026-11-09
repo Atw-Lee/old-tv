@@ -1,0 +1,39 @@
+[
+  {
+    "name": "single-tv-empty-state-and-modal-keyboard",
+    "status": "PASS"
+  },
+  {
+    "name": "channel-create-edit-reorder-disable-and-duplicate",
+    "status": "PASS"
+  },
+  {
+    "name": "program-create-platform-policy-edit",
+    "status": "PASS"
+  },
+  {
+    "name": "schedule-minute-input-overlap-midnight-and-shared-program",
+    "status": "PASS"
+  },
+  {
+    "name": "timeline-native-drag-move-resize-and-conflict-rollback",
+    "status": "PASS"
+  },
+  {
+    "name": "preferences-refresh-retains-off-state",
+    "status": "PASS"
+  },
+  {
+    "name": "export-backup-and-invalid-import-no-mutation",
+    "status": "PASS"
+  },
+  {
+    "name": "delete-channel-program-cascades-and-import-roundtrip",
+    "status": "PASS"
+  },
+  {
+    "name": "indexeddb-write-failure-retains-saved-data-and-retry",
+    "status": "FAIL",
+    "error": "Error: expect(locator).toContainText(expected) failed\n\nLocator: getByRole('alert').first()\nTimeout: 5000ms\n- Expected substring  - 1\n+ Received string     + 2\n\n- 失败\n+ Injected quota failure\n+  QuotaExceededError: Injected quota failure\n\nCall log:\n  - Expect \"toContainText\" getByRole('alert').first() with timeout 5000ms\n  - waiting for getByRole('alert').first()\n    14 × locator resolved to <p role=\"alert\" class=\"error\">Injected quota failure↵ QuotaExceededError: Injec…</p>\n       - unexpected value \"Injected quota failure\n QuotaExceededError: Injected quota failure\"\n\n    at captureRawStack (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toContainText (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at /Users/lee/Documents/ChatGPT/corgi-tv/tests/management-m4-browser.mjs:71:310\n    at async test (/Users/lee/Documents/ChatGPT/corgi-tv/tests/management-m4-browser.mjs:13:44)\n    at async file:///Users/lee/Documents/ChatGPT/corgi-tv/tests/management-m4-browser.mjs:70:2"
+  }
+]

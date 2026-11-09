@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-02",
+  "channel": "msedge",
+  "version": "149.0.4022.80",
+  "headless": true,
+  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36 Edg/149.0.0.0",
+  "os": "macOS 26.6.2",
+  "policy": "Default browser policy; no autoplay overrides; isolated profile"
+}

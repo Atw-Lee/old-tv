@@ -1,0 +1,1374 @@
+[
+  {
+    "at": 1793599169404,
+    "event": "request",
+    "resource": "document",
+    "url": "http://127.0.0.1:5178/"
+  },
+  {
+    "at": 1793599169443,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/"
+  },
+  {
+    "at": 1793599169462,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/@vite/client"
+  },
+  {
+    "at": 1793599169463,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/src/main.tsx"
+  },
+  {
+    "at": 1793599169503,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/@vite/client"
+  },
+  {
+    "at": 1793599169504,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/src/main.tsx"
+  },
+  {
+    "at": 1793599169504,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs"
+  },
+  {
+    "at": 1793599169504,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js"
+  },
+  {
+    "at": 1793599169504,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js"
+  },
+  {
+    "at": 1793599169504,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js"
+  },
+  {
+    "at": 1793599169505,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js"
+  },
+  {
+    "at": 1793599169505,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/src/components/ui/button.tsx"
+  },
+  {
+    "at": 1793599169505,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/src/clock.mjs"
+  },
+  {
+    "at": 1793599169505,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/src/style.css"
+  },
+  {
+    "at": 1793599169505,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/src/sync.ts"
+  },
+  {
+    "at": 1793599169510,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs"
+  },
+  {
+    "at": 1793599169519,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js"
+  },
+  {
+    "at": 1793599169520,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js"
+  },
+  {
+    "at": 1793599169520,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/src/components/ui/button.tsx"
+  },
+  {
+    "at": 1793599169520,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/src/clock.mjs"
+  },
+  {
+    "at": 1793599169520,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/src/style.css"
+  },
+  {
+    "at": 1793599169522,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/src/sync.ts"
+  },
+  {
+    "at": 1793599169522,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js"
+  },
+  {
+    "at": 1793599169522,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js"
+  },
+  {
+    "at": 1793599169522,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js"
+  },
+  {
+    "at": 1793599169522,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js"
+  },
+  {
+    "at": 1793599169522,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js"
+  },
+  {
+    "at": 1793599169523,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js"
+  },
+  {
+    "at": 1793599169529,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js"
+  },
+  {
+    "at": 1793599169530,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js"
+  },
+  {
+    "at": 1793599169530,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js"
+  },
+  {
+    "at": 1793599169531,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js"
+  },
+  {
+    "at": 1793599169531,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js"
+  },
+  {
+    "at": 1793599169531,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js"
+  },
+  {
+    "at": 1793599169531,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js"
+  },
+  {
+    "at": 1793599169532,
+    "event": "request",
+    "resource": "script",
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js"
+  },
+  {
+    "at": 1793599169532,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js"
+  },
+  {
+    "at": 1793599169534,
+    "event": "response",
+    "status": 200,
+    "url": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js"
+  },
+  {
+    "at": 1793599169743,
+    "event": "request",
+    "resource": "document",
+    "url": "https://player.bilibili.com/player.html"
+  },
+  {
+    "at": 1793599169969,
+    "event": "response",
+    "status": 200,
+    "url": "https://player.bilibili.com/player.html"
+  },
+  {
+    "at": 1793599169978,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js"
+  },
+  {
+    "at": 1793599169978,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/core.6dcbfdb4.js"
+  },
+  {
+    "at": 1793599170207,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/seed/log/report/log-reporter.js"
+  },
+  {
+    "at": 1793599170229,
+    "event": "request",
+    "resource": "ping",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599170243,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/core.6dcbfdb4.js"
+  },
+  {
+    "at": 1793599170383,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/jinkela/long/unify-http-request/forticket.min.js"
+  },
+  {
+    "at": 1793599170383,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/web-interface/wbi/view/detail"
+  },
+  {
+    "at": 1793599171055,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599171055,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/jinkela/long/unify-http-request/forticket.min.js"
+  },
+  {
+    "at": 1793599171064,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/web-interface/wbi/view/detail"
+  },
+  {
+    "at": 1793599171064,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/player/wbi/playurl"
+  },
+  {
+    "at": 1793599171064,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/player/wbi/v2"
+  },
+  {
+    "at": 1793599171064,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/web-interface/wbi/view/detail"
+  },
+  {
+    "at": 1793599171065,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/bapis/bilibili.api.ticket.v1.Ticket/GenWebTicket"
+  },
+  {
+    "at": 1793599171152,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/player/wbi/v2"
+  },
+  {
+    "at": 1793599171162,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi"
+  },
+  {
+    "at": 1793599171162,
+    "event": "request",
+    "resource": "ping",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599171177,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/player/wbi/playurl"
+  },
+  {
+    "at": 1793599171177,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171177,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171178,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/web-interface/wbi/view/detail"
+  },
+  {
+    "at": 1793599171191,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/bapis/bilibili.api.ticket.v1.Ticket/GenWebTicket"
+  },
+  {
+    "at": 1793599171204,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599171222,
+    "event": "request",
+    "resource": "ping",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599171262,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599171289,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/internal/gaia-gateway/ExClimbWuzhi"
+  },
+  {
+    "at": 1793599171494,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171530,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171532,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171532,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171535,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171536,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171539,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171539,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171542,
+    "event": "failed",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s",
+    "error": {
+      "errorText": "net::ERR_ABORTED"
+    }
+  },
+  {
+    "at": 1793599171542,
+    "event": "failed",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s",
+    "error": {
+      "errorText": "net::ERR_ABORTED"
+    }
+  },
+  {
+    "at": 1793599171575,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171576,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171641,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171647,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171698,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171758,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171759,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171784,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171802,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171849,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171877,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599171923,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171936,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599171978,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.root-extra.5d38cf19.js"
+  },
+  {
+    "at": 1793599171978,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.lottie_light.c0643260.js"
+  },
+  {
+    "at": 1793599171978,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.713.2b221bd6.js"
+  },
+  {
+    "at": 1793599171979,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.common-helper.acd3cbd8.js"
+  },
+  {
+    "at": 1793599171979,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.787.2cab3d4f.js"
+  },
+  {
+    "at": 1793599171980,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.926.3d2255d5.js"
+  },
+  {
+    "at": 1793599171980,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.779.927eee6b.js"
+  },
+  {
+    "at": 1793599171980,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.231.2a8f567b.js"
+  },
+  {
+    "at": 1793599171980,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.69.0247b290.js"
+  },
+  {
+    "at": 1793599171981,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.936.b4f963a9.js"
+  },
+  {
+    "at": 1793599171981,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.777.d5b47d2c.js"
+  },
+  {
+    "at": 1793599171981,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.165.cd9329c3.js"
+  },
+  {
+    "at": 1793599171981,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.76.50174f8f.js"
+  },
+  {
+    "at": 1793599171981,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.797.ad950a04.js"
+  },
+  {
+    "at": 1793599171982,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.embedded-helper.61f29de2.js"
+  },
+  {
+    "at": 1793599171982,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/click-interface/click/now"
+  },
+  {
+    "at": 1793599171982,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/click-interface/click/now"
+  },
+  {
+    "at": 1793599172014,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.root-extra.5d38cf19.js"
+  },
+  {
+    "at": 1793599172016,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172019,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.lottie_light.c0643260.js"
+  },
+  {
+    "at": 1793599172024,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172028,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/click-interface/click/now"
+  },
+  {
+    "at": 1793599172028,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/click-interface/web/heartbeat"
+  },
+  {
+    "at": 1793599172029,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.713.2b221bd6.js"
+  },
+  {
+    "at": 1793599172056,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.common-helper.acd3cbd8.js"
+  },
+  {
+    "at": 1793599172069,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.779.927eee6b.js"
+  },
+  {
+    "at": 1793599172069,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/kv-frontend/namespace/data"
+  },
+  {
+    "at": 1793599172070,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js"
+  },
+  {
+    "at": 1793599172078,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.231.2a8f567b.js"
+  },
+  {
+    "at": 1793599172087,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.165.cd9329c3.js"
+  },
+  {
+    "at": 1793599172092,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/click-interface/click/now"
+  },
+  {
+    "at": 1793599172092,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/click-interface/click/web/h5"
+  },
+  {
+    "at": 1793599172092,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172092,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/click-interface/web/heartbeat"
+  },
+  {
+    "at": 1793599172093,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.embedded-helper.61f29de2.js"
+  },
+  {
+    "at": 1793599172105,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172128,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/kv-frontend/namespace/data"
+  },
+  {
+    "at": 1793599172128,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172129,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.797.ad950a04.js"
+  },
+  {
+    "at": 1793599172138,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172158,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.787.2cab3d4f.js"
+  },
+  {
+    "at": 1793599172158,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.69.0247b290.js"
+  },
+  {
+    "at": 1793599172159,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.777.d5b47d2c.js"
+  },
+  {
+    "at": 1793599172286,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/click-interface/click/web/h5"
+  },
+  {
+    "at": 1793599172286,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599172286,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.76.50174f8f.js"
+  },
+  {
+    "at": 1793599172287,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.926.3d2255d5.js"
+  },
+  {
+    "at": 1793599172287,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/player/main/widgets/npd.936.b4f963a9.js"
+  },
+  {
+    "at": 1793599172587,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/seed/jinkela/short/reporter-pb/index.js"
+  },
+  {
+    "at": 1793599172587,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172588,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599172593,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://bvc.bilivideo.com/pbp/data"
+  },
+  {
+    "at": 1793599172608,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js"
+  },
+  {
+    "at": 1793599172610,
+    "event": "request",
+    "resource": "script",
+    "url": "https://player.bilibili.comhttps://player.bilibili.com/7366924b-98f3-411b-b182-201fe28083b7"
+  },
+  {
+    "at": 1793599172612,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/web-interface/broadcast/servers"
+  },
+  {
+    "at": 1793599172614,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://i0.hdslb.com/bfs/fawkes/config/prod/web_main_39232.zip"
+  },
+  {
+    "at": 1793599172619,
+    "event": "request",
+    "resource": "image",
+    "url": "https://i1.hdslb.com/bfs/face/c894b369f73e720da9c350a487f3cd8cd8349986.jpg@96w.webp"
+  },
+  {
+    "at": 1793599172623,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172623,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172623,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172636,
+    "event": "request",
+    "resource": "fetch",
+    "url": "https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcnf/event.cnf"
+  },
+  {
+    "at": 1793599172636,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/seed/jinkela/short/minntaki-wasm-sdk/bili-sc-sdk.umd.js"
+  },
+  {
+    "at": 1793599172649,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172649,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599172650,
+    "event": "response",
+    "status": 200,
+    "url": "https://player.bilibili.comhttps://player.bilibili.com/7366924b-98f3-411b-b182-201fe28083b7"
+  },
+  {
+    "at": 1793599172653,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/seed/jinkela/short/user-fingerprint/bili-user-fingerprint.min.js"
+  },
+  {
+    "at": 1793599172698,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/web-interface/broadcast/servers"
+  },
+  {
+    "at": 1793599172698,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://api.bilibili.com/x/player/online/total"
+  },
+  {
+    "at": 1793599172698,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172698,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172698,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172699,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172699,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172699,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172754,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172764,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599172771,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599172776,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172819,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172819,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172904,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172911,
+    "event": "response",
+    "status": 200,
+    "url": "https://bvc.bilivideo.com/pbp/data"
+  },
+  {
+    "at": 1793599172914,
+    "event": "response",
+    "status": 200,
+    "url": "https://api.bilibili.com/x/player/online/total"
+  },
+  {
+    "at": 1793599172918,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599172918,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599172920,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599172921,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599172921,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/seed/jinkela/short/minntaki-wasm-sdk/bili-sc-sdk.umd.js"
+  },
+  {
+    "at": 1793599173012,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173014,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599173015,
+    "event": "response",
+    "status": 200,
+    "url": "https://i0.hdslb.com/bfs/polaris_web_conf/polaris/webcnf/event.cnf"
+  },
+  {
+    "at": 1793599173016,
+    "event": "response",
+    "status": 200,
+    "url": "https://i0.hdslb.com/bfs/fawkes/config/prod/web_main_39232.zip"
+  },
+  {
+    "at": 1793599173024,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173025,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://i0.hdslb.com/bfs/fawkes/config/prod/web_main_223_1792642036471.zip"
+  },
+  {
+    "at": 1793599173025,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173026,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173050,
+    "event": "response",
+    "status": 200,
+    "url": "https://i0.hdslb.com/bfs/fawkes/config/prod/web_main_223_1792642036471.zip"
+  },
+  {
+    "at": 1793599173058,
+    "event": "response",
+    "status": 200,
+    "url": "https://i1.hdslb.com/bfs/face/c894b369f73e720da9c350a487f3cd8cd8349986.jpg@96w.webp"
+  },
+  {
+    "at": 1793599173060,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173068,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173068,
+    "event": "request",
+    "resource": "script",
+    "url": "https://s1.hdslb.com/bfs/static/nc/nc-loader-2.14.0.min.js"
+  },
+  {
+    "at": 1793599173084,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173153,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173153,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173165,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173165,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173165,
+    "event": "response",
+    "status": 200,
+    "url": "https://s1.hdslb.com/bfs/static/nc/nc-loader-2.14.0.min.js"
+  },
+  {
+    "at": 1793599173260,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173260,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173271,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599173271,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599173272,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173272,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173319,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599173320,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/log/web"
+  },
+  {
+    "at": 1793599173369,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173378,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173378,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173394,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173453,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173478,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173514,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173535,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173553,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173575,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173624,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173633,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173640,
+    "event": "request",
+    "resource": "fetch",
+    "url": "https://data.bilibili.com/v2/log/web"
+  },
+  {
+    "at": 1793599173647,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173669,
+    "event": "response",
+    "status": 200,
+    "url": "https://data.bilibili.com/v2/log/web"
+  },
+  {
+    "at": 1793599173669,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173701,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173724,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173759,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173779,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173808,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-03.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-100022.m4s"
+  },
+  {
+    "at": 1793599173857,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173890,
+    "event": "request",
+    "resource": "xhr",
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  },
+  {
+    "at": 1793599173957,
+    "event": "response",
+    "status": 206,
+    "url": "https://cn-gddg-cm-01-02.bilivideo.com/upgcxcode/45/53/168325345/168325345-1-30216.m4s"
+  }
+]

@@ -1,0 +1,178 @@
+[
+  {
+    "name": "hls-load",
+    "execution": "COMPLETED",
+    "at": 1793590068931,
+    "data": {
+      "a": {
+        "time": 0.209187,
+        "duration": 1800.000590000002,
+        "paused": false,
+        "readyState": 4,
+        "width": 640,
+        "volume": 0.5,
+        "muted": true,
+        "decoded": 7,
+        "audioDecodedBytes": 91
+      },
+      "b": {
+        "time": 1.372837,
+        "duration": 1800.000590000002,
+        "paused": false,
+        "readyState": 4,
+        "width": 640,
+        "volume": 0.5,
+        "muted": true,
+        "decoded": 44,
+        "audioDecodedBytes": 805
+      }
+    }
+  },
+  {
+    "name": "hls-seek-0",
+    "execution": "COMPLETED",
+    "at": 1793590071176,
+    "data": {
+      "time": 0.010911,
+      "duration": 1800.000590000002,
+      "paused": false,
+      "readyState": 4,
+      "width": 640,
+      "volume": 0.5,
+      "muted": true,
+      "decoded": 49,
+      "audioDecodedBytes": 1203
+    }
+  },
+  {
+    "name": "hls-seek-1800",
+    "execution": "BLOCKED",
+    "at": 1793590071223,
+    "error": "Source shorter than 31 minutes"
+  },
+  {
+    "name": "hls-volume-mute",
+    "execution": "COMPLETED",
+    "at": 1793590071224,
+    "data": {
+      "time": 0.052958,
+      "duration": 1800.000590000002,
+      "paused": false,
+      "readyState": 4,
+      "width": 640,
+      "volume": 0.2,
+      "muted": false,
+      "decoded": 50,
+      "audioDecodedBytes": 1216
+    }
+  },
+  {
+    "name": "hls-destroy-30s",
+    "execution": "COMPLETED",
+    "at": 1793590071966,
+    "data": {
+      "cutoff": 1793590071987,
+      "end": 1793590102993,
+      "newSegments": []
+    }
+  },
+  {
+    "name": "schedule-0930",
+    "execution": "BLOCKED",
+    "at": 1793590103127,
+    "error": "locator.fill: Error: Malformed value\nCall log:\n\u001b[2m  - waiting for locator('input[type=datetime-local]')\u001b[22m\n\u001b[2m    - locator resolved to <input step=\"0.001\" type=\"datetime-local\" value=\"2026-11-02T09:30:00\"/>\u001b[22m\n\u001b[2m    - fill(\"2026-11-02T09:30:00\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and editable\u001b[22m\n"
+  },
+  {
+    "name": "schedule-boundary",
+    "execution": "BLOCKED",
+    "at": 1793590103142,
+    "error": "locator.fill: Error: Malformed value\nCall log:\n\u001b[2m  - waiting for locator('input[type=datetime-local]')\u001b[22m\n\u001b[2m    - locator resolved to <input step=\"0.001\" type=\"datetime-local\" value=\"2026-11-02T09:30:00\"/>\u001b[22m\n\u001b[2m    - fill(\"2026-11-02T09:10:00\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and editable\u001b[22m\n"
+  },
+  {
+    "name": "power-reopen",
+    "execution": "BLOCKED",
+    "at": 1793590103148,
+    "error": "locator.fill: Error: Malformed value\nCall log:\n\u001b[2m  - waiting for locator('input[type=datetime-local]')\u001b[22m\n\u001b[2m    - locator resolved to <input step=\"0.001\" type=\"datetime-local\" value=\"2026-11-02T09:30:00\"/>\u001b[22m\n\u001b[2m    - fill(\"2026-11-02T09:20:00\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and editable\u001b[22m\n"
+  },
+  {
+    "name": "network-recalibration",
+    "execution": "BLOCKED",
+    "at": 1793590103157,
+    "error": "locator.fill: Error: Malformed value\nCall log:\n\u001b[2m  - waiting for locator('input[type=datetime-local]')\u001b[22m\n\u001b[2m    - locator resolved to <input step=\"0.001\" type=\"datetime-local\" value=\"2026-11-02T09:30:00\"/>\u001b[22m\n\u001b[2m    - fill(\"2026-11-02T09:25:00\")\u001b[22m\n\u001b[2m  - attempting fill action\u001b[22m\n\u001b[2m    - waiting for element to be visible, enabled and editable\u001b[22m\n"
+  },
+  {
+    "name": "ended-no-signal",
+    "execution": "BLOCKED",
+    "at": 1793590128205,
+    "error": "page.waitForFunction: Timeout 25000ms exceeded."
+  },
+  {
+    "name": "error-404",
+    "execution": "COMPLETED",
+    "at": 1793590128452,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0"
+    }
+  },
+  {
+    "name": "error-cors",
+    "execution": "COMPLETED",
+    "at": 1793590129545,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0"
+    }
+  },
+  {
+    "name": "error-invalid",
+    "execution": "COMPLETED",
+    "at": 1793590130619,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0"
+    }
+  },
+  {
+    "name": "bilibili-load",
+    "execution": "COMPLETED",
+    "at": 1793590131832,
+    "data": {
+      "status": "状态：IFRAME_LOADED_UNVERIFIED · 位置：0.000s · 时长：?s · paused：true · videoWidth：0",
+      "frames": [
+        "http://127.0.0.1:5178/",
+        "null/"
+      ],
+      "note": "Execution only; final PASS requires actual media observations"
+    }
+  },
+  {
+    "name": "bilibili-removed",
+    "execution": "COMPLETED",
+    "data": {
+      "cutoff": 1793590150247,
+      "end": 1793590181270,
+      "iframes": 0,
+      "requests": []
+    }
+  },
+  {
+    "name": "youtube-load",
+    "execution": "COMPLETED",
+    "at": 1793590181310,
+    "data": {
+      "status": "状态：PLAYBACK_ERROR · 位置：0.000s · 时长：?s · paused：true · videoWidth：0",
+      "frames": [
+        "http://127.0.0.1:5178/"
+      ],
+      "note": "Execution only; final PASS requires actual media observations"
+    }
+  },
+  {
+    "name": "youtube-removed",
+    "execution": "COMPLETED",
+    "data": {
+      "cutoff": 1793590199531,
+      "end": 1793590230537,
+      "iframes": 0,
+      "requests": []
+    }
+  }
+]

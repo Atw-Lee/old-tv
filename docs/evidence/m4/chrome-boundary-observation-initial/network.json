@@ -1,0 +1,492 @@
+[
+  {
+    "at": 1793754069516,
+    "url": "http://127.0.0.1:5190/",
+    "type": "document"
+  },
+  {
+    "at": 1793754069542,
+    "url": "http://127.0.0.1:5190/@vite/client",
+    "type": "script"
+  },
+  {
+    "at": 1793754069542,
+    "url": "http://127.0.0.1:5190/src/app/main.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069559,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069559,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/react-dom_client.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069559,
+    "url": "http://127.0.0.1:5190/src/storage/store.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069559,
+    "url": "http://127.0.0.1:5190/src/app/App.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069559,
+    "url": "http://127.0.0.1:5190/src/app/style.css",
+    "type": "script"
+  },
+  {
+    "at": 1793754069559,
+    "url": "http://127.0.0.1:5190/node_modules/vite/dist/client/env.mjs",
+    "type": "script"
+  },
+  {
+    "at": 1793754069561,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/chunk-7SYL64A5.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069561,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/chunk-5WRI5ZAA.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069566,
+    "url": "http://127.0.0.1:5190/src/storage/repository.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069566,
+    "url": "http://127.0.0.1:5190/src/core/tv-controller.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069566,
+    "url": "http://127.0.0.1:5190/src/core/model.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069566,
+    "url": "http://127.0.0.1:5190/src/core/editor.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069568,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/react.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069568,
+    "url": "http://127.0.0.1:5190/src/player/MediaScreen.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069568,
+    "url": "http://127.0.0.1:5190/src/skins/china-crt-80s/TV.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069568,
+    "url": "http://127.0.0.1:5190/src/features/management/Manager.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069568,
+    "url": "http://127.0.0.1:5190/src/features/management/manager.css",
+    "type": "script"
+  },
+  {
+    "at": 1793754069582,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/dexie.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069582,
+    "url": "http://127.0.0.1:5190/src/core/scheduler.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069582,
+    "url": "http://127.0.0.1:5190/src/core/lifecycle.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069582,
+    "url": "http://127.0.0.1:5190/src/features/management/Timeline.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069583,
+    "url": "http://127.0.0.1:5190/src/skins/china-crt-80s/Knob.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069583,
+    "url": "http://127.0.0.1:5190/src/skins/china-crt-80s/NoSignal.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069583,
+    "url": "http://127.0.0.1:5190/src/components/ui/button.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069583,
+    "url": "http://127.0.0.1:5190/src/skins/china-crt-80s/skin.css",
+    "type": "script"
+  },
+  {
+    "at": 1793754069584,
+    "url": "http://127.0.0.1:5190/src/player/hls.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069584,
+    "url": "http://127.0.0.1:5190/src/player/platforms.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069585,
+    "url": "http://127.0.0.1:5190/src/core/clock.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069585,
+    "url": "http://127.0.0.1:5190/src/core/schedule.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069587,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/@radix-ui_react-slot.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069587,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/class-variance-authority.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069587,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/clsx.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069587,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/tailwind-merge.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069587,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/hls__js.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069589,
+    "url": "http://127.0.0.1:5190/src/core/source-id.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069591,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/chunk-U7P2NEEE.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069719,
+    "url": "http://127.0.0.1:5190/favicon.svg",
+    "type": "other"
+  },
+  {
+    "at": 1793754069745,
+    "url": "http://127.0.0.1:5190/",
+    "type": "document"
+  },
+  {
+    "at": 1793754069756,
+    "url": "http://127.0.0.1:5190/@vite/client",
+    "type": "script"
+  },
+  {
+    "at": 1793754069756,
+    "url": "http://127.0.0.1:5190/src/app/main.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069787,
+    "url": "http://127.0.0.1:5190/node_modules/vite/dist/client/env.mjs",
+    "type": "script"
+  },
+  {
+    "at": 1793754069788,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069788,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/react-dom_client.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069788,
+    "url": "http://127.0.0.1:5190/src/storage/store.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069788,
+    "url": "http://127.0.0.1:5190/src/app/App.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069788,
+    "url": "http://127.0.0.1:5190/src/app/style.css",
+    "type": "script"
+  },
+  {
+    "at": 1793754069788,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/chunk-7SYL64A5.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069788,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/chunk-5WRI5ZAA.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069789,
+    "url": "http://127.0.0.1:5190/src/storage/repository.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069790,
+    "url": "http://127.0.0.1:5190/src/core/tv-controller.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069790,
+    "url": "http://127.0.0.1:5190/src/core/model.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069790,
+    "url": "http://127.0.0.1:5190/src/core/editor.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069790,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/react.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069790,
+    "url": "http://127.0.0.1:5190/src/player/MediaScreen.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069790,
+    "url": "http://127.0.0.1:5190/src/skins/china-crt-80s/TV.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069790,
+    "url": "http://127.0.0.1:5190/src/features/management/Manager.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069790,
+    "url": "http://127.0.0.1:5190/src/features/management/manager.css",
+    "type": "script"
+  },
+  {
+    "at": 1793754069791,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/dexie.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069793,
+    "url": "http://127.0.0.1:5190/src/core/scheduler.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069793,
+    "url": "http://127.0.0.1:5190/src/core/lifecycle.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/player/hls.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/player/platforms.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/components/ui/button.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/skins/china-crt-80s/Knob.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/skins/china-crt-80s/NoSignal.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/skins/china-crt-80s/skin.css",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/features/management/Timeline.tsx",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/core/clock.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069794,
+    "url": "http://127.0.0.1:5190/src/core/schedule.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069795,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/hls__js.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069795,
+    "url": "http://127.0.0.1:5190/src/core/source-id.ts",
+    "type": "script"
+  },
+  {
+    "at": 1793754069795,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/@radix-ui_react-slot.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069795,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/class-variance-authority.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069795,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/clsx.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069795,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/tailwind-merge.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069796,
+    "url": "http://127.0.0.1:5190/node_modules/.vite/deps/chunk-U7P2NEEE.js?v=957bc1dc",
+    "type": "script"
+  },
+  {
+    "at": 1793754069816,
+    "url": "http://127.0.0.1:5190/favicon.svg",
+    "type": "other"
+  },
+  {
+    "at": 1793754069884,
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "type": "fetch"
+  },
+  {
+    "at": 1793754070845,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8",
+    "type": "fetch"
+  },
+  {
+    "at": 1793754071046,
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "type": "media"
+  },
+  {
+    "at": 1793754071050,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_2/193039199_mp4_h264_aac_ld_7.m3u8",
+    "type": "media"
+  },
+  {
+    "at": 1793754071574,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_2/url_526/193039199_mp4_h264_aac_ld_7.ts",
+    "type": "media"
+  },
+  {
+    "at": 1793754072748,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_4/193039199_mp4_h264_aac_7.m3u8",
+    "type": "media"
+  },
+  {
+    "at": 1793754072936,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_719/193039199_mp4_h264_aac_7.ts",
+    "type": "media"
+  },
+  {
+    "at": 1793754083112,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_720/193039199_mp4_h264_aac_7.ts",
+    "type": "media"
+  },
+  {
+    "at": 1793754085290,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_4/url_721/193039199_mp4_h264_aac_7.ts",
+    "type": "media"
+  },
+  {
+    "at": 1793754086637,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_6/193039199_mp4_h264_aac_hq_7.m3u8",
+    "type": "media"
+  },
+  {
+    "at": 1793754090378,
+    "url": "http://127.0.0.1:5190/favicon.svg",
+    "type": "other"
+  },
+  {
+    "at": 1793754090865,
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "type": "fetch"
+  },
+  {
+    "at": 1793754090867,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_0/193039199_mp4_h264_aac_hd_7.m3u8",
+    "type": "fetch"
+  },
+  {
+    "at": 1793754090869,
+    "url": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
+    "type": "media"
+  },
+  {
+    "at": 1793754090869,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_2/193039199_mp4_h264_aac_ld_7.m3u8",
+    "type": "media"
+  },
+  {
+    "at": 1793754090869,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_2/url_526/193039199_mp4_h264_aac_ld_7.ts",
+    "type": "media"
+  },
+  {
+    "at": 1793754090871,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/193039199_mp4_h264_aac_fhd_7.m3u8",
+    "type": "media"
+  },
+  {
+    "at": 1793754091042,
+    "url": "https://test-streams.mux.dev/x36xhzz/url_8/url_591/193039199_mp4_h264_aac_fhd_7.ts",
+    "type": "media"
+  }
+]

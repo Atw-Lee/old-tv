@@ -1,0 +1,472 @@
+{
+  "environment": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+  "source": "M7lc1UVf-VE",
+  "logs": [
+    {
+      "at": "2026-11-02T03:35:11.026Z",
+      "elapsed": 238.89999997615814,
+      "event": "environment",
+      "data": {
+        "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36",
+        "platform": "MacIntel",
+        "timeZone": "Asia/Shanghai",
+        "date": "2026-11-02"
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:11.088Z",
+      "elapsed": 301,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:11.088Z",
+      "elapsed": 301,
+      "event": "load",
+      "data": {
+        "kind": "youtube",
+        "url": "M7lc1UVf-VE",
+        "target": 0,
+        "muted": true,
+        "scheduled": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:13.449Z",
+      "elapsed": 2661.699999988079,
+      "event": "yt-ready",
+      "data": {}
+    },
+    {
+      "at": "2026-11-02T03:35:13.552Z",
+      "elapsed": 2764.099999964237,
+      "event": "yt-observation",
+      "data": {
+        "time": 0,
+        "state": 3,
+        "volume": 50,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:14.578Z",
+      "elapsed": 3790.800000011921,
+      "event": "yt-observation",
+      "data": {
+        "time": 0,
+        "state": 3,
+        "volume": 50,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:14.699Z",
+      "elapsed": 3911.800000011921,
+      "event": "yt-state",
+      "data": {
+        "state": 1,
+        "time": 0.025065876022338868
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:15.627Z",
+      "elapsed": 4839.699999988079,
+      "event": "yt-observation",
+      "data": {
+        "time": 0.9451281773834228,
+        "state": 1,
+        "volume": 50,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:16.670Z",
+      "elapsed": 5882.800000011921,
+      "event": "yt-observation",
+      "data": {
+        "time": 1.988297144958496,
+        "state": 1,
+        "volume": 50,
+        "muted": true
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:16.758Z",
+      "elapsed": 5970.5,
+      "event": "yt-seek-request",
+      "data": {
+        "target": 60
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:16.773Z",
+      "elapsed": 5985.599999964237,
+      "event": "yt-state",
+      "data": {
+        "state": 3,
+        "time": 60
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:16.895Z",
+      "elapsed": 6107,
+      "event": "yt-volume",
+      "data": {
+        "actual": 50
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:17.257Z",
+      "elapsed": 6469.300000011921,
+      "event": "yt-state",
+      "data": {
+        "state": 1,
+        "time": 60.18406994850159
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:17.771Z",
+      "elapsed": 6983.800000011921,
+      "event": "yt-observation",
+      "data": {
+        "time": 60.697577969482424,
+        "state": 1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:18.293Z",
+      "elapsed": 7505.399999976158,
+      "event": "yt-seek-request",
+      "data": {
+        "target": 1342
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:18.302Z",
+      "elapsed": 7514.300000011921,
+      "event": "yt-state",
+      "data": {
+        "state": 3,
+        "time": 1342
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:18.817Z",
+      "elapsed": 8029.099999964237,
+      "event": "yt-observation",
+      "data": {
+        "time": 1342,
+        "state": 3,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:18.921Z",
+      "elapsed": 8133.5,
+      "event": "yt-state",
+      "data": {
+        "state": 1,
+        "time": 1342.2055059485017
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:19.849Z",
+      "elapsed": 9061.800000011921,
+      "event": "yt-observation",
+      "data": {
+        "time": 1343.1333340743865,
+        "state": 1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:20.397Z",
+      "elapsed": 9609.599999964237,
+      "event": "yt-state",
+      "data": {
+        "state": 0,
+        "time": 1343.661
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:20.397Z",
+      "elapsed": 9609.800000011921,
+      "event": "destroy",
+      "data": {
+        "state": "NO_SIGNAL"
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:20.441Z",
+      "elapsed": 9653.5,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:20.441Z",
+      "elapsed": 9653.5,
+      "event": "load",
+      "data": {
+        "kind": "youtube",
+        "url": "M7lc1UVf-VE",
+        "target": 60,
+        "muted": false,
+        "scheduled": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:20.777Z",
+      "elapsed": 9989.300000011921,
+      "event": "yt-ready",
+      "data": {}
+    },
+    {
+      "at": "2026-11-02T03:35:20.879Z",
+      "elapsed": 10091.5,
+      "event": "yt-observation",
+      "data": {
+        "time": 0,
+        "state": 3,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:21.152Z",
+      "elapsed": 10364.300000011921,
+      "event": "yt-state",
+      "data": {
+        "state": -1,
+        "time": 60
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:21.979Z",
+      "elapsed": 11192,
+      "event": "yt-observation",
+      "data": {
+        "time": 60,
+        "state": -1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:22.262Z",
+      "elapsed": 11474.399999976158,
+      "event": "yt-state",
+      "data": {
+        "state": 3,
+        "time": 60
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:22.294Z",
+      "elapsed": 11506.800000011921,
+      "event": "yt-state",
+      "data": {
+        "state": 1,
+        "time": 60.023932876022336
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:23.012Z",
+      "elapsed": 12224.899999976158,
+      "event": "yt-observation",
+      "data": {
+        "time": 60.70800901144409,
+        "state": 1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:24.057Z",
+      "elapsed": 13269.199999988079,
+      "event": "yt-observation",
+      "data": {
+        "time": 61.75345881307983,
+        "state": 1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:25.097Z",
+      "elapsed": 14309.699999988079,
+      "event": "yt-observation",
+      "data": {
+        "time": 62.793329811172484,
+        "state": 1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:26.138Z",
+      "elapsed": 15350.699999988079,
+      "event": "yt-observation",
+      "data": {
+        "time": 63.83407490272522,
+        "state": 1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:27.180Z",
+      "elapsed": 16392.19999998808,
+      "event": "yt-observation",
+      "data": {
+        "time": 64.87668516021729,
+        "state": 1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:28.221Z",
+      "elapsed": 17433.399999976158,
+      "event": "yt-observation",
+      "data": {
+        "time": 65.91714391989136,
+        "state": 1,
+        "volume": 20,
+        "muted": false
+      }
+    },
+    {
+      "at": "2026-11-02T03:35:28.497Z",
+      "elapsed": 17709.899999976158,
+      "event": "destroy",
+      "data": {
+        "state": "OFF"
+      }
+    }
+  ],
+  "resources": [
+    {
+      "name": "http://127.0.0.1:5178/@vite/client",
+      "startTime": 20.80000001192093,
+      "duration": 20.799999952316284
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/main.tsx?t=1793590486785",
+      "startTime": 21,
+      "duration": 43.30000001192093
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/vite/dist/client/env.mjs",
+      "startTime": 44.5,
+      "duration": 4.699999988079071
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react_jsx-dev-runtime.js?v=32f5f108",
+      "startTime": 96.39999997615814,
+      "duration": 1.300000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react.js?v=32f5f108",
+      "startTime": 96.5,
+      "duration": 1.800000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/components/ui/button.tsx",
+      "startTime": 96.5,
+      "duration": 17.30000001192093
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/react-dom_client.js?v=32f5f108",
+      "startTime": 96.5,
+      "duration": 19.69999998807907
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/hls__js.js?v=32f5f108",
+      "startTime": 96.5,
+      "duration": 21.80000001192093
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/clock.mjs",
+      "startTime": 96.59999996423721,
+      "duration": 17.30000001192093
+    },
+    {
+      "name": "http://127.0.0.1:5178/src/style.css?t=1793590486785",
+      "startTime": 96.59999996423721,
+      "duration": 19.200000047683716
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-7SYL64A5.js?v=32f5f108",
+      "startTime": 123.39999997615814,
+      "duration": 3.800000011920929
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-5WRI5ZAA.js?v=32f5f108",
+      "startTime": 123.59999996423721,
+      "duration": 4.400000035762787
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/class-variance-authority.js?v=32f5f108",
+      "startTime": 123.59999996423721,
+      "duration": 5
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/@radix-ui_react-slot.js?v=32f5f108",
+      "startTime": 123.59999996423721,
+      "duration": 4.700000047683716
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/clsx.js?v=32f5f108",
+      "startTime": 123.69999998807907,
+      "duration": 4.899999976158142
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/tailwind-merge.js?v=32f5f108",
+      "startTime": 123.69999998807907,
+      "duration": 5.600000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5178/node_modules/.vite/deps/chunk-U7P2NEEE.js?v=32f5f108",
+      "startTime": 137.0999999642372,
+      "duration": 4.600000023841858
+    },
+    {
+      "name": "http://127.0.0.1:5178/favicon.ico",
+      "startTime": 244.5,
+      "duration": 2.899999976158142
+    },
+    {
+      "name": "https://www.youtube.com/iframe_api",
+      "startTime": 301.80000001192093,
+      "duration": 550.8999999761581
+    },
+    {
+      "name": "https://www.youtube.com/s/player/11a45ffb/www-widgetapi.vflset/www-widgetapi.js",
+      "startTime": 855.0999999642372,
+      "duration": 115.30000001192093
+    },
+    {
+      "name": "https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&controls=0&origin=http%3A%2F%2F127.0.0.1%3A5178&start=0&playsinline=1&enablejsapi=1&widgetid=1&forigin=http%3A%2F%2F127.0.0.1%3A5178%2F%3Fprovider%3Dyoutube&aoriginsup=1&vf=6",
+      "startTime": 977.5999999642372,
+      "duration": 2614.100000023842
+    },
+    {
+      "name": "http://127.0.0.1:5178/favicon.ico",
+      "startTime": 6150.899999976158,
+      "duration": 3.300000011920929
+    },
+    {
+      "name": "https://www.youtube.com/embed/M7lc1UVf-VE?autoplay=1&controls=0&origin=http%3A%2F%2F127.0.0.1%3A5178&start=60&playsinline=1&enablejsapi=1&widgetid=3&forigin=http%3A%2F%2F127.0.0.1%3A5178%2F%3Fprovider%3Dyoutube&aoriginsup=1&vf=6",
+      "startTime": 9656.599999964237,
+      "duration": 409.30000001192093
+    }
+  ]
+}

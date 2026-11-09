@@ -1,0 +1,32 @@
+[
+  {
+    "name": "play",
+    "status": "PASS",
+    "data": "状态：PLAYING · 位置：1.988s · 时长：1344.000s · paused：false · videoWidth：0"
+  },
+  {
+    "name": "seekTo-60",
+    "status": "PASS",
+    "data": "状态：PLAYING · 位置：60.000s · 时长：1344.000s · paused：true · videoWidth：0"
+  },
+  {
+    "name": "volume-mute",
+    "status": "PASS",
+    "data": "2026-11-02T03:35:11.026Z environment {\"ua\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36\",\"platform\":\"MacIntel\",\"timeZone\":\"Asia/Shanghai\",\"date\":\"2026-11-02\"}\n2026-11-02T03:35:11.088Z destroy {\"state\":\"OFF\"}\n2026-11-02T03:35:11.088Z load {\"kind\":\"youtube\",\"url\":\"M7lc1UVf-VE\",\"target\":0,\"muted\":true,\"scheduled\":false}\n2026-11-02T03:35:13.449Z yt-ready {}\n2026-11-02T03:35:13.552Z yt-observation {\"time\":0,\"state\":3,\"volume\":50,\"muted\":true}\n2026-11-02T03:35:14.578Z yt-observation {\"time\":0,\"state\":3,\"volume\":50,\"muted\":true}\n2026-11-02T03:35:14.699Z yt-state {\"state\":1,\"time\":0.025065876022338868}\n2026-11-02T03:35:15.627Z yt-observation {\"time\":0.9451281773834228,\"state\":1,\"volume\":50,\"muted\":true}\n2026-11-02T03:35:16.670Z yt-observation {\"time\":1.988297144958496,\"state\":1,\"volume\":50,\"muted\":true}\n2026-11-02T03:35:16.758Z yt-seek-request {\"target\":60}\n2026-11-02T03:35:16.773Z yt-state {\"state\":3,\"time\":60}\n2026-11-02T03:35:16.895Z yt-volume {\"actual\":50}\n2026-11-02T03:35:17.257Z yt-state {\"state\":1,\"time\":60.18406994850159}\n2026-11-02T03:35:17.771Z yt-observation {\"time\":60.697577969482424,\"state\":1,\"volume\":20,\"muted\":false}"
+  },
+  {
+    "name": "ended",
+    "status": "PASS",
+    "data": "状态：NO_SIGNAL · 位置：0.000s · 时长：0.000s · paused：true · videoWidth：0"
+  },
+  {
+    "name": "destroy-31s",
+    "status": "PASS",
+    "data": {
+      "cutoff": 1793590528500,
+      "end": 1793590559504,
+      "newMediaRequests": [],
+      "iframeCount": 0
+    }
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-09T07:02:34.750Z",
+  "os": "27.2.0",
+  "chrome": "156.0.8078.80",
+  "results": [
+    {
+      "test": "频道行拖到表格边缘也不会新增滚动范围",
+      "status": "PASS",
+      "width": 1280,
+      "overflow": [
+        0,
+        0
+      ]
+    },
+    {
+      "test": "频道行拖到表格边缘也不会新增滚动范围",
+      "status": "PASS",
+      "width": 420,
+      "overflow": [
+        217,
+        0
+      ]
+    },
+    {
+      "test": "1分钟短节目两侧均可拖动并保留点击精编",
+      "status": "PASS"
+    },
+    {
+      "test": "三个新增弹窗内容滚动、底栏固定及进出动画",
+      "status": "PASS",
+      "animations": [
+        "editor-enter",
+        "editor-exit",
+        "editor-enter",
+        "editor-exit",
+        "editor-enter",
+        "editor-exit"
+      ]
+    }
+  ]
+}

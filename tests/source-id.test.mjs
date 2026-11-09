@@ -1,0 +1,5 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {platformId} from '../dist/core/source-id.js';
+const p=(type,url)=>({id:'p',title:'example',sourceType:type,sourceUrl:url});
+test('YouTube official watch, short, shorts and embed URLs parse one valid ID',()=>{for(const url of ['https://www.youtube.com/watch?v=M7lc1UVf-VE','https://youtu.be/M7lc1UVf-VE','https://www.youtube.com/shorts/M7lc1UVf-VE','https://www.youtube-nocookie.com/embed/M7lc1UVf-VE'])assert.equal(platformId(p('youtube',url)),'M7lc1UVf-VE');});
+test('platform parsing rejects lookalike hosts and invalid IDs',()=>{for(const url of ['https://youtube.com.example.org/watch?v=M7lc1UVf-VE','https://www.youtube.com/watch?v=bad'])assert.throws(()=>platformId(p('youtube',url)));assert.throws(()=>platformId(p('bilibili','https://b23.tv/abc')));});
+test('Bilibili video and official player URLs support BV IDs',()=>{assert.equal(platformId(p('bilibili','https://www.bilibili.com/video/BV1B7411m7LV?p=2')),'BV1B7411m7LV');assert.equal(platformId(p('bilibili','https://player.bilibili.com/player.html?bvid=BV1B7411m7LV')),'BV1B7411m7LV');});
