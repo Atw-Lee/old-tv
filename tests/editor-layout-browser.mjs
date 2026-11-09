@@ -12,7 +12,7 @@ try {
   const button = name => page.getByRole('button', {name, exact: true});
   const tab = name => page.getByRole('tab', {name, exact: true}).click();
   await button('打开频道设置').click();
-  await page.locator('input[type=file]').setInputFiles('docs/evidence/ui-drawer-v2/import-fixture.json');
+  await page.locator('input[type=file]').setInputFiles('tests/fixtures/import-fixture.json');
   await button('导入到草稿').click();
 
   test = '频道行拖到表格边缘也不会新增滚动范围';

@@ -1,7 +1,0 @@
-[
-  {
-    "name": "single-tv-empty-state-and-modal-keyboard",
-    "status": "FAIL",
-    "error": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('dialog')\nExpected: visible\nTimeout: 5000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" getByRole('dialog') with timeout 5000ms\n  - waiting for getByRole('dialog')\n\n    at captureRawStack (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright-core/lib/coreBundle.js:9282:17)\n    at callMatcherAsStep (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright/lib/matchers/expect.js:13316:57)\n    at Object.toBeVisible (/Users/lee/Documents/ChatGPT/corgi-tv/node_modules/playwright/lib/matchers/expect.js:13308:23)\n    at /Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:24:337\n    at async test (/Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:12:44)\n    at async file:///Users/lee/Documents/ChatGPT/corgi-tv/tests/management-browser.mjs:23:2"
-  }
-]

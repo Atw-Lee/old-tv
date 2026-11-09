@@ -11,4 +11,4 @@ try{
  await page.getByRole('button',{name:'电视电源',exact:true}).click();assert.equal(await page.getByTestId('no-signal').count(),0);
  assert.deepEqual(errors,[]);assert.ok(requests.every(u=>new URL(u).hostname==='127.0.0.1'));result.status='PASS';
 }catch(e){result.status='FAIL';result.error=e.message;process.exitCode=1;}
-finally{await fs.writeFile('docs/evidence/m2/production-smoke.json',JSON.stringify({...result,errors,requests},null,2));console.log(result);await browser.close();}
+finally{await fs.mkdir('docs/evidence/m2', {recursive:true});await fs.writeFile('docs/evidence/m2/production-smoke.json',JSON.stringify({...result,errors,requests},null,2));console.log(result);await browser.close();}

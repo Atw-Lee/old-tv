@@ -1,8 +1,0 @@
-{
-  "date": "2026-11-02",
-  "browser": "chrome",
-  "version": "156.0.8078.79",
-  "headless": true,
-  "source": "https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8",
-  "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/156.0.0.0 Safari/537.36"
-}

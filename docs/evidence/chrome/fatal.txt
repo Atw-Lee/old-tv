@@ -1,2 +1,0 @@
-page.evaluate: Execution context was destroyed, most likely because of a navigation
-    at /Users/lee/Documents/ChatGPT/corgi-tv/m0/tests/browser.mjs:18:151

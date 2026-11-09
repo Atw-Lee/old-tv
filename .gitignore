@@ -6,3 +6,10 @@ dist/
 .DS_Store
 web-dist/
 release/*.tar.gz
+/AGENTS.md
+/docs/
+/deploy/
+/release/
+/Dockerfile
+/.dockerignore
+/compose.yaml

@@ -10,4 +10,4 @@ try{
  await page.waitForFunction(()=>document.querySelector('.duration-result output')?.textContent!=='未知'||/超时|无法|不可用/.test(document.querySelector('.duration-field [role=status]')?.textContent??''),null,{timeout:38000});
  result.duration=await page.locator('.duration-result output').innerText();result.message=await page.locator('.duration-field [role=status]').allTextContents();
  result.status=result.duration!=='未知'?'PASS':'BLOCKED';result.remainingFrames=await page.locator('.duration-preview iframe').count();
-}catch(e){result.status='FAIL';result.error=String(e);}finally{console.log(result);await fs.writeFile('docs/evidence/manual-settings/youtube-live.json',JSON.stringify(result,null,2));await browser.close();}
+}catch(e){result.status='FAIL';result.error=String(e);}finally{console.log(result);await fs.mkdir('docs/evidence/manual-settings', {recursive:true});await fs.writeFile('docs/evidence/manual-settings/youtube-live.json',JSON.stringify(result,null,2));await browser.close();}

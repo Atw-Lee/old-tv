@@ -1,6 +1,0 @@
-{
-  "source": "https://test-streams.mux.dev/test_001/stream_110k_48k_416x234.m3u8",
-  "duration": 510.0,
-  "endlist": true,
-  "prefix": "#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-MEDIA-SEQUENCE:0\n#EXT-X-ALLOW-CACHE:YES\n#EXT-X-TARGETDURATION:10\n#EXTINF:10.000000,\nstream_110k_48k_416x234_000.ts\n#EXTINF:10.000000,\nstream_110k_48k_416x234_001.ts\n#EX"
-}
