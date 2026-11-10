@@ -3,6 +3,7 @@ import type {SkinProps} from '../types.js';
 import {Knob} from './Knob.js';
 import {NoSignal} from './NoSignal.js';
 import {fitScene,type IllustratedSkin} from './layout.js';
+import {RoomKeepsakes} from './RoomKeepsakes.js';
 import './skin.css';
 
 function box([left,top,width,height]:readonly [number,number,number,number]):CSSProperties {
@@ -22,10 +23,10 @@ function WallClock({geometry}:{geometry:readonly [number,number,number]}) {
     document.addEventListener('visibilitychange',refresh);
     return ()=>{clearInterval(timer);document.removeEventListener('visibilitychange',refresh);};
   },[]);
-  const [x,y,r]=geometry;
+  const r=geometry[2];
   const minutes=now.getUTCMinutes()+now.getUTCSeconds()/60;
   const hours=(now.getUTCHours()+8)%12+minutes/60;
-  return <time className="wall-clock" style={box([x-r,y-r,r*2,r*2])} aria-label={`北京时间 ${(now.getUTCHours()+8)%24}时${now.getUTCMinutes()}分`}>
+  return <time className="wall-clock" style={box([0,0,r*2,r*2])} aria-label={`北京时间 ${(now.getUTCHours()+8)%24}时${now.getUTCMinutes()}分`}>
     <i style={{transform:`rotate(${hours*30}deg)`}}/><i style={{transform:`rotate(${minutes*6}deg)`}}/>
     <i className="second-hand" style={{transform:`rotate(${now.getUTCSeconds()*6}deg)`}}/>
   </time>;
@@ -55,8 +56,8 @@ export function IllustratedTV({skin,state,actions,children,onManage,settingsOpen
   return <section className="illustrated-set" data-layout={narrow?'stacked':'side'} style={sceneStyle} data-testid="television" data-powered={state.powered}>
     <div className="scene-painting" aria-hidden="true" style={{borderImageSlice:fit.slices+' fill',borderImageWidth:fit.borders}}/>
     <div className="scene-controls" style={{left:fit.left,top:fit.top,width:art.width,height:art.height,transform:`scale(${fit.scale})`}}>
-    <WallClock geometry={art.clock}/>
-    <div className="painted-screen" style={{...box(art.screen),borderRadius:art.screenRadius}} data-testid="screen">
+    <RoomKeepsakes art={art}><WallClock geometry={art.clock}/></RoomKeepsakes>
+    <div className="painted-screen" style={{...box(art.screen),clipPath:`path("${art.screenPath}")`}} data-testid="screen">
       {state.powered&&<div className="screen-content" key={state.channelId}>
         {state.schedule.kind==='AIR'?children:<NoSignal empty={state.channels.length===0}/>}
         <div className="screen-channel" aria-hidden="true">{String(selected?.number??0).padStart(2,'0')}</div>

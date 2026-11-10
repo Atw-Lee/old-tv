@@ -8,12 +8,13 @@ export interface Scene {
   height:number;
   frame:Rect;
   screen:Rect;
-  screenRadius:string;
+  screenPath:string;
   channel:Dial;
   volume:Dial;
   volumeArc:readonly [startDegrees:number, endDegrees:number];
   settings:Rect;
   power:Rect;
+  clockArt:{bounds:Rect;ellipse:Rect;wallStripWidth:number};
   clock:readonly [centerX:number, centerY:number, radius:number];
 }
 export interface IllustratedSkin { side:Scene; stacked:Scene }

@@ -13,3 +13,4 @@ release/*.tar.gz
 /Dockerfile
 /.dockerignore
 /compose.yaml
+/public/sponsor/

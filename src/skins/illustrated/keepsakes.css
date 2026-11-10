@@ -1,0 +1,30 @@
+.keepsake {position:absolute;pointer-events:none;z-index:1}
+.keepsake-toggle,.keepsake-face,.clock-dial-clip,.clock-dial-hover,.prop-paint {position:absolute;inset:0;width:100%;height:100%;border:0;padding:0;background:transparent}
+.keepsake-toggle {pointer-events:auto;cursor:pointer}
+.keepsake-face {transition:transform .85s cubic-bezier(.42,0,.23,1);transform-origin:50% 50%}
+.clock .keepsake-toggle {appearance:none;border-radius:50%;box-shadow:none}
+/* Keep the wall patch and travelling clock visible for the whole return trip. */
+.clock > .prop-paint,.keepsake-face > .prop-paint {visibility:hidden;transition:visibility 0s linear .85s}
+.clock[data-open=true] > .prop-paint,.clock[data-open=true] .keepsake-face > .prop-paint {visibility:visible;transition-delay:0s}
+.clock-dial-clip {clip-path:var(--dial-clip);pointer-events:none}
+.clock-dial-hover {opacity:0;transform-origin:var(--pivot)}
+.clock-hands {position:absolute;left:var(--hand-x);top:var(--hand-y)}
+
+.clock[data-open=true] .keepsake-face {transform:translate(1%,80%) rotate(-7deg)}
+@media (orientation:portrait), (max-width:1024px), (max-height:600px) {
+  .clock[data-open=true] .keepsake-face {transform:translateX(-85%) rotate(-5deg)}
+}
+@media (orientation:landscape) and (max-width:1024px), (orientation:landscape) and (max-height:600px) {
+  .clock[data-open=true] .keepsake-face {transform:translate(-77%,-27%) scale(.6) rotate(-5deg)}
+}
+.keepsake-receipt,.receipt-dialog>div {display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:transparent;color:#583b29}
+.keepsake-receipt {pointer-events:auto;position:absolute;left:20%;top:19%;width:59%;height:59%;padding:0;border:0;border-radius:4px;box-shadow:none;cursor:zoom-in;animation:receipt-in .85s both}
+.receipt-placeholder {font-size:15px;color:#806851}
+@keyframes receipt-in {0%,42%{opacity:0}100%{opacity:1}}
+.receipt-dialog {position:fixed;inset:0;margin:auto;width:min(88vw,400px);max-height:90dvh;padding:0;border:0;background:transparent;pointer-events:auto}
+.receipt-dialog::backdrop {background:rgb(255 252 244 / 85%)}
+.receipt-dialog>div {padding:20px;gap:14px}
+.receipt-dialog button {cursor:pointer}
+
+.contact-code {display:block;width:100%;height:auto;max-height:100%;overflow:hidden}
+.receipt-dialog .contact-code {max-height:64dvh}
