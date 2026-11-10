@@ -1,7 +1,83 @@
 {
   "schemaVersion": 1,
-  "channels": [{"id":"demo-channel","name":"动画试播台","number":1,"sortOrder":0,"enabled":true}],
-  "programs": [{"id":"demo-film","title":"Big Buck Bunny","sourceType":"hls-vod","sourceUrl":"https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8","durationSeconds":634.634}],
-  "schedules": [{"id":"demo-all-day","channelId":"demo-channel","programId":"demo-film","startMinute":0,"endMinute":1440,"endBehavior":"loop"}],
-  "settings": {"schemaVersion":1,"skinId":"china-crt-80s","volume":0.35,"lastChannelId":"demo-channel"}
+  "channels": [
+    {
+      "id": "demo-channel",
+      "name": "动画试播台",
+      "number": 1,
+      "sortOrder": 0,
+      "enabled": true
+    },
+    {
+      "id": "demo-youtube",
+      "name": "YouTube 试播台",
+      "number": 2,
+      "sortOrder": 1,
+      "enabled": true
+    },
+    {
+      "id": "demo-bilibili",
+      "name": "B站试播台",
+      "number": 3,
+      "sortOrder": 2,
+      "enabled": true
+    }
+  ],
+  "programs": [
+    {
+      "id": "demo-film",
+      "title": "西瓜播放器测试",
+      "sourceType": "hls-vod",
+      "sourceUrl": "https://sf1-cdn-tos.huoshanstatic.com/obj/media-fe/xgplayer_doc_video/hls/xgplayer-demo.m3u8",
+      "durationSeconds": 90.04
+    },
+    {
+      "id": "97a27a0d-1d4c-4dcd-b3cc-158064d37fd3",
+      "title": "Embedded",
+      "sourceType": "youtube",
+      "sourceUrl": "https://www.youtube.com/watch?v=M7lc1UVf-VE",
+      "sourceId": "M7lc1UVf-VE",
+      "durationSeconds": 1344
+    },
+    {
+      "id": "55613cdf-2838-47ad-ae07-99a1ef358454",
+      "title": "哔哩哔哩晚会",
+      "sourceType": "bilibili",
+      "sourceUrl": "https://www.bilibili.com/video/BV1xBnN65Ems",
+      "sourceId": "BV1xBnN65Ems",
+      "durationSeconds": 97
+    }
+  ],
+  "schedules": [
+    {
+      "id": "demo-all-day",
+      "channelId": "demo-channel",
+      "programId": "demo-film",
+      "startMinute": 0,
+      "endMinute": 1440,
+      "endBehavior": "loop"
+    },
+    {
+      "id": "demo-youtube-all-day",
+      "channelId": "demo-youtube",
+      "programId": "97a27a0d-1d4c-4dcd-b3cc-158064d37fd3",
+      "startMinute": 0,
+      "endMinute": 1440,
+      "endBehavior": "loop"
+    },
+    {
+      "id": "demo-bilibili-all-day",
+      "channelId": "demo-bilibili",
+      "programId": "55613cdf-2838-47ad-ae07-99a1ef358454",
+      "startMinute": 0,
+      "endMinute": 1440,
+      "endBehavior": "loop"
+    }
+  ],
+  "settings": {
+    "schemaVersion": 1,
+    "skinId": "china-crt-80s",
+    "volume": 0.35,
+    "lastChannelId": "demo-channel"
+  }
 }
