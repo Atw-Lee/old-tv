@@ -3,7 +3,7 @@
   "channels": [
     {
       "id": "demo-channel",
-      "name": "动画试播台",
+      "name": "HLS试播台",
       "number": 1,
       "sortOrder": 0,
       "enabled": true

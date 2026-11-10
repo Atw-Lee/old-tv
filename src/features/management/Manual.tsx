@@ -22,7 +22,7 @@ export function Manual({onPreset}: {onPreset: () => void}) {
       </nav>
       {category === '体验预设频道' ? (
         <article aria-label={category}>
-          <p>预设包含三个全天循环的频道：动画试播台（HLS）、YouTube 试播台和 B站试播台。导入到草稿后点「保存」，打开电视即可试看。</p>
+          <p>预设包含三个全天循环的频道：HLS试播台、YouTube 试播台和 B站试播台。导入到草稿后点「保存」，打开电视即可试看。</p>
           <Button type="button" variant="outline" onClick={onPreset}>应用预设配置文件</Button>
         </article>
       ) : (
